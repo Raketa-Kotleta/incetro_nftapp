@@ -1,14 +1,25 @@
+@font-face {
+    font-family: VAG World;
+    src: url('../assets/fonts/VAG World/VAG World.ttf');
+}
+@font-face {
+    font-family: Roboto Condensed;
+    src: url('../assets/fonts/Roboto Condensed/RobotoCondensed-Bold.ttf'),
+    url('../assets/fonts/Roboto Condensed/RobotoCondensed-BoldItalic.ttf'),
+    url('../assets/fonts/Roboto Condensed/RobotoCondensed-Italic.ttf'),
+    url('../assets/fonts/Roboto Condensed/RobotoCondensed-Light.ttf'),
+    url('../assets/fonts/Roboto Condensed/RobotoCondensed-LightItalic.ttf'),
+    url('../assets/fonts/Roboto Condensed/RobotoCondensed-Regular.ttf');
+}
 body{
     margin: 0;
     padding: 0;
 }
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, span{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto Condensed;
 }
-span{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 .navbar{
     background-color: #15151D;
@@ -49,7 +60,26 @@ span{
 .section{
     display: flex;
     flex-direction: column;
-    padding: 35px 0 65px 0;
+    padding: 35px 0 35px 0;
+}
+.section .wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.block{
+    padding: 4px;
+    background-color: transparent;
+    border-radius: 24px;
+    position: relative;
+}
+.b-additive{
+    background-color: #000000;
+}
+.b-important{
+    background-color: #EA0F0F;
+}
+.b-primary{
+    background-color: #EAEAE9;
 }
 .menu-btn{
     background-color: transparent;
@@ -119,24 +149,35 @@ span{
     font-weight: 700;
     font-size: 2.25rem;
     text-align: center;
-}
+    font-style: normal;
 
+}
+.section-title{
+    font-family: VAG World;
+    line-height: 1.25;
+}
+.app-title{
+    font-family: VAG World !important;
+}
 .section-subtitle{
-    font-weight: 700;
+    font-style: italic;
     text-align: center;
 }
 .app-title{
     font-weight: 700;
     font-size: 4rem;
     text-align: center;
+  
 }
 .text-important{
     color: #EA0F0F;
+    font-family: inherit;
 }
 .p-absolute{
     position: absolute;
 }
 .section-head{
+    background-image: url('../assets/backgrounds/bg-head.png');
 }
 .download-links{
     display: flex;
@@ -203,6 +244,36 @@ span{
 .section-head .description .flying-img .p-absolute:nth-child(4){
    bottom: -30px;
    right: 38px;
+}
+.section-academy{
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.section-academy .wrapper{
+    align-items: center;
+}
+.section-academy .wrapper .block{
+    width: 100%;
+    margin: 85px 0 30px 0;
+}
+.section-academy .wrapper .block:nth-child(1){
+    max-width: 255px;
+    height: 185px;
+    transform: rotateX(0deg) rotateY(4deg);
+    transform-style: preserve-3d;
+}
+.section-academy .wrapper .block:nth-child(2){
+    max-width: 236px;
+    min-height: 220px;
+    transform: rotateX(0deg) rotateZ(0deg) rotateY(10deg);
+    transform-style: preserve-3d;
+}
+.section-academy .wrapper .block:nth-child(1) .image-wrapper{
+    top: -2px;
+    left: -13px;
+}
+.section-academy .wrapper .block:nth-child(2) .image-wrapper{
+  top: -50px;
 }
 
 
