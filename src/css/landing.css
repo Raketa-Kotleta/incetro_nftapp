@@ -154,12 +154,18 @@ h1, h2, h3, h4, h5, h6, span, a{
 .sign-in-btn>span{
     font-size: 1.25rem;
     font-style: italic;
+    margin: 0 2px;
+   
 }
 .lang-btn{
     background-color: transparent;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 0 8px;
+}
+.lang-btn span{
+    margin: 0 4px;
 }
 .section-title{
     font-weight: 700;
@@ -252,6 +258,9 @@ h1, h2, h3, h4, h5, h6, span, a{
     align-self: center;
     flex-grow: 1;
 }
+.section-head .wrapper .decorations{
+    position: static;
+}
 .section-head .wrapper .presentation
 {
     position: relative;
@@ -321,28 +330,28 @@ h1, h2, h3, h4, h5, h6, span, a{
    
 }
 .section-head .wrapper .description .decorations .background-image:nth-child(1){
-    background-image: url("../assets/decorations/head/head 1/arrow head phones 1.png");
+    background-image: url("../assets/decorations/head/head 1/arrow head phones 1.svg");
     height: 88px;
     width: 88px;
    
    
 }
 .section-head .wrapper .description .decorations .background-image:nth-child(2){
-    background-image: url("../assets/decorations/head/head 1/arrow head phones 2.png");
+    background-image: url("../assets/decorations/head/head 1/arrow head phones 2.svg");
     height: 47px;
     width: 84px;
     top: 400px;
     left: 4%;
 }
 .section-head .wrapper .description .decorations .background-image:nth-child(3){
-    background-image: url("../assets/decorations/head/head 1/vector\ head\ phones\ 1.png");
+    background-image: url("../assets/decorations/head/head 1/vector\ head\ phones\ 1.svg");
     height: 18px;
     width: 19px;
     top: 263px;
     left: calc(86% + 25px);
 }
 .section-head .wrapper .description .decorations .background-image:nth-child(4){
-    background-image: url("../assets/decorations/head/head 1/vector\ head\ phones\ 2.png");
+    background-image: url("../assets/decorations/head/head 1/vector\ head\ phones\ 2.svg");
     height: 88px;
     width: 88px;
     top: 520px;
@@ -437,7 +446,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(1){
-    background-image: url('../assets/blocks/chibi-category/free chibi.png');
+    background-image: url('../assets/blocks/chibi-category/free chibi.svg');
     height: 168px;
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(2){
@@ -445,7 +454,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     height: 188px;
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(3){
-    background-image: url('../assets/blocks/chibi-category/legendary\ chibi.png');
+    background-image: url('../assets/blocks/chibi-category/legendary\ chibi.svg');
     height: 232px;
 }
 .section-chibi-category .wrapper .decorations .background-image:nth-child(1){
@@ -465,6 +474,7 @@ h1, h2, h3, h4, h5, h6, span, a{
 .section-chibi-category .section-link{
     text-align: center;
     margin: 12px 0 40px 0;
+    text-decoration: underline;
 }
 .section-chibi-characteristics{
     background-size: contain;
@@ -478,11 +488,11 @@ h1, h2, h3, h4, h5, h6, span, a{
     background-size: 100% 100%;
     max-width: 428px;
     height: 527px;
-    background-image: url("../assets/blocks/chibi-characteristics/block\ primary\ 1.png");
+    background-image: url("../assets/blocks/chibi-characteristics/block primary 1.png");
 }
 .section-chibi-characteristics .wrapper .chibi-block:nth-child(2){
     height: 434px;
-    background-image: url("../assets/chibies/chibi\ iron.svg");
+    background-image: url("../assets/chibies/chibi iron.svg");
     background-size: 100% 85%;
     margin-top: 27px;
 }
@@ -851,7 +861,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     top: 95.3%;
     left: 6%;
 } 
-.section-minerals .wrapper .decorations .background-image:nth-child(9){
+.section-minerals .wrapper .decorations .background-image:nth-child(8){
     background-image: url("../assets/decorations/minerals/arrow red spiral.svg");
     width: 105px;
     height: 147px;

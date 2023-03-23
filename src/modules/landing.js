@@ -52,6 +52,7 @@ import '../assets/phones/main phones/phones.svg'
 import '../assets/download_links/app store.svg'
 import '../assets/download_links/google play.svg'
 import '../assets/download_links/soon app gallery.svg'
+import '../assets/decorations/head/head 0/md/curve.svg'
 
 
 //------------Academy-------------------
@@ -61,15 +62,20 @@ import '../assets/decorations/academy/vector 1.svg'
 import '../assets/decorations/academy/arrow 2.svg'
 import '../assets/blocks/academy/chibi.svg'
 import '../assets/blocks/academy/academy.svg'
+import '../assets/decorations/academy/md/arrow spiral.svg'
+
+
 //----------chibi category---------------
 import '../assets/decorations/chibi category/line 1.svg'
 import '../assets/decorations/chibi category/line 2.svg'
-import '../assets/blocks/chibi-category/md/red base.svg'
-
+import '../assets/blocks/chibi-category/md/basic chibi.svg'
+import '../assets/blocks/chibi-category/free chibi.svg'
+import '../assets/blocks/chibi-category/legendary chibi.svg'
 //----------chibi characteristics---------------
 import '../assets/decorations/chibi characteristics/arrow.svg'
 import '../assets/decorations/chibi characteristics/red arrow.svg'
 import '../assets/blocks/chibi-characteristics/characteristics.svg'
+import '../assets/decorations/chibi characteristics/md/red arrow 2.svg'
 
 //---------battle---------------------------------
 import '../assets/decorations/battle/coin 50.svg'
@@ -80,19 +86,22 @@ import '../assets/decorations/battle/bag.svg'
 import '../assets/decorations/battle/versus.svg'
 import '../assets/blocks/battle/md/elon.svg'
 import '../assets/blocks/battle/md/lucy.svg'
+import '../assets/decorations/battle/md/curve line.svg'
+import '../assets/decorations/battle/md/curve black.svg'
 
-//--------radar----------------------------------
+//--------artefacts----------------------------------
 import '../assets/decorations/artefacts/spray.svg'
 import '../assets/decorations/artefacts/arrow-right.svg'
 import '../assets/decorations/artefacts/arrow-left.svg'
 import '../assets/blocks/artifacts/radar.svg'
 import '../assets/blocks/artifacts/marketplace.svg'
-
+import '../assets/decorations/artefacts/md/curve line red.svg'
 //--------radar----------------------------------
 import '../assets/decorations/radar/redarr left.svg'
 import '../assets/decorations/radar/arrow spiral.svg'
 import '../assets/decorations/radar/crown.svg'
 import '../assets/decorations/radar/spray.svg'
+import '../assets/decorations/radar/md/arrow red.svg'
 
 //--------minerals------------------------
 import '../assets/decorations/minerals/arrow red spiral.svg'

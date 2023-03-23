@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     entry: [
         path.join(__dirname,'src', 'modules', 'landing.js'),
@@ -14,8 +15,8 @@ module.exports = {
     module: {
         rules: [
            {
-            test: /\.css$/i,
-            use: ["style-loader", "css-loader"],
+            test: /\.css$/,
+            use: [MiniCssExtractPlugin.loader, "css-loader"],
            },
            {
             test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -28,10 +29,12 @@ module.exports = {
           
         ],
     },
-    plugins: [
+    plugins:[ 
+        new MiniCssExtractPlugin(),
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname,'src','templates','index.html'),
         }),
+        
     ],
     devServer: {
         static: path.resolve(__dirname, 'src','templates'),
