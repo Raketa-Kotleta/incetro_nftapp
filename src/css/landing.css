@@ -4,23 +4,23 @@
 }
 @font-face {
     font-family: Roboto Condensed;
-    src: url('../assets/fonts/Roboto Condensed/RobotoCondensed-Bold.ttf'),
+    src: url('../assets/fonts/Roboto Condensed/RobotoCondensed-Regular.ttf'), 
+    url('../assets/fonts/Roboto Condensed/RobotoCondensed-Bold.ttf'),
     url('../assets/fonts/Roboto Condensed/RobotoCondensed-BoldItalic.ttf'),
     url('../assets/fonts/Roboto Condensed/RobotoCondensed-Italic.ttf'),
     url('../assets/fonts/Roboto Condensed/RobotoCondensed-Light.ttf'),
-    url('../assets/fonts/Roboto Condensed/RobotoCondensed-LightItalic.ttf'),
-    url('../assets/fonts/Roboto Condensed/RobotoCondensed-Regular.ttf');
+    url('../assets/fonts/Roboto Condensed/RobotoCondensed-LightItalic.ttf');
+    
 }
 body{
     margin: 0;
     padding: 0;
 }
-h1, h2, h3, h4, h5, h6, span{
+h1, h2, h3, h4, h5, h6, span, a{
     margin: 0;
     font-family: Roboto Condensed;
+    user-select: none;
 }
-
-
 .navbar{
     background-color: #15151D;
     padding: 15px 8px;
@@ -28,10 +28,22 @@ h1, h2, h3, h4, h5, h6, span{
     justify-content: space-between;
   
 }
-.image-wrapper{
-    padding: 4px;
-    display: block;
-    text-align: center;
+.background-image{
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+ 
+}
+.decorations{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 428px;
+    align-self: center;
+}
+.decorations > *{
+    position: absolute;
 }
 .logo-wrapper{
     margin-left: 8px;
@@ -57,29 +69,33 @@ h1, h2, h3, h4, h5, h6, span{
     list-style: none;
     padding: 4px 8px;
 }
+.list-link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
 .section{
     display: flex;
     flex-direction: column;
-    padding: 35px 0 35px 0;
+    padding: 35px 12px 35px 12px;
 }
 .section .wrapper{
+    position: relative;
     display: flex;
     flex-direction: column;
 }
-.block{
-    padding: 4px;
-    background-color: transparent;
-    border-radius: 24px;
-    position: relative;
+.section .wrapper .decorations{
+    max-width: 428px;
 }
-.b-additive{
-    background-color: #000000;
+
+.block-container{
+    display: flex;
 }
-.b-important{
-    background-color: #EA0F0F;
+.flex-row{
+    flex-direction: row;
 }
-.b-primary{
-    background-color: #EAEAE9;
+.flex-column{
+    flex-direction: column;
 }
 .menu-btn{
     background-color: transparent;
@@ -123,7 +139,7 @@ h1, h2, h3, h4, h5, h6, span{
 .nav-list-wrapper .nav-list li a{
     color: white;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto Condensed;
     font-size: 1.25rem;
 }
 .nav-list-wrapper .nav-list li a:visited{
@@ -156,14 +172,21 @@ h1, h2, h3, h4, h5, h6, span{
     font-family: VAG World;
     line-height: 1.25;
 }
-.app-title{
-    font-family: VAG World !important;
-}
 .section-subtitle{
     font-style: italic;
     text-align: center;
 }
-.app-title{
+.section-link{
+    font-family: Roboto Condensed;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #000000;
+}
+.section-link:visited{
+    color: black
+}
+.head-title{
+    font-family: VAG World !important;
     font-weight: 700;
     font-size: 4rem;
     text-align: center;
@@ -179,121 +202,849 @@ h1, h2, h3, h4, h5, h6, span{
 .section-head{
     background-image: url('../assets/backgrounds/bg-head.png');
 }
-.download-links{
+.chibi-block {
+    align-self: center;
+    max-width: 428px;
+    width: 100%;
+    background-size: contain;
+}
+.chibi-block .chibi-image{
+    height: inherit;
+}
+.chibi-block .chibi-content{
+    height: inherit;
     display: flex;
     flex-direction: column;
-}
-.download-subtitle{
-    text-align: center;
-}
-.download-list{
-    text-align: center;
-}
-.download-list .list-item{
-    display: inline-block;
-}
-.section-head .description{
-    position: relative;
-    height: 587px;
-}
-
-.section-head .description .image-wrapper:nth-child(2){
-    top: 90px;
-}
-.section-head .description .image-wrapper:nth-child(1){
-    top:223px;
-    left: 153px;
-}
-.section-head .description .flying-text .p-absolute{
-    font-weight: 700;
-    font-size: 1.25rem;
-    
-}
-.section-head .description .flying-text .p-absolute:nth-child(1){
-    top:92px;
-    left: 242px;
-    transform: rotate(-6.43deg);
-}
-.section-head .description .flying-text .p-absolute:nth-child(2){
-    top:114px;
-    left: 293.4px;
-    transform: rotate(4.69deg);
-}
-.section-head .description .flying-text .p-absolute:nth-child(3){
-    top:150px;
-    left: 266.6px;
-    transform: rotate(-2.72deg);
-}
-.section-head .description .flying-text .p-absolute:nth-child(4){
-    top:177px;
-    left: 318.35px;
-    transform: rotate(6.41deg);
-}
-.section-head .description .flying-img .p-absolute:nth-child(1){
-    left: 172px;
-    top: 41px;
-}
-.section-head .description .flying-img .p-absolute:nth-child(2){
-    top: 425px;
-    left: 23px;
-}
-.section-head .description .flying-img .p-absolute:nth-child(3){
-   top: 258px;
-   right: 12px;
-}
-.section-head .description .flying-img .p-absolute:nth-child(4){
-   bottom: -30px;
-   right: 38px;
-}
-.section-academy{
-    padding-left: 36px;
-    padding-right: 36px;
-}
-.section-academy .wrapper{
     align-items: center;
 }
-.section-academy .wrapper .block{
+.chibi-title, .chibi-subtitle{
+    line-height: 130%;   
+}
+.chibi-name{
+    font-family: VAG World;
+}
+.chibi-title{
+    font-size: 1.875rem;
+    font-family: "VAG World";
+}
+.chibi-subtitle{
+    font-family: "VAG World";
+    line-height: 1.5;
+    font-size: 1.625rem;
+}
+
+.chibi-text{
+    font-size: 1.125rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 130%;
+    display: block;
+}
+.section-head .wrapper .download-list{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+.section-head .wrapper .description{
+    position: relative;
+    height: 617px;
     width: 100%;
-    margin: 85px 0 30px 0;
+    max-width: 428px;
+    align-self: center;
+    flex-grow: 1;
 }
-.section-academy .wrapper .block:nth-child(1){
-    max-width: 255px;
-    height: 185px;
-    transform: rotateX(0deg) rotateY(4deg);
-    transform-style: preserve-3d;
+.section-head .wrapper .presentation
+{
+    position: relative;
+    width: 100%;
+    max-width: 428px;
+    align-self: center;
 }
-.section-academy .wrapper .block:nth-child(2){
-    max-width: 236px;
-    min-height: 220px;
-    transform: rotateX(0deg) rotateZ(0deg) rotateY(10deg);
-    transform-style: preserve-3d;
+.section-head .wrapper .presentation>.background-image{
+    background-image: url('../assets/chibies/three chibis.svg');
+    height: 332px;
+    background-size: 90%;
 }
-.section-academy .wrapper .block:nth-child(1) .image-wrapper{
-    top: -2px;
-    left: -13px;
+.section-head .wrapper .presentation .download-list .background-image{
+    height: 46px;
+    width: 161px;
 }
-.section-academy .wrapper .block:nth-child(2) .image-wrapper{
-  top: -50px;
+.section-head .wrapper .presentation .download-list .background-image:nth-child(1){
+    background-image: url('../assets/download_links/app store.svg');
+}
+.section-head .wrapper .presentation .download-list .background-image:nth-child(2){
+    background-image: url('../assets/download_links/google play.svg');
+}
+.section-head .wrapper .presentation .download-list .background-image:nth-child(3){
+    background-image: url('../assets/download_links/soon app gallery.svg');
+}
+.section-head .wrapper .presentation .decorations .background-image{
+    background-size: contain;
+    
+    
+}
+.section-head .wrapper .presentation .decorations .background-image:nth-child(1){
+    background-image: url("../assets/decorations/head/head 0/arrow.svg");
+    height: 47px;
+    width: 111px;
+    top: 106px;
+}
+.section-head .wrapper .presentation .decorations .background-image:nth-child(2){
+    background-image: url("../assets/decorations/head/head 0/Vector 1.svg");
+    height: 30px;
+    width: 39px;
+    top: 395px;
+    right: 0;
+}
+.section-head .wrapper .presentation .decorations .background-image:nth-child(3){
+    background-image: url("../assets/decorations/head/head 0/Vector 2.svg");
+    height: 13px;
+    width: 20px;
+    top: 385px;
+    left: 10px
+}
+.section-head .wrapper .presentation .decorations .background-image:nth-child(4){
+    background-image: url("../assets/decorations/head/head 0/Vector 3.svg");
+    height: 29px;
+    width: 45px;
+    top: 170px;
+    right: 24px;
+}
+.section-head .wrapper .description>.background-image{
+    height: 100%;
+    background-size: contain;
+}
+.section-head .wrapper .description{
+    position: relative;
+}
+.section-head .wrapper .description>.background-image:nth-child(1){
+    background-image: url('../assets/phones/main phones/phones.svg');
+   
+}
+.section-head .wrapper .description .decorations .background-image:nth-child(1){
+    background-image: url("../assets/decorations/head/head 1/arrow head phones 1.png");
+    height: 88px;
+    width: 88px;
+   
+   
+}
+.section-head .wrapper .description .decorations .background-image:nth-child(2){
+    background-image: url("../assets/decorations/head/head 1/arrow head phones 2.png");
+    height: 47px;
+    width: 84px;
+    top: 400px;
+    left: 4%;
+}
+.section-head .wrapper .description .decorations .background-image:nth-child(3){
+    background-image: url("../assets/decorations/head/head 1/vector\ head\ phones\ 1.png");
+    height: 18px;
+    width: 19px;
+    top: 263px;
+    left: calc(86% + 25px);
+}
+.section-head .wrapper .description .decorations .background-image:nth-child(4){
+    background-image: url("../assets/decorations/head/head 1/vector\ head\ phones\ 2.png");
+    height: 88px;
+    width: 88px;
+    top: 520px;
+   left: 74%;
+}
+.section-head .wrapper .description .decorations .flying-text{
+    font-size: 1.25rem;
+    font-family: VAG World;
+    font-weight: 1000;
+}
+.section-head .wrapper .description .decorations .flying-text:nth-last-child(1){
+    top:92px;
+    left: 60%;
+    transform: rotate(-6.43deg);
+}
+.section-head .wrapper .description .decorations .flying-text:nth-last-child(2){
+    top:114px;
+    left: 72.8%;
+    transform: rotate(4.69deg);
+}
+.section-head .wrapper .description .decorations .flying-text:nth-last-child(3){
+    top:150px;
+    left: 65%;
+    transform: rotate(-2.72deg);
+}
+.section-head .wrapper .description .decorations .flying-text:nth-last-child(4){
+    top:177px;
+    left: 78.7%;
+    transform: rotate(6.41deg);
 }
 
+.section-academy .section-title{
+    margin-top: 40px;
+}
+.section-academy .wrapper .chibi-block{
+    background-size: contain;
+}
+.section-academy .wrapper .chibi-block:nth-child(1){
+    background-image: url("../assets/blocks/academy/academy.svg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 222px ;
+}
+.section-academy .wrapper .chibi-block:nth-child(2){
+    background-image: url("../assets/blocks/academy/chibi.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    height: 282px;
+}
+.section-academy .wrapper .decorations .background-image{
+    background-size: contain;
+}
+.section-academy .wrapper .decorations .background-image:nth-child(1){
+    background-image: url("../assets/decorations/academy/arrow.svg");
+    height: 87px;
+    width: 115px;
+    left: 15%;
+    top: -20px
+}
+.section-academy .wrapper .decorations .background-image:nth-child(2){
+    background-image: url("../assets/decorations/academy/cross.svg");
+    width: 62px;
+    height: 45px;
+    top: 46%;
+    left: 43%;
+}
+.section-academy .wrapper .decorations .background-image:nth-child(3){
+    background-image: url("../assets/decorations/academy/vector 1.svg");
+    width: 58px;
+    height: 47px;
+    top: 600px;
+    right: 4%;
+}
+.section-academy .wrapper .decorations .background-image:nth-child(4){
+    background-image: url("../assets/decorations/academy/arrow 2.svg");
+    width: 66px;
+    height: 55px;
+    top: 43%;
+    left: 1%;
+}
+.section-chibi-category{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.section-chibi-category .section-title{
+    margin: 30px 0 14px 0;
+    padding: 12px 70px;
+   
+}
+.section-chibi-category .wrapper .chibi-block{
+    
+    
+}
+.section-chibi-category .wrapper .chibi-block:nth-child(1){
+    background-image: url('../assets/blocks/chibi-category/free chibi.png');
+    height: 168px;
+}
+.section-chibi-category .wrapper .chibi-block:nth-child(2){
+    background-image: url('../assets/blocks/chibi-category/basic\ chibi.png');
+    height: 188px;
+}
+.section-chibi-category .wrapper .chibi-block:nth-child(3){
+    background-image: url('../assets/blocks/chibi-category/legendary\ chibi.png');
+    height: 232px;
+}
+.section-chibi-category .wrapper .decorations .background-image:nth-child(1){
+    background-image: url("../assets/decorations/chibi category/line\ 1.svg");
+    width: 67px;
+    height: 23px;
+    top: -62px;
+    left: 0%;;
+}
+.section-chibi-category .wrapper .decorations .background-image:nth-child(2){
+    background-image: url("../assets/decorations/chibi category/line\ 2.svg");
+    width: 67px;
+    height: 23px;
+    top: -62px;
+    right: 0%;;
+}
+.section-chibi-category .section-link{
+    text-align: center;
+    margin: 12px 0 40px 0;
+}
+.section-chibi-characteristics{
+    background-size: contain;
+}
+.section-chibi-characteristics .wrapper .chibi-block{
+  
+  padding: 38px 0;
+  background-clip: padding-box;
+}
+.section-chibi-characteristics .wrapper .chibi-block:nth-child(1){
+    background-size: 100% 100%;
+    max-width: 428px;
+    height: 527px;
+    background-image: url("../assets/blocks/chibi-characteristics/block\ primary\ 1.png");
+}
+.section-chibi-characteristics .wrapper .chibi-block:nth-child(2){
+    height: 434px;
+    background-image: url("../assets/chibies/chibi\ iron.svg");
+    background-size: 100% 85%;
+    margin-top: 27px;
+}
 
-/* .menu-btn::before{
-    content: "";
+.section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-image{
+    background-image: url("../assets/blocks/chibi-characteristics/characteristics.svg");
+    height: 155px;
+    border-radius: 19.1391px;
+    background-size: auto;
+    max-width: 386px;
+}
+.section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-content{
+    padding: 5px 13.6% 5px 13.6% ;
+}
+.section-chibi-characteristics .wrapper .chibi-block .chibi-title{
+    margin-bottom: 33px;
+    max-width: 291px;
+}
+.section-chibi-characteristics .wrapper .chibi-block .chibi-subtitle{
+    max-width: 281px;
+    margin-top: 12px;
+}
+.section-chibi-characteristics .wrapper .chibi-block .chibi-text{
+    margin-top: 2vh;
+    max-width: 291px;
+}
+.section-chibi-characteristics .wrapper .decorations .background-image{
+    background-size: contain;
+}
+.section-chibi-characteristics .wrapper .decorations .background-image:nth-child(1){
+    background-image: url("../assets/decorations/chibi\ characteristics/red arrow.svg");
+    height: 60px;
+    width: 139px;
+    top: 325px;
+    left: 50%;
+}
+.section-chibi-characteristics .wrapper .decorations .background-image:nth-child(2){
+    background-image: url("../assets/decorations/chibi\ characteristics/arrow.svg");
+    width: 84px;
+    height: 120px;
+    top: 532px;
+    left: 45%;
+}
+.section-battle{
+    padding: 53px 0;
+}
+.section-battle .section-title{
+    margin-bottom: 45px;
+    padding: 0 56px;
+}
+.section-battle .wrapper .block-container{
+    position: relative;
+    max-width: 428px;
+    align-self: center;
+    width: 100%;
+}
+.section-battle .wrapper .block-container:nth-child(1){
+    height: 322px;
+}
+.section-battle .wrapper .block-container:nth-child(2){
+    flex-direction: column;
+}
+.section-battle .wrapper .block-container:nth-child(1) .chibi-block{
     position: absolute;
-    left: 4px;
-    right: 4px;
-    top: 8px;
-    height: 2px;
-    background-color: white ;
+    align-self: normal;
+    background-size: contain;
 }
-.menu-btn::after{
-    content: "";
-    position: absolute;
-    left: 4px;
-    right: 4px;
-    bottom: 8px;
-    height: 2px;
-    background-color: white;
-} */
+.section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(1){
+    background-image: url("../assets/blocks/battle/sm/elon.png");
+    background-position: 0% 0;
+    height: 317px;
+    width: 58%;
+}
+.section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(2){
+    background-image: url("../assets/blocks/battle/sm/lucy.png");
+    background-position: 100% 0;
+    height: 322px;
+    width: 58%;
+    right: 0;
+}
+.section-battle .wrapper .block-container:nth-child(2) .chibi-block:nth-child(1){
+    background-image: url("../assets/blocks/battle/sm/block primary.png");
+    margin-left: 24px;
+    margin-top: 114px;
+    max-width: 211px;
+    align-self: flex-start;
+    background-size: auto 100%;
+}
 
+.section-battle .wrapper .block-container:nth-child(2) .chibi-block:nth-child(2){
+    align-self: start;
+}
+.section-battle .wrapper .block-container:nth-child(2) .chibi-block:nth-child(1) .chibi-text{
+    font-size: 1rem;
+    padding: 12px;
+    font-weight: 500;
+}
+.section-battle .wrapper .block-container:nth-child(2) .chibi-block:nth-child(2) .chibi-text{
+    font-size: 23px;
+    margin-left: 52px;
+    max-width: 190px;
+    transform: rotate(-6.82deg);
+    padding: 8px 0;
+    font-family: VAG World;
+    text-decoration-line: underline;
+    text-decoration-color: #EA0F0F;
+}
+.section-battle .wrapper .decorations .background-image{
+    background-size: contain;
+}
+.section-battle .wrapper .decorations .background-image:nth-child(1){
+    background-image: url("../assets/decorations/battle/versus.svg");
+    width: 72px;
+    height: 51px;
+    left: 43%;
+    top: 17%;
+}
+.section-battle .wrapper .decorations .background-image:nth-child(2){
+    background-image: url("../assets/decorations/battle/arr 1.svg");
+    width: 143px;
+    height: 80px;
+    top: 48%;
+    left: 25%;
+}
+.section-battle .wrapper .decorations .background-image:nth-child(3){
+    background-image: url("../assets/decorations/battle/arr 2.svg");
+    width: 76px;
+    height: 72px;
+    top: 48%;
+    left: 55%;
+}
+.section-battle .wrapper .decorations .background-image:nth-child(4){
+    background-image: url("../assets/decorations/battle/coin 50.svg");
+    width: 87px;
+    height: 32px;
+    top: 55%;
+    left: 15%;
+}
+.section-battle .wrapper .decorations .background-image:nth-child(5){
+    background-image: url("../assets/decorations/battle/coin 50.svg");
+    width: 87px;
+    height: 32px;
+    top: 50%;
+    right: 3%;
+}
+.section-battle .wrapper .decorations .background-image:nth-child(6){
+    background-image: url("../assets/decorations/battle/bag.svg");
+    height: 219px;
+    width: 181px;
+    top: 61%;
+    right: 0px;
+}
+.section-battle .wrapper .decorations .background-image:nth-child(7){
+    background-image: url("../assets/decorations/battle/coin 100.svg");
+    width: 87px;
+    height: 43px;
+    top: 95%;
+    right: 5%;
+}
 
+.section-artefacts{ 
+    padding: 86px 8px 66px 8px;
+}
+.section-artefacts .section-title{
+    
+}
+.section-artefacts .wrapper .block-container{
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 85px;
+}
+.section-artefacts .wrapper .block-container .chibi-block{
+    background-position: 50% 0;
+    background-size: 96% 198px;
+    max-width: 198px;
+}
+.section-artefacts .wrapper .block-container .chibi-block .chibi-content{
+    justify-content: end;
+}
+.section-artefacts .wrapper .block-container .chibi-block .chibi-name{
+    margin-top: 200px;
+    font-size: 1.25rem;
+}
+.section-artefacts .wrapper .block-container .chibi-block:nth-child(1){
+    background-image: url("../assets/blocks/artifacts/radar.svg");
+}
+.section-artefacts .wrapper .block-container .chibi-block:nth-child(2){
+    background-image: url("../assets/blocks/artifacts/marketplace.svg ");
+}
+.section-artefacts .wrapper .decorations .background-image{
+    background-size: contain;
+}
+.section-artefacts .wrapper .decorations .background-image:nth-child(1){
+    background-image: url("../assets/decorations/artefacts/arrow-left.svg");
+    height: 44px;
+    width: 99px;
+    left: 23%;
+    top: 8%;
+}
+.section-artefacts .wrapper .decorations .background-image:nth-child(2){
+    background-image: url("../assets/decorations/artefacts/arrow-right.svg");
+    height: 44px;
+    width: 99px;
+    right: 23%;
+    top: 8%;
+}
+.section-artefacts .wrapper .decorations .background-image:nth-child(3){
+    background-image: url("../assets/decorations/artefacts/spray.svg");
+    height: 35px;
+    width: 35px;
+    top: 88%;
+}
+.section-use-radar{
+    padding: 0 16px;
+}
+.section-use-radar .wrapper>.block-container{
+    align-self: center;
+    width: 100%;
+    max-width: 428px;
+}
+.section-use-radar .wrapper>.block-container .chibi-block{
+    background-image: url("../assets/blocks/use radar/primary block tube.svg");
+    height: 372.84px;
+    background-size: 100% 100%;
+
+}
+.section-use-radar .wrapper>.block-container>.block-container{
+    padding: 0 16px;
+    margin-bottom: 32px;
+}
+.section-use-radar .wrapper>.block-container>.block-container .background-image{
+    background-size: contain;
+}
+.section-use-radar .wrapper>.block-container>.block-container .background-image:nth-child(1){
+    height: 246px;
+    background-image: url("../assets/artefacts/use radar/box.png");
+    background-size: contain;
+}
+.section-use-radar .wrapper>.block-container>.block-container .background-image:nth-child(2){
+    height: 246px;
+    background-image: url("../assets/artefacts/use radar/sword.svg");
+}
+.section-use-radar .wrapper>.background-image{
+    background-image: url('../assets/phones/use radar/phone.svg');
+    height: 610px;
+    margin: 32px 0;
+}
+.section-use-radar .wrapper .decorations .background-image{
+    background-size: contain;
+}
+.section-use-radar .wrapper .decorations .background-image:nth-child(1){
+    background-image: url("../assets/decorations/radar/redarr\ left.svg");
+    width: 47px;
+    height: 73px;
+    top: 27%;
+    left: 28%;
+}
+.section-use-radar .wrapper .decorations .background-image:nth-child(2){
+    background-image: url("../assets/decorations/radar/arrow\ spiral.svg");
+    width: 73px;
+    height: 111px;
+    top: 24.5%;
+    left: 50%;
+}
+.section-use-radar .wrapper .decorations .background-image:nth-child(3){
+    background-image: url("../assets/decorations/radar/crown.svg");
+    width: 67px;
+    height: 67px;
+    top: 640px;
+    left: -10px;
+}
+.section-use-radar .wrapper .decorations .background-image:nth-child(4){
+    background-image: url("../assets/decorations/radar/spray.svg");
+    width: 57px;
+    height: 57px;
+    top: 95%;
+    right: -17px;
+}
+.section-minerals{
+    padding-left: 16px;
+    padding-right: 16px;
+   
+}
+.section-minerals .section-title{
+    margin: 37px 0 0 0;
+
+}
+.section-minerals .wrapper .block-container{
+    width: 100%;
+}
+.section-minerals .wrapper .chibi-block{
+    background-size: contain;
+}
+.section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(1){
+    height: 183px;
+    background-image: url("../assets/blocks/minerals/minerals.svg");
+    margin: 122px 0 32px 0 ;
+}
+.section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(2){
+    height: 545px;
+    background-image: url("../assets/blocks/minerals/factory.svg");
+    margin:60px 0 52px 0;
+}
+.section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(1){
+    height: 270px;
+    background-image: url("../assets/blocks/minerals/metall and crystalls.svg");
+}
+.section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(2){
+    height: 329px;
+    background-image: url("../assets/blocks/minerals/shield and sword.svg");
+    margin: 32px 0 0 0;
+}
+.section-minerals .wrapper .decorations .background-image{
+    background-size: contain;
+}
+.section-minerals .wrapper .decorations .background-image:nth-child(1){
+    background-image: url("../assets/decorations/minerals/rect red.svg");
+    width: 285px;
+    height: 82px;
+    top: 20px;
+    left: 10%;
+} 
+.section-minerals .wrapper .decorations .chibi-block:nth-child(1) .chibi-text{
+    padding: 18px 32px;
+}
+.section-minerals .wrapper .decorations .background-image:nth-child(2){
+    background-image: url("../assets/decorations/minerals/red arrow.svg");
+    height: 69px;
+    width: 49px;
+    left: 42%;
+    top: 19%;
+} 
+
+.section-minerals .wrapper .decorations .background-image:nth-child(3){
+    background-image: url("../assets/decorations/minerals/info-1.svg");
+    width: 93px;
+    height: 28px;
+    top:60%;
+    left: calc(20px + 27%);
+} 
+.section-minerals .wrapper .decorations .background-image:nth-child(4){
+    background-image: url("../assets/decorations/minerals/crown right.svg");
+    width: 34px;
+    height: 45px;
+    top:62.6%;
+    left: calc(20px + 87%);
+} 
+.section-minerals .wrapper .decorations .background-image:nth-child(5){
+    background-image: url("../assets/decorations/minerals/arrow zig zag.svg");
+    width: 66px;
+    height: 126px;
+    top: 73.5%;
+    left: 37%;
+} 
+.section-minerals .wrapper .decorations .background-image:nth-child(6){
+    background-image: url("../assets/decorations/minerals/info.svg");
+    width: 93px;
+    height: 28px;
+    top: 77.5%;
+    left: 55%;
+} 
+.section-minerals .wrapper .decorations .background-image:nth-child(7){
+    background-image: url("../assets/decorations/minerals/cool artefacts.svg");
+    width: 136px;
+    height: 26px;
+    top: 95.3%;
+    left: 6%;
+} 
+.section-minerals .wrapper .decorations .background-image:nth-child(9){
+    background-image: url("../assets/decorations/minerals/arrow red spiral.svg");
+    width: 105px;
+    height: 147px;
+    top:55%;
+    left: calc(20px + 47%);
+} 
+.section-transport{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.section-transport .section-title{
+    padding: 0 28px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.section-transport .wrapper>.background-image{
+    height: 760px;
+    background-size: contain;
+    background-image: url("../assets/phones/transport/p-map.svg");
+}
+.section-transport .wrapper>.block-container{
+    padding: 74px 0 54px 0;
+}
+.section-transport .wrapper .block-container .chibi-block{
+    height: 394px;
+    background-image: url("../assets/chibies/chibi moto.svg");  
+}
+.section-transport .wrapper .decorations .background-image{
+    background-size: contain;
+}
+.section-transport .wrapper .decorations .background-image:nth-child(1){
+    background-image: url("../assets/decorations/transport/arr.svg");
+    height: 63px;
+    width: 56px;
+    top:51%;
+}
+.section-steal .wrapper .block-container .chibi-block{
+    height: 228px;
+    background-size: 95% 100%;
+    background-image: url("../assets/blocks/steal/primary block.png");
+}
+.section-steal .wrapper .block-container .background-image:nth-child(2){
+    height: 344px;
+    background-image: url("../assets/chibies/ninja.svg");
+    background-size: contain;
+    background-position: 50% 0;
+}
+.section-steal .wrapper .block-container .chibi-block .chibi-title{
+    padding: 32px 32px;
+    font-size: 2rem;
+}
+.section-steal .wrapper > .chibi-block{
+    height: 386px;
+    background-image: url("../assets/blocks/steal/primary\ warning.svg");
+}
+.section-steal .wrapper .decorations .background-image{
+    background-size: contain;
+}
+.section-steal .wrapper .decorations .background-image:nth-child(1){
+    background-image: url("../assets/decorations/steal/spray\ black.svg");
+    width: 59px;
+    height: 50px;
+    top: 23%;
+    left: 85%;
+}
+.section-steal .wrapper .decorations .background-image:nth-child(2){
+    background-image: url("../assets/decorations/steal/arrow\ red.svg");
+    width: 135px;
+    height: 90px;
+    top: 53%;
+    left: 10%;
+}
+.section-token .wrapper .block-container {
+    flex-direction: column;
+    width: 100%;
+}
+.section-token .wrapper .block-container .background-image:nth-child(1){
+    height: 349px;
+    background-image: url("../assets/blocks/tokens/sword.svg");
+    background-position: 0% 50%;
+}
+.section-token .wrapper .block-container .background-image:nth-child(2){
+    height: 270px;
+    background-image: url("../assets/blocks/tokens/marketplace.svg");
+    margin: 152px 0;
+    background-position: 85% 50%;
+}
+.section-token .wrapper>.background-image{
+    height: 751px;
+    background-size: contain;
+    background-image: url("../assets/phones/token/p-token.svg");
+    margin: 77px 0;
+}
+.section-token .wrapper .decorations .background-image{
+    background-size: contain;
+}
+.section-token .wrapper .decorations .background-image:nth-child(1){
+    background-image: url("../assets/decorations/tokens/rect.svg");
+    width: 219px;
+    height: 122px;
+    top: 19%;
+    left: 10%;
+}
+.section-token .wrapper .decorations .background-image:nth-child(2){
+    background-image: url("../assets/decorations/tokens/arrow down.svg");
+    width: 86px;
+    height: 139px;
+    top: 19%;
+    left: 70%;
+}
+.section-token .wrapper .decorations .background-image:nth-child(3){
+    background-image: url("../assets/decorations/tokens/arrow curve.svg");
+    width: 60px;
+    height: 229px;
+    top: 33%;
+
+}
+.section-token .wrapper .decorations .background-image:nth-child(4){
+    background-image: url("../assets/decorations/tokens/rect 1.svg");
+    width: 268px;
+    height: 123px;
+    top: 45%;
+    left: 15%;
+    
+}
+.section-token .wrapper .decorations .background-image:nth-child(5){
+    background-image: url("../assets/decorations/tokens/spiral.svg");
+    width: 49px;
+    height: 70px;
+    top: 49.5%;
+    left: 87%;
+}
+.section-token .wrapper .decorations .background-image.chibi-block:nth-child(1) .chibi-text{
+    padding: 16px 26px;
+    transform: rotate(-2.99deg);
+}
+.section-token .wrapper .decorations .chibi-block:nth-child(4) .chibi-text{
+    padding: 12px 24px;
+    transform: rotate(2.1deg);
+}
+.section-coming-soon{
+    padding: 58px 12px 94px 12px;
+}
+.section-coming-soon .section-title{
+    padding: 0 20%;
+    max-width: 428px;
+    align-self: center;
+}
+.section-coming-soon .wrapper .decorations .background-image{
+    background-size: contain;
+}
+.section-coming-soon .wrapper .decorations .background-image:nth-child(1){
+    background-image: url("../assets/decorations/coming soon/spray black.svg");
+    width: 39px;
+    height: 31px;
+    left: 90%;
+    top: -12%;
+}
+.section-coming-soon .wrapper .decorations .background-image:nth-child(2){
+    background-image: url("../assets/decorations/coming soon/arrow zig zag.svg");
+    width: 81px;
+    height: 43px;
+    top:77%;
+    left: 0px;
+}
+footer{
+    background-color: #15151D;
+}
+.footer-container{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-container .logo-wrapper{
+    margin-bottom: 81px;
+}
+.footer-list{
+    text-align: center;
+}
+.footer-list:nth-child(3) > li:nth-child(4){
+    text-align: center;
+    margin-top: 50px;
+}
+.all-rights{
+    margin-top: 90px;
+}
+.all-rights::before{
+    content: "© TheRun, 2023.";
+    color: #888888;
+    font-family: Roboto Condensed;
+    font-size: 1rem;
+    letter-spacing: 0.41px;
+    line-height: 19px;
+    font-weight: 400;
+}

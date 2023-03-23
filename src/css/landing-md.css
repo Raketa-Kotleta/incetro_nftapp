@@ -1,0 +1,272 @@
+@media screen and (min-width: 650px){
+    .navbar{
+        padding: 15px 2.32vw;
+    }
+    .chibi-block{
+        align-self: unset;
+        max-width: none;
+    }
+    .wrapper{
+        flex-direction: row !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-head .wrapper .presentation{
+        max-width: none;
+        flex: 1;
+    }
+    .section-head .wrapper .description{
+        max-width: none;
+        flex: 1;
+    }
+    .section .wrapper .background-image{
+        background-size: contain;
+    }
+    .section .wrapper .decorations{
+        max-width: 100%;
+        display: none;
+    }
+    .nav-list-wrapper{
+        display: block;
+        position: static;
+        padding: 0;
+        transform: none;
+    }
+    .nav-list-wrapper .nav-list .nav-item{
+        display: inline-block;
+        padding: 0 4px;
+        line-height: 1.5;
+    }
+    .nav-list-wrapper .nav-list .nav-item .list-link{
+        font-size: 0.8rem;
+    }
+    .section-head{
+        padding: 0 2.28vw;
+        background-image: url('../assets/backgrounds/head-md/bg-head.svg');
+    }
+  
+    .section-head .wrapper .presentation>.background-image{
+        height: auto;
+        margin: 0 auto;
+        background-size: contain;
+        min-height: 200px;
+    }
+    .section-head .wrapper .description{
+        height: inherit;
+        align-self: normal;
+        width: 100%;
+    }
+    .section-head .wrapper .description>.background-image:nth-child(1){
+        background-position: 0% 50%;
+        background-size: contain;
+    }
+    .section-head .wrapper .presentation .download-list .background-image{
+        width: 81.9px;
+        height: 26.1px;
+    }
+    .section-head .wrapper .presentation .download-list .list-item{
+        margin: 4px 2px;
+    }
+    .section-head .wrapper .presentation .download-list .section-subtitle{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal !important;
+    }
+    .section-academy .wrapper .chibi-block{
+       
+        margin: 0px 36px;
+    }
+    .section-academy .wrapper .chibi-block:nth-child(1){
+        height: 430px ;
+        margin: 0px 6px 0 16px;
+        background-position: 50% 50%;
+        max-width: 530px;
+        align-self: flex-end;
+    }
+
+    .section-academy .wrapper .chibi-block:nth-child(2){
+        height: 515px;
+        margin: 0px 6px 0 36px;
+        background-position: 50% 50%;
+        max-width: 469px;
+    }
+    .section-chibi-category .wrapper .chibi-block{
+        margin: 0 10px;
+    }
+    .section-chibi-category .wrapper .chibi-block:nth-child(2){
+        background-image: url('../assets/blocks/chibi-category/md/red base.svg');
+    }
+    .section-chibi-characteristics .wrapper .chibi-block{
+        background-position: 50% 0;
+        margin: 0 4px;
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(1){
+        background-size: 100% 100%;
+        max-width: 405px;
+        height: 438px;
+        background-position: 50%;
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-content{
+        align-items: flex-start;
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-title{
+        font-size: 1.75rem;
+        max-width: none;
+        text-align: left;
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-subtitle{
+        font-size: 1.5rem;
+        max-width: none;
+        text-align: start;
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(2){
+        height: 538px;
+        max-width: 461px;
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-image{
+        height: 230px;
+        background-position: 0 0%;
+        border-radius: 19.1391px;
+        background-size: 100% 100%;
+        max-width: 434px;
+    }
+    .section-battle .wrapper{
+        flex-direction: column !important;
+    }
+
+    .section-battle .wrapper>.block-container{
+        max-width: none;
+    }  .section-battle .wrapper>.block-container:nth-child(1){
+        justify-content: center;
+        height: calc(711px * 0.6);
+    }
+    .section-battle .wrapper .block-container:nth-child(2){
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+    .section-battle .wrapper>.block-container:nth-child(1) .chibi-block{
+        position: relative;
+        background-position: 100% 50%;
+    }
+    .section-battle .wrapper>.block-container:nth-child(2) .chibi-block{
+        position: relative !important;
+    }
+    .section-battle .wrapper>.block-container:nth-child(2) .chibi-block:nth-child(1){
+        max-width: calc(454px * 0.85);
+        height: calc(202px * 0.85);
+        background-size: 90% 90%;
+    }
+    .section-battle .wrapper>.block-container:nth-child(2) .chibi-block:nth-child(2){
+        max-width: 422px;
+        align-self: center;
+    }
+    .section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(1){
+        background-image: url("../assets/blocks/battle/md/elon.svg");
+        background-position: 100% 10%;
+        height: calc(714px * 0.6);
+        width: calc(632px * 0.6);
+        left: 5%;
+    }
+    .section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(2){
+        background-image: url("../assets/blocks/battle/md/lucy.svg");
+        height: calc(711px * 0.6);
+        width: calc(733px * 0.6);  
+        right: 4%;
+    }
+    .section-battle .wrapper>.block-container:nth-child(2) .chibi-block:nth-child(2) .chibi-text{
+        font-size: 1.5rem;
+    }
+    .section-battle .wrapper>.block-container:nth-child(2) .chibi-block:nth-child(1) .chibi-text{
+        font-size: 1.2rem;
+    }
+    .section-battle .wrapper>.block-container:nth-child(2) .block-content:nth-child(1){
+        padding: 16px 22px;
+    }
+    .section-artefacts{
+        padding: 200px 50px;
+    }
+    .section-artefacts .wrapper .block-container{
+        max-width: none;
+        width: 100%;
+    }
+    .section-artefacts .wrapper .block-container .chibi-block{
+        background-position: 50% 0;
+        background-size: 96% 100%;
+        max-width: calc(477px * 0.85);
+        height: calc(448px * 0.85);
+    }
+    .section-artefacts .wrapper .block-container .chibi-block .chibi-content{
+        height: 100%;
+        padding-top: 40px;
+    }
+    .section-artefacts .wrapper .block-container .chibi-block .chibi-name{
+        font-size: 1.75rem;
+    }
+    .section-artefacts .wrapper .decorations .background-image{
+        background-size: contain;
+    }
+    .section-use-radar .wrapper>.block-container{
+        max-width: none;
+    }
+    .section-use-radar .wrapper{
+        justify-content: center;
+    }
+    .section-use-radar{
+        padding: 0 5.28vw;
+    }
+    .section-use-radar .wrapper>.block-container>.block-container .background-image:nth-child(1){
+        height: 246px;
+        background-image: url("../assets/artefacts/use radar/box.png");
+        background-size: contain;
+        align-self: flex-end;
+    }
+    .section-minerals .wrapper .block-container{
+        position: relative;
+    }
+    .section-minerals .wrapper .block-container:nth-child(1){
+        left: 1%;
+    }
+    .section-minerals .wrapper .block-container:nth-child(2){
+        right: 3%;
+    }
+    .section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(1){
+       background-position: 100% 50%;
+    }
+    .section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(2){
+        background-position: 50% 50%;
+    }
+    .section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(1){
+       
+    }
+    .section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(2){
+        background-position: 0% 50%;
+    }
+     .section-transport .wrapper .block-container .chibi-block{
+        height: calc(655px * 0.6);
+    }
+   
+    .footer-container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-container .logo-wrapper{
+        align-self: flex-end;
+    }
+    .footer-list:nth-child(3) > li:nth-child(4){
+        text-align: center;
+        margin-top: 0;
+    }
+    .section-token{
+        padding: 0 8vw;
+    }
+    .section-token .wrapper .block-container .background-image:nth-child(1){
+        height: calc(431px * 0.6);
+    }
+    .section-token .wrapper .block-container .background-image:nth-child(2){
+        height: calc(431px * 0.6);  
+        margin: 42px 0;
+    }
+    .section-token .wrapper>.background-image{
+        height: calc(1045px * 0.5);
+        background-position: 20% 50%;
+    }
+}

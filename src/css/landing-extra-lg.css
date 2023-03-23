@@ -1,0 +1,109 @@
+@media screen and (min-width: 1600px){
+    .nav-list-wrapper .nav-list .nav-item{
+        padding: 0 35px;
+    }
+    .nav-list-wrapper .nav-list .nav-item .list-link{
+        font-size: 1.25rem;
+    }
+    .decorations{
+        max-width: 100%;
+    }
+    .head-title{
+        font-size: 7.5rem;
+    }
+    
+    .download-links{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(1){
+        background-position: 100% 50%;
+    }
+    .section-battle .wrapper>.block-container:nth-child(2) .chibi-block:nth-child(2) .chibi-text{
+        font-size: 3rem;
+        max-width: 662px;
+    }
+    .section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(1){
+        background-image: url("../assets/blocks/battle/md/elon.svg");
+        background-position: 100% 10%;
+        height: 714px;
+        width: 633px;
+        left: 5%;
+    }
+    .section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(2){
+        background-image: url("../assets/blocks/battle/md/lucy.svg");
+        height: 711px;
+        width: 733px;  
+        right: 4%;
+    }
+    .section-battle .wrapper>.block-container:nth-child(1){
+        justify-content: center;
+        height: 711px;
+    }
+    .section-artefacts .wrapper .block-container .chibi-block .chibi-content{
+        height: 100%;
+        padding-top: 98px;
+    }
+    .section-artefacts .wrapper .block-container .chibi-block .chibi-name{
+        font-size: 3rem;
+    }
+   
+    .section-minerals .wrapper .block-container:nth-child(1){
+        left: 3%;
+    }
+    .section-minerals .wrapper .block-container:nth-child(2){
+        right: 3%;
+    }
+    .section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(1){
+        height: 346.16px;
+    }
+    .section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(2){
+        height: 849px;
+    }
+    .section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(1){
+        height: 418px;
+       
+    }
+    .section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(2){
+        height: 503px;
+    }
+    .section-transport{
+        padding:  15vh 12.25vw;
+    }
+    .section-transport .wrapper>.background-image{
+        height: 1045px;
+        background-position: 80% 0;
+    }
+    .section-transport .wrapper>.block-container{
+        padding: 74px 0 54px 0;
+    }
+    .section-transport .wrapper .block-container .chibi-block{
+        height: 655px;
+        background-position: 10% 0;
+    }
+    .section-token .wrapper{
+        padding: 0 0.25vw;
+    }
+    .section-token .wrapper .block-container .background-image:nth-child(1){
+        height: 431px;
+        
+    }
+    .section-token .wrapper .block-container .background-image:nth-child(2){
+        height: 431px;
+    }
+    .section-token .wrapper>.background-image{
+        height: 1045px;
+    }
+    .section-coming-soon{
+        padding: 159px 10vw;
+    }
+    .section-coming-soon .section-title{
+        font-size: 4rem;
+       text-align: center;
+       max-width: none;
+       padding: 0 26vw;
+    }
+    
+   
+}

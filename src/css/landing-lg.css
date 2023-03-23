@@ -1,0 +1,217 @@
+@media screen and (min-width: 1280px) {
+    .navbar{
+        padding: 15px 14.32vw;
+    }
+    .nav-list-wrapper .nav-list .nav-item{
+        padding: 0 16px;
+    }
+    
+    .nav-list-wrapper .nav-list .nav-item .list-link{
+        font-size: 1rem;
+    }
+    .section > .section-title{
+        font-size: 4rem;
+    }
+    .section-head .wrapper .presentation .download-list .background-image{
+        width: 171px;
+        height: 78px;
+        
+    }
+    .section-head .wrapper .presentation .download-list li{
+        margin: 4px 12px;
+    }
+    .section-head{
+        padding: 0 7.54vw;
+    }
+    .section-head .wrapper .description>.background-image:nth-child(1){
+        background-position: -10% 50%;
+        background-size: contain;
+    }
+     .section-head .wrapper .presentation>.background-image{
+        width: 627px;
+        height: 627px;
+        margin: 0 auto;
+        background-position: 50%;
+    }
+    .section-head .wrapper .presentation .download-list .list-item{
+        margin: 4px 8px;
+    }
+    .section-academy .wrapper .chibi-block{
+        background-position: 50%;
+        margin: 0px 76px;
+    }
+    .section-academy .wrapper .chibi-block:nth-child(1){
+        background-position: 50% 100%;
+        
+    }
+
+    .section-academy .wrapper .chibi-block:nth-child(2){
+        background-position: 50% 0%;
+    }
+    .section-chibi-category .wrapper .chibi-block{
+        margin: 0 20px;
+    }
+    .section-chibi-category .wrapper .chibi-block:nth-child(1){
+        height: 260px;
+    }
+    .section-chibi-category .wrapper .chibi-block:nth-child(2){
+        height: 256px;
+    }
+    .section-chibi-category .wrapper .chibi-block:nth-child(3){
+        height: 273px;
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(1){
+        background-size: 100% 100%;
+        max-width: 605px;
+        height: 756px;
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-content{
+        padding: 47px 47px 47px 87px;
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-title{
+        font-size: 3.375rem;
+        max-width: none;
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-subtitle{
+        font-size: 2.25rem;
+        max-width: none;
+        
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-text{
+        font-size: 1.75rem;
+        max-width: none;
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-image{
+        background-size: 100%;
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(2){
+        height: 828px;
+        background-image: url("../assets/chibies/chibi\ iron.svg");
+        background-size: 100% 85%;
+        margin-top: 27px;
+        max-width: 710px;
+    }
+    .section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(1){
+        background-position: 100% 50%;
+    }
+    .section-battle .wrapper>.block-container:nth-child(1){
+        justify-content: center;
+        height: 711px;
+    }
+    .section-battle .wrapper>.block-container:nth-child(2) .chibi-block:nth-child(1){
+        max-width: 454px;
+        height: 202px;
+        background-size: 90% 90%;
+    }
+    .section-battle .wrapper>.block-container:nth-child(2) .chibi-block:nth-child(2){
+        max-width: 462px;
+    }
+    .section-battle .wrapper>.block-container:nth-child(2) .block-content:nth-child(1){
+        padding: 24px 32px;
+    }
+    .section-battle .wrapper>.block-container:nth-child(2) .chibi-block:nth-child(2) .chibi-text{
+        font-size: 2.2rem;
+        max-width: 292px;
+    }
+    .section-battle .wrapper>.block-container:nth-child(2) .chibi-block:nth-child(1) .chibi-text{
+        font-size: 1.75rem;
+    }
+    
+    .section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(1){
+        background-image: url("../assets/blocks/battle/md/elon.svg");
+        background-position: 100% 10%;
+        height: 714px;
+        width: 633px;
+        left: 5%;
+    }
+    .section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(2){
+        background-image: url("../assets/blocks/battle/md/lucy.svg");
+        height: 711px;
+        width: 733px;  
+        right: 4%;
+    }
+    .section-artefacts .wrapper .block-container .chibi-block .chibi-content{
+        height: 100%;
+        padding-top: 72px;
+    }
+    .section-artefacts .wrapper .block-container .chibi-block .chibi-name{
+        font-size: 2.2rem;
+    }
+    .section-artefacts .wrapper .block-container .chibi-block{
+        background-position: 50% 0;
+        background-size: 96% 100%;
+        max-width: 477px;
+        height: 448px;
+    }
+    .section-use-radar .wrapper>.block-container .chibi-block{
+        height: 640.78px;
+        background-size: 100% 100%;
+        width: 642px;
+    }
+    .section-use-radar .wrapper>.block-container>.block-container .background-image:nth-child(1){
+        height: 256px;
+        width: 250px;
+    }
+    .section-use-radar .wrapper>.block-container>.block-container .background-image:nth-child(2){
+        height: 430.65px;
+        width: 430.65px;
+    }
+    .section-use-radar .wrapper>.background-image{
+        height: 953px;
+        width: 467.79px;
+    }
+     .section-use-radar .wrapper>.block-container{
+        width: auto;
+    }
+    .section-minerals .wrapper .block-container:nth-child(1){
+        left: 3%;
+    }
+    .section-minerals .wrapper .block-container:nth-child(2){
+        right: 3%;
+    }
+    .section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(1){
+        height: calc(346.16px * 0.8);
+    }
+    .section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(2){
+        height: calc(849px * 0.8);
+    }
+    .section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(1){
+        height: calc(418px * 0.8);
+       
+    }
+    .section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(2){
+        height: calc(503px * 0.8);
+    }
+    .section-transport{
+        padding:  0 10.25vw;
+    }
+    .section-transport .section-title{
+        padding: 0 28px;
+        text-align: left;
+        margin-bottom: 25px;
+        font-size: calc(4rem * 0.8);
+    }
+    .section-transport .wrapper>.background-image{
+        height: calc(1045px * 0.8);
+        
+    }
+    .section-transport .wrapper>.block-container{
+        padding: 74px 0 54px 0;
+    }
+    .section-transport .wrapper .block-container .chibi-block{
+        height: calc(655px * 0.8);
+    }
+    .section-token{
+        padding:  0 10.25vw;
+    }
+    .section-token .wrapper .block-container .background-image:nth-child(1){
+        height: calc(431px * 0.8);
+    }
+    .section-token .wrapper .block-container .background-image:nth-child(2){
+        height: calc(431px * 0.8);  
+    }
+    .section-token .wrapper>.background-image{
+        height: calc(1045px * 0.8);
+    }
+   
+}
