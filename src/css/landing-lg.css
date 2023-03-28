@@ -1,9 +1,9 @@
 @media screen and (min-width: 1280px) {
     .navbar{
-        padding: 15px 14.32vw;
+        padding: 15px 11.51vw 15px  14.63vw;
     }
     .nav-list-wrapper .nav-list .nav-item{
-        padding: 0 16px;
+        padding: 0 1.82vw;
     }
     
     .nav-list-wrapper .nav-list .nav-item .list-link{
@@ -15,7 +15,7 @@
     .section-head .wrapper .presentation .download-list .background-image{
         width: 171px;
         height: 78px;
-        
+
     }
     .section-head .wrapper .presentation .download-list li{
         margin: 4px 12px;
@@ -27,11 +27,9 @@
         background-position: -10% 50%;
         background-size: contain;
     }
-     .section-head .wrapper .presentation>.background-image{
-        width: 627px;
-        height: 627px;
-        margin: 0 auto;
-        background-position: 50%;
+
+    head .wrapper .description>.background-image:nth-child(1){
+        background-size: 100% 100%;
     }
     .section-head .wrapper .presentation .download-list .list-item{
         margin: 4px 8px;
@@ -83,7 +81,7 @@
     .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-subtitle{
         font-size: 2.25rem;
         max-width: none;
-        
+
     }
     .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-text{
         font-size: 1.75rem;
@@ -95,7 +93,7 @@
     .section-chibi-characteristics .wrapper .chibi-block:nth-child(2){
         height: 828px;
         background-size: 100% 90%;
-        
+
         margin: 0 12px;
         margin-top: 27px;
         max-width: calc(710px * 0.85);
@@ -136,7 +134,7 @@
     .section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(2){
         background-image: url("../assets/blocks/battle/md/lucy.svg");
         height: 711px;
-        width: 733px;  
+        width: 733px;
         right: 4%;
     }
     .section-artefacts .wrapper .block-container .chibi-block .chibi-content{
@@ -186,7 +184,7 @@
     }
     .section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(1){
         height: calc(418px * 0.8);
-       
+
     }
     .section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(2){
         height: calc(503px * 0.8);
@@ -202,7 +200,7 @@
     }
     .section-transport .wrapper>.background-image{
         height: calc(1045px * 0.8);
-        
+
     }
     .section-transport .wrapper>.block-container{
         padding: 74px 0 54px 0;
@@ -213,7 +211,7 @@
     .section-steal .wrapper > .chibi-block{
         height: calc(643px * 0.8);
     }
-  
+
     .section-steal .wrapper .block-container .chibi-block{
         height: calc(305px * 0.8);
         width: calc(700px * 0.8);
@@ -237,7 +235,7 @@
         height: calc(431px * 0.8);
     }
     .section-token .wrapper .block-container .background-image:nth-child(2){
-        height: calc(431px * 0.8);  
+        height: calc(431px * 0.8);
     }
     .section-token .wrapper>.background-image{
         height: calc(1045px * 0.8);

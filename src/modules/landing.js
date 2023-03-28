@@ -1,7 +1,7 @@
 //-----------css-------------------
 import '../css/landing.css'
-import '../css/landing-md.css'
-import '../css/landing-lg.css'
+// import '../css/landing-md.css'
+// import '../css/landing-lg.css'
 import '../css/landing-extra-lg.css'
 //-----------css-------------------
 
@@ -16,8 +16,8 @@ import '../assets/buildings/Academy.png'
 import '../assets/chibies/chibi clever.png'
 
 
-import '../assets/blocks/chibi-characteristics/block primary 1.png'
-import '../assets/blocks/chibi-characteristics/block primary 2.png'
+
+
 
 import '../assets/chibies/chibi iron.svg'
 import '../assets/blocks/battle/sm/elon.png'
@@ -76,6 +76,7 @@ import '../assets/decorations/chibi characteristics/arrow.svg'
 import '../assets/decorations/chibi characteristics/red arrow.svg'
 import '../assets/blocks/chibi-characteristics/characteristics.svg'
 import '../assets/decorations/chibi characteristics/md/red arrow 2.svg'
+import '../assets/blocks/chibi-characteristics/block primary 2.png'
 
 //---------battle---------------------------------
 import '../assets/decorations/battle/coin 50.svg'

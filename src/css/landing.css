@@ -77,7 +77,6 @@ h1, h2, h3, h4, h5, h6, span, a{
 .section{
     display: flex;
     flex-direction: column;
-    padding: 35px 12px 35px 12px;
 }
 .section .wrapper{
     position: relative;
@@ -202,6 +201,9 @@ h1, h2, h3, h4, h5, h6, span, a{
     color: #EA0F0F;
     font-family: inherit;
 }
+.text-bold{
+    font-weight: 700;
+}
 .p-absolute{
     position: absolute;
 }
@@ -257,9 +259,6 @@ h1, h2, h3, h4, h5, h6, span, a{
     max-width: 428px;
     align-self: center;
     flex-grow: 1;
-}
-.section-head .wrapper .decorations{
-    position: static;
 }
 .section-head .wrapper .presentation
 {
@@ -450,8 +449,14 @@ h1, h2, h3, h4, h5, h6, span, a{
     height: 168px;
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(2){
-    background-image: url('../assets/blocks/chibi-category/basic\ chibi.png');
+    background-image: url('../assets/blocks/chibi-category/basic\ chibi.svg');
     height: 188px;
+}
+.section-chibi-category .wrapper .chibi-block:nth-child(2) .chibi-content .chibi-subtitle{
+    color: white;
+}
+.section-chibi-category .wrapper .chibi-block:nth-child(2) .chibi-content .chibi-text{
+    color: white;
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(3){
     background-image: url('../assets/blocks/chibi-category/legendary\ chibi.svg');
@@ -488,21 +493,13 @@ h1, h2, h3, h4, h5, h6, span, a{
     background-size: 100% 100%;
     max-width: 428px;
     height: 527px;
-    background-image: url("../assets/blocks/chibi-characteristics/block primary 1.png");
+    background-image: url("../assets/blocks/chibi-characteristics/characteristics.svg");
 }
 .section-chibi-characteristics .wrapper .chibi-block:nth-child(2){
     height: 434px;
     background-image: url("../assets/chibies/chibi iron.svg");
     background-size: 100% 85%;
     margin-top: 27px;
-}
-
-.section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-image{
-    background-image: url("../assets/blocks/chibi-characteristics/characteristics.svg");
-    height: 155px;
-    border-radius: 19.1391px;
-    background-size: auto;
-    max-width: 386px;
 }
 .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-content{
     padding: 5px 13.6% 5px 13.6% ;
