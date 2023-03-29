@@ -24,6 +24,11 @@
 }
 @font-face {
     font-family: Roboto;
+    src: url('../assets/fonts/Roboto/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: Roboto;
     src: url('../assets/fonts/Roboto/Roboto-LightItalic.ttf');
     font-weight: 300;
     font-style: italic;
@@ -275,6 +280,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     font-family: Roboto;
     line-height: 130%;
     display: block;
+    font-weight: 400;
 }
 .section-head .wrapper .download-list{
     display: flex;
@@ -454,10 +460,10 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-academy .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/academy/cross.svg");
-    width: 26.87vw;
-    height: 10.51vw;
-    top: 41%;
-    left:43%;
+    width: 24.87vw;
+    height: 8.51vw;
+    top: 42%;
+    left:37%;
 }
 .section-academy .wrapper .decorations .background-image:nth-child(3){
     background-image: url("../assets/decorations/academy/vector 1.svg");
@@ -482,12 +488,17 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(1){
     background-image: url('../assets/blocks/chibi-category/free chibi.svg');
-    height: 41.98vw;
+    height: 33.64vw;
     width: 74.77vw;
+    background-size: 100% 100%;
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(1) .chibi-content{
-    padding: 6.54vw 6.48vw 6.54vw 9.54vw;
+    padding: 6.54vw 7.48vw 6.54vw 8.54vw;
     align-items: start;
+}
+.section-chibi-category .wrapper .chibi-block:nth-child(1) .chibi-content .chibi-subtitle{
+    font-family: Roboto;
+    font-weight: 700;
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(1) .chibi-content .chibi-text{
     margin: 2vw 0 0 0;
@@ -498,11 +509,13 @@ h1, h2, h3, h4, h5, h6, span, a{
     width: 74.77vw;
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(2) .chibi-content{
-    padding: 6.54vw 6.48vw 0 9.54vw;
+    padding: 7.54vw 6.48vw 0 7.54vw;
     align-items: start;
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(2) .chibi-content .chibi-subtitle{
     color: white;
+    font-family: Roboto;
+    font-weight: 700;
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(2) .chibi-content .chibi-text{
     color: white;
@@ -511,35 +524,40 @@ h1, h2, h3, h4, h5, h6, span, a{
     background-image: url('../assets/blocks/chibi-category/legendary\ chibi.svg');
     height: 46.73vw;
     width: 74.77vw;
+
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(3) .chibi-content{
-    padding: 6.54vw 6.48vw 6.54vw 9.54vw;
+    padding: 7.54vw 6.48vw 6.54vw 8.54vw;
     align-items: start;
+}
+.section-chibi-category .wrapper .chibi-block:nth-child(3) .chibi-content .chibi-subtitle{
+    font-family: Roboto;
+    font-weight: 700;
 }
 .section-chibi-category .wrapper .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/chibi category/line\ 1.svg");
     width: 15.65vw;
     height: 5.37vw;
-    top: -11.68vw;
+    top: -13.18vw;
     left: 17%;;
 }
 .section-chibi-category .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/chibi category/line\ 2.svg");
     width: 15.65vw;
     height: 5.37vw;
-    top: -11.68vw;
+    top: -13.18vw;
     right: 17%;;
 }
 .section-chibi-category .section-link{
     text-align: center;
-    margin: 2.80vw 0 9.35vw 0;
+    margin: 6.54vw 0 0 0;
     text-decoration: underline;
 }
 .section-chibi-characteristics{
     background-size: contain;
+    padding: 15.19vw 0 17.29vw 0;
 }
 .section-chibi-characteristics .wrapper .chibi-block{
-  padding: 8.88vw 0;
   background-clip: padding-box;
 }
 .section-chibi-characteristics .wrapper .chibi-block:nth-child(1){
@@ -553,40 +571,40 @@ h1, h2, h3, h4, h5, h6, span, a{
     margin: 5.84vw 0 0 0;
 }
 .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-content{
-    padding: 19.88vw 7.48vw 7.48vw 9.81vw;
+    padding: 8.88vw 7.48vw 7.48vw 9.81vw;
 }
 .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-content .chibi-subtitle{
     margin: 46.96vw 0 0 0;
-    font-size: 5.61vw;
     line-height: 130%;
 }
 .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-content .chibi-text {
     line-height: 130%;
-    font-size: 3.74vw;
+    font-weight: 400;
+    padding: 1.64vw 0 0 0;
 }
 .section-chibi-characteristics .wrapper .chibi-block:nth-child(2){
     height: 101.40vw;
     width: 86.92vw;
     background-image: url("../assets/chibies/chibi iron.svg");
     background-size: contain;
-    margin-top: 6.54vw;
+    margin-top: 15.19vw;
 }
 .section-chibi-characteristics .wrapper .decorations .background-image{
     background-size: contain;
 }
 .section-chibi-characteristics .wrapper .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/chibi\ characteristics/red arrow.svg");
-    height: 14.02vw;
-    width: 32.48vw;
-    top: 34%;
-    left: 46%;
+    height: 16.02vw;
+    width: 34.48vw;
+    top: 30%;
+    left: 50%;
 }
 .section-chibi-characteristics .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/chibi\ characteristics/arrow.svg");
-    width: 19.63vw;
-    height: 28.04vw;
-    top: 48%;
-    left: 45%;
+    width: 24.63vw;
+    height: 33.04vw;
+    top: 45%;
+    left: 42%;
 }
 .section-battle{
     padding: 12.38vw 0;
@@ -849,7 +867,7 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-minerals .section-title{
     margin: 8.64vw 0 0 0;
-
+    padding: 0 8.94vw 0 8.94vw;
 }
 .section-minerals .wrapper .block-container{
     width: 100%;
@@ -898,7 +916,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     left: 10%;
 } 
 .section-minerals .wrapper .decorations .chibi-block:nth-child(1) .chibi-text{
-    padding: 2.21vw 7.48vw;
+    padding: 3.61vw 7.48vw;
 }
 .section-minerals .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/minerals/red arrow.svg");
@@ -938,8 +956,8 @@ h1, h2, h3, h4, h5, h6, span, a{
 } 
 .section-minerals .wrapper .decorations .background-image:nth-child(7){
     background-image: url("../assets/decorations/minerals/cool artefacts.svg");
-    width: 31.78vw;
-    height: 6.07vw;
+    width: 33.78vw;
+    height: 8.07vw;
     top: 95.3%;
     left: 6%;
 } 
@@ -978,13 +996,14 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-transport .wrapper .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/transport/arr.svg");
-    height: 63px;
-    width: 56px;
-    top:51%;
+    height: 15.72vw;
+    width: 14.08vw;
+    top:48%;
 }
 .section-steal{
     padding: 8.64vw 0 17.99vw 0;
 }
+
 .section-steal .wrapper .block-container .chibi-block{
     height: 53.27vw;
     width: 87.38vw;
@@ -1007,7 +1026,11 @@ h1, h2, h3, h4, h5, h6, span, a{
     background-image: url("../assets/blocks/steal/primary\ warning.svg");
 }
 .section-steal .wrapper > .chibi-block .chibi-content{
-    padding: 24.21vw 12.21vw 5.61vw 14.12vw;
+    padding: 29.21vw 4.21vw 5.61vw 7.71vw;
+
+}
+.section-steal .wrapper > .chibi-block .chibi-content .chibi-text{
+    line-height: 150%;
 }
 .section-steal .wrapper .decorations .background-image{
     background-size: contain;
@@ -1026,9 +1049,13 @@ h1, h2, h3, h4, h5, h6, span, a{
     top: 53%;
     left: 10%;
 }
+
 .section-token .wrapper .block-container {
     flex-direction: column;
     width: 100%;
+}
+.section-token .wrapper .block-container .section-title{
+    padding: 0 8.2vw 0 8.2vw;
 }
 .section-token .wrapper .block-container .background-image:nth-child(1){
     height: 81.54vw;
@@ -1059,29 +1086,29 @@ h1, h2, h3, h4, h5, h6, span, a{
     background-image: url("../assets/decorations/tokens/rect.svg");
     width: 51.17vw;
     height: 28.50vw;
-    top: 19%;
+    top: 23%;
     left: 10%;
 }
 .section-token .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/tokens/arrow down.svg");
     width: 20.09vw;
     height: 32.48vw;
-    top: 19%;
-    left: 70%;
+    top: 22%;
+    left: 63%;
 }
 .section-token .wrapper .decorations .background-image:nth-child(3){
     background-image: url("../assets/decorations/tokens/arrow curve.svg");
     width: 14.02vw;
     height: 53.50vw;
-    top: 33%;
-
+    top: 35.5%;
+    left: 5%;
 }
 .section-token .wrapper .decorations .background-image:nth-child(4){
     background-image: url("../assets/decorations/tokens/rect 1.svg");
     width: 62.62vw;
     height: 28.74vw;
-    top: 45%;
-    left: 15%;
+    top: 47%;
+    left: 19%;
     
 }
 .section-token .wrapper .decorations .background-image:nth-child(5){
@@ -1089,7 +1116,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     width: 11.45vw;
     height: 16.36vw;
     top: 49.5%;
-    left: 87%;
+    left: 83%;
 }
 .section-token .wrapper .decorations .background-image.chibi-block:nth-child(1) .chibi-text{
     padding: 3.74vw 6.07vw;

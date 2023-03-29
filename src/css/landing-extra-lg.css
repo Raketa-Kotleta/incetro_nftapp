@@ -209,6 +209,7 @@
     .section-chibi-category .wrapper .chibi-block:nth-child(1){
         height: 13.54vw;
         width: 21.67vw;
+        background-image: url("../assets/blocks/chibi-category/md/free chibi.svg");
     }
     .section-chibi-category .wrapper .chibi-block:nth-child(1) .chibi-content .chibi-text{
         margin: 0;
@@ -249,8 +250,10 @@
         padding: 0;
         width: 36.98vw;
         padding: 0 0 0 1.1vw;
+        margin: 0 0 0 0;
     }
     .section-chibi-characteristics .wrapper .chibi-block:nth-child(1){
+        background-image: url("/src/assets/blocks/chibi-characteristics/md/characteristics.svg");
         background-size: contain;
         width: 31.51vw;
         height: 43.65vw;
@@ -516,6 +519,7 @@
         height: 33.49vw;
         width: 29.95vw;
         align-self: start;
+        background-image: url("../assets/blocks/steal/md/primary warning.svg");
     }
     .section-steal .wrapper > .chibi-block .chibi-content{
         padding: 9.36vw 4.92vw 3.39vw 4.92vw;
@@ -645,7 +649,7 @@
         height: 9.48vw;
         width: 10.73vw;
         top: 89%;
-        left: -40%;
+        left: -48%;
     }
     
     .section-head .wrapper .description .decorations .background-image:nth-child(1){
