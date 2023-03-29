@@ -3,6 +3,7 @@ import '../css/landing.css'
 // import '../css/landing-md.css'
 // import '../css/landing-lg.css'
 import '../css/landing-extra-lg.css'
+import '../css/landing-extra-extra-lg.css'
 //-----------css-------------------
 
 

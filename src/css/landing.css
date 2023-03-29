@@ -12,6 +12,36 @@
     url('../assets/fonts/Roboto Condensed/RobotoCondensed-LightItalic.ttf');
     
 }
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/fonts/Roboto/Roboto-Thin.ttf');
+    font-weight: 100;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/fonts/Roboto/Roboto-Light.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/fonts/Roboto/Roboto-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/fonts/Roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/fonts/Roboto/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+/*.section .chibi-block{*/
+/*    background-size: 100% 100%;*/
+/*}*/
+
 body{
     margin: 0;
     padding: 0;
@@ -31,6 +61,7 @@ h1, h2, h3, h4, h5, h6, span, a{
 .background-image{
   display: block;
   background-repeat: no-repeat;
+    background-size: 100% 100%;
   background-position: 50%;
   width: 100%;
  
@@ -39,7 +70,6 @@ h1, h2, h3, h4, h5, h6, span, a{
     position: absolute;
     width: 100%;
     height: 100%;
-    max-width: 428px;
     align-self: center;
 }
 .decorations > *{
@@ -67,7 +97,7 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .list-item{
     list-style: none;
-    padding: 4px 8px;
+    padding: 0.93vw 2.10vw;
 }
 .list-link{
     color: white;
@@ -84,7 +114,6 @@ h1, h2, h3, h4, h5, h6, span, a{
     flex-direction: column;
 }
 .section .wrapper .decorations{
-    max-width: 428px;
 }
 
 .block-container{
@@ -168,7 +197,7 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-title{
     font-weight: 700;
-    font-size: 2.25rem;
+    font-size: 8.41vw;
     text-align: center;
     font-style: normal;
 
@@ -182,7 +211,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     text-align: center;
 }
 .section-link{
-    font-family: Roboto Condensed;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 1.125rem;
     color: #000000;
@@ -193,7 +222,7 @@ h1, h2, h3, h4, h5, h6, span, a{
 .head-title{
     font-family: VAG World !important;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 14.95vw;
     text-align: center;
   
 }
@@ -212,7 +241,6 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .chibi-block {
     align-self: center;
-    max-width: 428px;
     width: 100%;
     background-size: contain;
 }
@@ -230,33 +258,33 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .chibi-name{
     font-family: VAG World;
+    font-family: Roboto;
 }
 .chibi-title{
-    font-size: 1.875rem;
+    font-size: 7.01vw;
     font-family: "VAG World";
 }
 .chibi-subtitle{
     font-family: "VAG World";
     line-height: 1.5;
-    font-size: 1.625rem;
+    font-size: 6.07vw;
 }
 
 .chibi-text{
-    font-size: 1.125rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4.21vw;
+    font-family: Roboto;
     line-height: 130%;
     display: block;
 }
 .section-head .wrapper .download-list{
     display: flex;
     justify-content: center;
-    padding: 16px;
+    padding: 3.74vw 1.87vw;
 }
 .section-head .wrapper .description{
     position: relative;
-    height: 617px;
+    height: 144.16vw;
     width: 100%;
-    max-width: 428px;
     align-self: center;
     flex-grow: 1;
 }
@@ -264,17 +292,19 @@ h1, h2, h3, h4, h5, h6, span, a{
 {
     position: relative;
     width: 100%;
-    max-width: 428px;
     align-self: center;
 }
 .section-head .wrapper .presentation>.background-image{
     background-image: url('../assets/chibies/three chibis.svg');
-    height: 332px;
-    background-size: 90%;
+    height: 77.57vw;
+    width: 77.57vw;
+    background-size: 100% 100%;
+    margin: 0 auto;
+
 }
 .section-head .wrapper .presentation .download-list .background-image{
-    height: 46px;
-    width: 161px;
+    height: 7.01vw;
+    width: 21.50vw;
 }
 .section-head .wrapper .presentation .download-list .background-image:nth-child(1){
     background-image: url('../assets/download_links/app store.svg');
@@ -290,32 +320,35 @@ h1, h2, h3, h4, h5, h6, span, a{
     
     
 }
+.section-head .wrapper .description .decorations .background-image{
+    background-size: contain;
+}
 .section-head .wrapper .presentation .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/head/head 0/arrow.svg");
-    height: 47px;
-    width: 111px;
-    top: 106px;
+    height: 10.98vw;
+    width: 25.93vw;
+    top: 24.77vw;
 }
 .section-head .wrapper .presentation .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/head/head 0/Vector 1.svg");
-    height: 30px;
-    width: 39px;
-    top: 395px;
+    height: 7.01vw;
+    width: 9.11vw;
+    top: 92.29vw;
     right: 0;
 }
 .section-head .wrapper .presentation .decorations .background-image:nth-child(3){
     background-image: url("../assets/decorations/head/head 0/Vector 2.svg");
-    height: 13px;
-    width: 20px;
-    top: 385px;
-    left: 10px
+    height: 3.04vw;
+    width: 4.67vw;
+    top: 89.95vw;
+    left: 2.34vw;
 }
 .section-head .wrapper .presentation .decorations .background-image:nth-child(4){
     background-image: url("../assets/decorations/head/head 0/Vector 3.svg");
-    height: 29px;
-    width: 45px;
-    top: 170px;
-    right: 24px;
+    height: 6.78vw;
+    width: 10.51vw;
+    top: 40.51vw;
+    right: 10.61vw;
 }
 .section-head .wrapper .description>.background-image{
     height: 100%;
@@ -324,66 +357,74 @@ h1, h2, h3, h4, h5, h6, span, a{
 .section-head .wrapper .description{
     position: relative;
 }
+.section-head .wrapper .description .decorations{
+    position: static;
+}
 .section-head .wrapper .description>.background-image:nth-child(1){
     background-image: url('../assets/phones/main phones/phones.svg');
    
 }
 .section-head .wrapper .description .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/head/head 1/arrow head phones 1.svg");
-    height: 88px;
-    width: 88px;
-   
-   
+    height: 20.56vw;
+    width: 20.56vw;
+    top: 0;
+    left: 50%;
 }
 .section-head .wrapper .description .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/head/head 1/arrow head phones 2.svg");
-    height: 47px;
-    width: 84px;
-    top: 400px;
+    height: 10.98vw;
+    width: 19.63vw;
+    top: 93.46vw;
     left: 4%;
+    transform: scaleX(-1);
 }
 .section-head .wrapper .description .decorations .background-image:nth-child(3){
     background-image: url("../assets/decorations/head/head 1/vector\ head\ phones\ 1.svg");
-    height: 18px;
-    width: 19px;
+    height: 4.44vw;
+    width: 4.44vw;
     top: 263px;
-    left: calc(86% + 25px);
+    left: calc(86% + 5.84vw);
 }
 .section-head .wrapper .description .decorations .background-image:nth-child(4){
     background-image: url("../assets/decorations/head/head 1/vector\ head\ phones\ 2.svg");
-    height: 88px;
-    width: 88px;
-    top: 520px;
-   left: 74%;
+    height: 15.89vw;
+    width: 15.89vw;
+    top: 90%;
+    left: 77%;
+    transform: scaleX(-1) rotate(20deg);
 }
 .section-head .wrapper .description .decorations .flying-text{
-    font-size: 1.25rem;
+    font-size: 4.67vw;
     font-family: VAG World;
     font-weight: 1000;
 }
 .section-head .wrapper .description .decorations .flying-text:nth-last-child(1){
-    top:92px;
+    top:20.50vw;
     left: 60%;
     transform: rotate(-6.43deg);
 }
 .section-head .wrapper .description .decorations .flying-text:nth-last-child(2){
-    top:114px;
+    top:25.64vw;
     left: 72.8%;
     transform: rotate(4.69deg);
 }
 .section-head .wrapper .description .decorations .flying-text:nth-last-child(3){
-    top:150px;
+    top:34.05vw;
     left: 65%;
     transform: rotate(-2.72deg);
 }
 .section-head .wrapper .description .decorations .flying-text:nth-last-child(4){
-    top:177px;
+    top:40.36vw;
     left: 78.7%;
     transform: rotate(6.41deg);
 }
-
+.section-academy{
+    padding: 17.29vw 0 12.15vw 0;
+}
 .section-academy .section-title{
-    margin-top: 40px;
+    margin: 0 0 16.36vw 0;
+    padding: 0 11.45vw;
 }
 .section-academy .wrapper .chibi-block{
     background-size: contain;
@@ -392,65 +433,73 @@ h1, h2, h3, h4, h5, h6, span, a{
     background-image: url("../assets/blocks/academy/academy.svg");
     background-repeat: no-repeat;
     background-position: 50%;
-    height: 222px ;
+    height: 51.87vw;
 }
 .section-academy .wrapper .chibi-block:nth-child(2){
     background-image: url("../assets/blocks/academy/chibi.svg");
     background-repeat: no-repeat;
     background-position: 50% 80%;
-    height: 282px;
+    height: 65.89vw;
+    margin: 12.85vw 0 0 0;
 }
 .section-academy .wrapper .decorations .background-image{
     background-size: contain;
 }
 .section-academy .wrapper .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/academy/arrow.svg");
-    height: 87px;
-    width: 115px;
+    height: 20.33vw;
+    width: 26.87vw;
     left: 15%;
-    top: -20px
+    top: -18.69vw;
 }
 .section-academy .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/academy/cross.svg");
-    width: 62px;
-    height: 45px;
-    top: 46%;
-    left: 43%;
+    width: 26.87vw;
+    height: 10.51vw;
+    top: 41%;
+    left:43%;
 }
 .section-academy .wrapper .decorations .background-image:nth-child(3){
     background-image: url("../assets/decorations/academy/vector 1.svg");
-    width: 58px;
-    height: 47px;
-    top: 600px;
+    width: 13.55vw;
+    height: 10.98vw;
+    top: 120.80vw;
     right: 4%;
 }
 .section-academy .wrapper .decorations .background-image:nth-child(4){
     background-image: url("../assets/decorations/academy/arrow 2.svg");
-    width: 66px;
-    height: 55px;
-    top: 43%;
+    width: 15.42vw;
+    height: 12.85vw;
+    top: 38%;
     left: 1%;
 }
 .section-chibi-category{
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding: 15.19vw 0 17.52vw 0;
 }
 .section-chibi-category .section-title{
-    margin: 30px 0 14px 0;
-    padding: 12px 70px;
-   
-}
-.section-chibi-category .wrapper .chibi-block{
-    
-    
+    margin: 0 0 6.54vw 0;
+    padding: 0 7.94vw;
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(1){
     background-image: url('../assets/blocks/chibi-category/free chibi.svg');
-    height: 168px;
+    height: 41.98vw;
+    width: 74.77vw;
+}
+.section-chibi-category .wrapper .chibi-block:nth-child(1) .chibi-content{
+    padding: 6.54vw 6.48vw 6.54vw 9.54vw;
+    align-items: start;
+}
+.section-chibi-category .wrapper .chibi-block:nth-child(1) .chibi-content .chibi-text{
+    margin: 2vw 0 0 0;
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(2){
     background-image: url('../assets/blocks/chibi-category/basic\ chibi.svg');
-    height: 188px;
+    height: 43.93vw;
+    width: 74.77vw;
+}
+.section-chibi-category .wrapper .chibi-block:nth-child(2) .chibi-content{
+    padding: 6.54vw 6.48vw 0 9.54vw;
+    align-items: start;
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(2) .chibi-content .chibi-subtitle{
     color: white;
@@ -460,94 +509,99 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-chibi-category .wrapper .chibi-block:nth-child(3){
     background-image: url('../assets/blocks/chibi-category/legendary\ chibi.svg');
-    height: 232px;
+    height: 46.73vw;
+    width: 74.77vw;
+}
+.section-chibi-category .wrapper .chibi-block:nth-child(3) .chibi-content{
+    padding: 6.54vw 6.48vw 6.54vw 9.54vw;
+    align-items: start;
 }
 .section-chibi-category .wrapper .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/chibi category/line\ 1.svg");
-    width: 67px;
-    height: 23px;
-    top: -62px;
-    left: 0%;;
+    width: 15.65vw;
+    height: 5.37vw;
+    top: -11.68vw;
+    left: 17%;;
 }
 .section-chibi-category .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/chibi category/line\ 2.svg");
-    width: 67px;
-    height: 23px;
-    top: -62px;
-    right: 0%;;
+    width: 15.65vw;
+    height: 5.37vw;
+    top: -11.68vw;
+    right: 17%;;
 }
 .section-chibi-category .section-link{
     text-align: center;
-    margin: 12px 0 40px 0;
+    margin: 2.80vw 0 9.35vw 0;
     text-decoration: underline;
 }
 .section-chibi-characteristics{
     background-size: contain;
 }
 .section-chibi-characteristics .wrapper .chibi-block{
-  
-  padding: 38px 0;
+  padding: 8.88vw 0;
   background-clip: padding-box;
 }
 .section-chibi-characteristics .wrapper .chibi-block:nth-child(1){
     background-size: 100% 100%;
-    max-width: 428px;
-    height: 527px;
+    width: 85.51vw;
+    height: 123.13vw;
     background-image: url("../assets/blocks/chibi-characteristics/characteristics.svg");
+
 }
-.section-chibi-characteristics .wrapper .chibi-block:nth-child(2){
-    height: 434px;
-    background-image: url("../assets/chibies/chibi iron.svg");
-    background-size: 100% 85%;
-    margin-top: 27px;
+.section-chibi-characteristics .wrapper .chibi-block:nth-child{
+    margin: 5.84vw 0 0 0;
 }
 .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-content{
-    padding: 5px 13.6% 5px 13.6% ;
+    padding: 19.88vw 7.48vw 7.48vw 9.81vw;
 }
-.section-chibi-characteristics .wrapper .chibi-block .chibi-title{
-    margin-bottom: 33px;
-    max-width: 291px;
+.section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-content .chibi-subtitle{
+    margin: 46.96vw 0 0 0;
+    font-size: 5.61vw;
+    line-height: 130%;
 }
-.section-chibi-characteristics .wrapper .chibi-block .chibi-subtitle{
-    max-width: 281px;
-    margin-top: 12px;
+.section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-content .chibi-text {
+    line-height: 130%;
+    font-size: 3.74vw;
 }
-.section-chibi-characteristics .wrapper .chibi-block .chibi-text{
-    margin-top: 2vh;
-    max-width: 291px;
+.section-chibi-characteristics .wrapper .chibi-block:nth-child(2){
+    height: 101.40vw;
+    width: 86.92vw;
+    background-image: url("../assets/chibies/chibi iron.svg");
+    background-size: contain;
+    margin-top: 6.54vw;
 }
 .section-chibi-characteristics .wrapper .decorations .background-image{
     background-size: contain;
 }
 .section-chibi-characteristics .wrapper .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/chibi\ characteristics/red arrow.svg");
-    height: 60px;
-    width: 139px;
-    top: 325px;
-    left: 50%;
+    height: 14.02vw;
+    width: 32.48vw;
+    top: 34%;
+    left: 46%;
 }
 .section-chibi-characteristics .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/chibi\ characteristics/arrow.svg");
-    width: 84px;
-    height: 120px;
-    top: 532px;
+    width: 19.63vw;
+    height: 28.04vw;
+    top: 48%;
     left: 45%;
 }
 .section-battle{
-    padding: 53px 0;
+    padding: 12.38vw 0;
 }
 .section-battle .section-title{
-    margin-bottom: 45px;
-    padding: 0 56px;
+    margin-bottom: 10.51vw;
+    padding: 0 12.38vw;
 }
 .section-battle .wrapper .block-container{
     position: relative;
-    max-width: 428px;
     align-self: center;
     width: 100%;
 }
 .section-battle .wrapper .block-container:nth-child(1){
-    height: 322px;
+    height: 75.23vw;
 }
 .section-battle .wrapper .block-container:nth-child(2){
     flex-direction: column;
@@ -560,39 +614,43 @@ h1, h2, h3, h4, h5, h6, span, a{
 .section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(1){
     background-image: url("../assets/blocks/battle/sm/elon.png");
     background-position: 0% 0;
-    height: 317px;
+    height: 74.07vw;
+    width: 74.07vw;
     width: 58%;
 }
 .section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(2){
     background-image: url("../assets/blocks/battle/sm/lucy.png");
     background-position: 100% 0;
-    height: 322px;
+    height: 75.23vw;
+    width: 75.23vw;
     width: 58%;
     right: 0;
 }
 .section-battle .wrapper .block-container:nth-child(2) .chibi-block:nth-child(1){
     background-image: url("../assets/blocks/battle/sm/block primary.png");
-    margin-left: 24px;
-    margin-top: 114px;
-    max-width: 211px;
+    margin-top: 26.64vw;
     align-self: flex-start;
-    background-size: auto 100%;
+    width: 49.30vw;
+    height: 30.61vw;
+    margin-left: 7.94vw;
 }
 
 .section-battle .wrapper .block-container:nth-child(2) .chibi-block:nth-child(2){
     align-self: start;
 }
+.section-battle .wrapper .block-container:nth-child(2) .chibi-block:nth-child(1) .block-content{
+    padding: 3.27vw 3.04vw 3.27vw 4.21vw;
+}
 .section-battle .wrapper .block-container:nth-child(2) .chibi-block:nth-child(1) .chibi-text{
-    font-size: 1rem;
-    padding: 12px;
+    font-size: 3.74vw;
     font-weight: 500;
 }
 .section-battle .wrapper .block-container:nth-child(2) .chibi-block:nth-child(2) .chibi-text{
-    font-size: 23px;
-    margin-left: 52px;
-    max-width: 190px;
+    font-size: 5.61vw;
+    margin-left: 12.15vw;
     transform: rotate(-6.82deg);
-    padding: 8px 0;
+    padding: 1.87vw 0;
+    width: 42.06vw;
     font-family: VAG World;
     text-decoration-line: underline;
     text-decoration-color: #EA0F0F;
@@ -602,56 +660,56 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-battle .wrapper .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/battle/versus.svg");
-    width: 72px;
-    height: 51px;
+    width: 16.82vw;
+    height: 11.92vw;
     left: 43%;
     top: 17%;
 }
 .section-battle .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/battle/arr 1.svg");
-    width: 143px;
-    height: 80px;
+    width: 33.41vw;
+    height: 18.69vw;
     top: 48%;
     left: 25%;
 }
 .section-battle .wrapper .decorations .background-image:nth-child(3){
     background-image: url("../assets/decorations/battle/arr 2.svg");
-    width: 76px;
-    height: 72px;
+    width: 17.76vw;
+    height: 16.82vw;
     top: 48%;
     left: 55%;
 }
 .section-battle .wrapper .decorations .background-image:nth-child(4){
     background-image: url("../assets/decorations/battle/coin 50.svg");
-    width: 87px;
-    height: 32px;
+    width: 20.33vw;
+    height: 7.48vw;
     top: 55%;
     left: 15%;
 }
 .section-battle .wrapper .decorations .background-image:nth-child(5){
     background-image: url("../assets/decorations/battle/coin 50.svg");
-    width: 87px;
-    height: 32px;
+    width: 20.33vw;
+    height: 7.48vw;
     top: 50%;
     right: 3%;
 }
 .section-battle .wrapper .decorations .background-image:nth-child(6){
     background-image: url("../assets/decorations/battle/bag.svg");
-    height: 219px;
-    width: 181px;
+    height: 51.17vw;
+    width: 42.29vw;
     top: 61%;
     right: 0px;
 }
 .section-battle .wrapper .decorations .background-image:nth-child(7){
     background-image: url("../assets/decorations/battle/coin 100.svg");
-    width: 87px;
-    height: 43px;
+    width: 20.33vw;
+    height: 10.05vw;
     top: 95%;
     right: 5%;
 }
 
 .section-artefacts{ 
-    padding: 86px 8px 66px 8px;
+    padding: 20.09vw 1.87vw 15.42vw 1.87vw;
 }
 .section-artefacts .section-title{
     
@@ -659,19 +717,27 @@ h1, h2, h3, h4, h5, h6, span, a{
 .section-artefacts .wrapper .block-container{
     flex-direction: row;
     justify-content: center;
-    margin-top: 85px;
+    margin-top: 19.86vw;
 }
 .section-artefacts .wrapper .block-container .chibi-block{
     background-position: 50% 0;
-    background-size: 96% 198px;
-    max-width: 198px;
+    background-size: contain;
+    height: 46.26vw;
+}
+.section-artefacts .wrapper .block-container .chibi-block:nth-child(1){
+    width: 41.59vw;
+    margin-right: 2.80vw;
+}
+.section-artefacts .wrapper .block-container .chibi-block:nth-child(2){
+    width: 43.93vw;
+    margin-left: 2.80vw;
 }
 .section-artefacts .wrapper .block-container .chibi-block .chibi-content{
     justify-content: end;
+    padding-top: 4.21vw;
 }
 .section-artefacts .wrapper .block-container .chibi-block .chibi-name{
-    margin-top: 200px;
-    font-size: 1.25rem;
+    font-size: 4.67vw;
 }
 .section-artefacts .wrapper .block-container .chibi-block:nth-child(1){
     background-image: url("../assets/blocks/artifacts/radar.svg");
@@ -684,97 +750,105 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-artefacts .wrapper .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/artefacts/arrow-left.svg");
-    height: 44px;
-    width: 99px;
+    height: 10.28vw;
+    width: 23.13vw;
     left: 23%;
     top: 8%;
 }
 .section-artefacts .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/artefacts/arrow-right.svg");
-    height: 44px;
-    width: 99px;
+    height: 10.28vw;
+    width: 23.13vw;
     right: 23%;
     top: 8%;
 }
 .section-artefacts .wrapper .decorations .background-image:nth-child(3){
     background-image: url("../assets/decorations/artefacts/spray.svg");
-    height: 35px;
-    width: 35px;
+    height: 8.18vw;
+    width: 8.18vw;
     top: 88%;
 }
 .section-use-radar{
-    padding: 0 16px;
+    padding: 0 3.74vw;
 }
 .section-use-radar .wrapper>.block-container{
     align-self: center;
     width: 100%;
-    max-width: 428px;
 }
 .section-use-radar .wrapper>.block-container .chibi-block{
     background-image: url("../assets/blocks/use radar/primary block tube.svg");
-    height: 372.84px;
+    height: 86.92vw;
+    width: 95.79vw;
     background-size: 100% 100%;
-
+    background-position: 50% 50%;
+    margin-left: 4vw;
+}
+.section-use-radar .wrapper>.block-container .chibi-block .chibi-content{
+    padding: 26.87vw 15.55vw 7.01vw 5.35vw;
 }
 .section-use-radar .wrapper>.block-container>.block-container{
-    padding: 0 16px;
-    margin-bottom: 32px;
+    padding: 0 3.74vw;
+    margin-bottom: 7.48vw;
 }
 .section-use-radar .wrapper>.block-container>.block-container .background-image{
     background-size: contain;
 }
 .section-use-radar .wrapper>.block-container>.block-container .background-image:nth-child(1){
-    height: 246px;
+    height: 57.48vw;
+    width: 57.48vw;
     background-image: url("../assets/artefacts/use radar/box.png");
     background-size: contain;
 }
 .section-use-radar .wrapper>.block-container>.block-container .background-image:nth-child(2){
-    height: 246px;
+    height: 57.48vw;
     background-image: url("../assets/artefacts/use radar/sword.svg");
 }
 .section-use-radar .wrapper>.background-image{
     background-image: url('../assets/phones/use radar/phone.svg');
-    height: 610px;
-    margin: 32px 0;
+    height: 142.52vw;
+    width: 70.09vw;
+    margin: 7.48vw 0;
+    background-position: 50%;
+    align-self: center;
 }
 .section-use-radar .wrapper .decorations .background-image{
     background-size: contain;
 }
 .section-use-radar .wrapper .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/radar/redarr\ left.svg");
-    width: 47px;
-    height: 73px;
+    width: 10.98vw;
+    height: 17.06vw;
     top: 27%;
     left: 28%;
 }
 .section-use-radar .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/radar/arrow\ spiral.svg");
-    width: 73px;
-    height: 111px;
+    width: 17.06vw;
+    height: 17.06vw;
     top: 24.5%;
     left: 50%;
 }
 .section-use-radar .wrapper .decorations .background-image:nth-child(3){
     background-image: url("../assets/decorations/radar/crown.svg");
-    width: 67px;
-    height: 67px;
-    top: 640px;
-    left: -10px;
+    width: 15.65vw;
+    height: 15.65vw;
+    top: 48.5%;
+    left: 0px;
 }
 .section-use-radar .wrapper .decorations .background-image:nth-child(4){
     background-image: url("../assets/decorations/radar/spray.svg");
-    width: 57px;
-    height: 57px;
+    width: 13.32vw;
+    height: 13.32vw;
     top: 95%;
-    right: -17px;
+    right: -2%;
 }
 .section-minerals{
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 3.74vw;
+    padding-right: 3.74vw;
    
 }
 .section-minerals .section-title{
-    margin: 37px 0 0 0;
+    margin: 8.64vw 0 0 0;
 
 }
 .section-minerals .wrapper .block-container{
@@ -784,106 +858,119 @@ h1, h2, h3, h4, h5, h6, span, a{
     background-size: contain;
 }
 .section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(1){
-    height: 183px;
+    height: 42.76vw;
     background-image: url("../assets/blocks/minerals/minerals.svg");
-    margin: 122px 0 32px 0 ;
+    margin: 28.50vw 0 7.48vw 0 ;
 }
 .section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(2){
-    height: 545px;
+    height: 127.34vw;
+    width: 84.58vw;
     background-image: url("../assets/blocks/minerals/factory.svg");
-    margin:60px 0 52px 0;
+    margin:14.02vw 0 12.15vw 0;
+}
+
+.section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(2) .chibi-content{
+    padding: 6.54vw 10.75vw 11.68vw 12.15vw;
+}
+.section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(2) .chibi-content .chibi-text:nth-child(2){
+    margin: 64.95vw 0 0 0;
+}
+.section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(2) .chibi-content .chibi-text:nth-child(3){
+    margin: 6.21vw 0 0 11.24vw;
 }
 .section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(1){
-    height: 270px;
+    height: 63.08vw;
     background-image: url("../assets/blocks/minerals/metall and crystalls.svg");
 }
 .section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(2){
-    height: 329px;
+    height: 76.87vw;
     background-image: url("../assets/blocks/minerals/shield and sword.svg");
-    margin: 32px 0 0 0;
+    margin: 7.48vw 0 0 0;
 }
 .section-minerals .wrapper .decorations .background-image{
     background-size: contain;
 }
 .section-minerals .wrapper .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/minerals/rect red.svg");
-    width: 285px;
-    height: 82px;
-    top: 20px;
+    width: 66.59vw;
+    height: 19.16vw;
+    top: 4.67vw;
     left: 10%;
 } 
 .section-minerals .wrapper .decorations .chibi-block:nth-child(1) .chibi-text{
-    padding: 18px 32px;
+    padding: 2.21vw 7.48vw;
 }
 .section-minerals .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/minerals/red arrow.svg");
-    height: 69px;
-    width: 49px;
+    height: 16.12vw;
+    width: 11.45vw;
     left: 42%;
     top: 19%;
 } 
 
 .section-minerals .wrapper .decorations .background-image:nth-child(3){
     background-image: url("../assets/decorations/minerals/info-1.svg");
-    width: 93px;
-    height: 28px;
+    width: 21.73vw;
+    height: 6.54vw;
     top:60%;
-    left: calc(20px + 27%);
+    left: calc(4.67vw + 27%);
 } 
 .section-minerals .wrapper .decorations .background-image:nth-child(4){
     background-image: url("../assets/decorations/minerals/crown right.svg");
-    width: 34px;
-    height: 45px;
-    top:62.6%;
-    left: calc(20px + 87%);
+    width: 7.94vw;
+    height: 10.51vw;
+    top: 62%;
+    left: 92%;
 } 
 .section-minerals .wrapper .decorations .background-image:nth-child(5){
     background-image: url("../assets/decorations/minerals/arrow zig zag.svg");
-    width: 66px;
-    height: 126px;
+    width: 15.42vw;
+    height: 29.44vw;
     top: 73.5%;
     left: 37%;
 } 
 .section-minerals .wrapper .decorations .background-image:nth-child(6){
     background-image: url("../assets/decorations/minerals/info.svg");
-    width: 93px;
-    height: 28px;
+    width: 21.73vw;
+    height: 6.54vw;
     top: 77.5%;
     left: 55%;
 } 
 .section-minerals .wrapper .decorations .background-image:nth-child(7){
     background-image: url("../assets/decorations/minerals/cool artefacts.svg");
-    width: 136px;
-    height: 26px;
+    width: 31.78vw;
+    height: 6.07vw;
     top: 95.3%;
     left: 6%;
 } 
 .section-minerals .wrapper .decorations .background-image:nth-child(8){
     background-image: url("../assets/decorations/minerals/arrow red spiral.svg");
-    width: 105px;
-    height: 147px;
+    width: 24.53vw;
+    height: 34.35vw;
     top:55%;
-    left: calc(20px + 47%);
+    left: calc(4.67vw + 47%);
 } 
 .section-transport{
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 3.27vw;
+    padding-right: 3.27vw;
 }
 .section-transport .section-title{
-    padding: 0 28px;
+    padding: 0 6.54vw;
     text-align: left;
-    margin-bottom: 25px;
+    margin-bottom: 5.84vw;
 }
 .section-transport .wrapper>.background-image{
-    height: 760px;
+    height: 169.63vw;
+    width: 77.80vw;
+    align-self: center;
     background-size: contain;
     background-image: url("../assets/phones/transport/p-map.svg");
 }
 .section-transport .wrapper>.block-container{
-    padding: 74px 0 54px 0;
+    padding: 17.29vw 0 12.62vw 0;
 }
 .section-transport .wrapper .block-container .chibi-block{
-    height: 394px;
+    height: 92.06vw;
     background-image: url("../assets/chibies/chibi moto.svg");  
 }
 .section-transport .wrapper .decorations .background-image{
@@ -895,39 +982,47 @@ h1, h2, h3, h4, h5, h6, span, a{
     width: 56px;
     top:51%;
 }
+.section-steal{
+    padding: 8.64vw 0 17.99vw 0;
+}
 .section-steal .wrapper .block-container .chibi-block{
-    height: 228px;
-    background-size: 95% 100%;
+    height: 53.27vw;
+    width: 87.38vw;
+    background-size: 100% 100%;
     background-image: url("../assets/blocks/steal/primary block.png");
 }
 .section-steal .wrapper .block-container .background-image:nth-child(2){
-    height: 344px;
+    height: 78.04vw;
     background-image: url("../assets/chibies/ninja.svg");
     background-size: contain;
     background-position: 50% 0;
 }
 .section-steal .wrapper .block-container .chibi-block .chibi-title{
-    padding: 32px 32px;
-    font-size: 2rem;
+    padding: 7.48vw 7.48vw;
+    font-size: 7.48vw;
 }
 .section-steal .wrapper > .chibi-block{
-    height: 386px;
+    height: 85.51vw;
+    width: 83.18vw;
     background-image: url("../assets/blocks/steal/primary\ warning.svg");
+}
+.section-steal .wrapper > .chibi-block .chibi-content{
+    padding: 24.21vw 12.21vw 5.61vw 14.12vw;
 }
 .section-steal .wrapper .decorations .background-image{
     background-size: contain;
 }
 .section-steal .wrapper .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/steal/spray\ black.svg");
-    width: 59px;
-    height: 50px;
+    width: 13.79vw;
+    height: 11.68vw;
     top: 23%;
     left: 85%;
 }
 .section-steal .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/steal/arrow\ red.svg");
-    width: 135px;
-    height: 90px;
+    width: 31.54vw;
+    height: 21.03vw;
     top: 53%;
     left: 10%;
 }
@@ -936,91 +1031,97 @@ h1, h2, h3, h4, h5, h6, span, a{
     width: 100%;
 }
 .section-token .wrapper .block-container .background-image:nth-child(1){
-    height: 349px;
+    height: 81.54vw;
     background-image: url("../assets/blocks/tokens/sword.svg");
     background-position: 0% 50%;
 }
 .section-token .wrapper .block-container .background-image:nth-child(2){
-    height: 270px;
+    height: 67.52vw;
     background-image: url("../assets/blocks/tokens/marketplace.svg");
-    margin: 152px 0;
+    margin: 35.51vw 0;
     background-position: 85% 50%;
 }
+.section-token .wrapper .block-container .background-image:nth-child(2) .chibi-content{
+    display: none;
+}
 .section-token .wrapper>.background-image{
-    height: 751px;
+    height: 175.47vw;
+    width: 85.51vw;
+    align-self: center;
     background-size: contain;
     background-image: url("../assets/phones/token/p-token.svg");
-    margin: 77px 0;
+    margin: 17.99vw 0;
 }
 .section-token .wrapper .decorations .background-image{
     background-size: contain;
 }
 .section-token .wrapper .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/tokens/rect.svg");
-    width: 219px;
-    height: 122px;
+    width: 51.17vw;
+    height: 28.50vw;
     top: 19%;
     left: 10%;
 }
 .section-token .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/tokens/arrow down.svg");
-    width: 86px;
-    height: 139px;
+    width: 20.09vw;
+    height: 32.48vw;
     top: 19%;
     left: 70%;
 }
 .section-token .wrapper .decorations .background-image:nth-child(3){
     background-image: url("../assets/decorations/tokens/arrow curve.svg");
-    width: 60px;
-    height: 229px;
+    width: 14.02vw;
+    height: 53.50vw;
     top: 33%;
 
 }
 .section-token .wrapper .decorations .background-image:nth-child(4){
     background-image: url("../assets/decorations/tokens/rect 1.svg");
-    width: 268px;
-    height: 123px;
+    width: 62.62vw;
+    height: 28.74vw;
     top: 45%;
     left: 15%;
     
 }
 .section-token .wrapper .decorations .background-image:nth-child(5){
     background-image: url("../assets/decorations/tokens/spiral.svg");
-    width: 49px;
-    height: 70px;
+    width: 11.45vw;
+    height: 16.36vw;
     top: 49.5%;
     left: 87%;
 }
 .section-token .wrapper .decorations .background-image.chibi-block:nth-child(1) .chibi-text{
-    padding: 16px 26px;
+    padding: 3.74vw 6.07vw;
     transform: rotate(-2.99deg);
 }
 .section-token .wrapper .decorations .chibi-block:nth-child(4) .chibi-text{
-    padding: 12px 24px;
+    padding: 2.80vw 5.61vw;
     transform: rotate(2.1deg);
 }
 .section-coming-soon{
-    padding: 58px 12px 94px 12px;
+    padding: 13.55vw 0 21.96vw 0;
 }
 .section-coming-soon .section-title{
-    padding: 0 20%;
-    max-width: 428px;
-    align-self: center;
+    font-size: 8.41vw;
+    text-align: center;
+    padding: 0 11.62vw 0 11.62vw;
+    width: 75vw;
 }
 .section-coming-soon .wrapper .decorations .background-image{
     background-size: contain;
 }
 .section-coming-soon .wrapper .decorations .background-image:nth-child(1){
     background-image: url("../assets/decorations/coming soon/spray black.svg");
-    width: 39px;
-    height: 31px;
+    width: 9.11vw;
+    height: 7.24vw;
     left: 90%;
     top: -12%;
 }
 .section-coming-soon .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/coming soon/arrow zig zag.svg");
-    width: 81px;
-    height: 43px;
+    width: 18.93vw;
+    height: 10.05vw;
     top:77%;
     left: 0px;
 }
@@ -1028,23 +1129,23 @@ footer{
     background-color: #15151D;
 }
 .footer-container{
-    padding: 100px;
+    padding: 23.36vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .footer-container .logo-wrapper{
-    margin-bottom: 81px;
+    margin-bottom: 18.93vw;
 }
 .footer-list{
     text-align: center;
 }
 .footer-list:nth-child(3) > li:nth-child(4){
     text-align: center;
-    margin-top: 50px;
+    margin-top: 11.68vw;
 }
 .all-rights{
-    margin-top: 90px;
+    margin-top: 21.03vw;
 }
 .all-rights::before{
     content: "© TheRun, 2023.";
