@@ -173,7 +173,7 @@
     }
     .section-academy .section-title{
         margin: 0 0 2.83vw 0 ;
-        padding: 0 29.95vw;
+        padding: 0 28.45vw;
     }
     .section-academy .wrapper{
         justify-content: space-between;
@@ -403,10 +403,12 @@
         padding: 0 0 0 0;
     }
     .section-use-radar .wrapper>.block-container>.block-container .background-image:nth-child(1){
+        position: relative;
         width: 12.50vw;
         height: 11.88vw;
         align-self: end;
         margin: 0 0 1.75vw 0;
+        left: 5vw;
     }
     .section-use-radar .wrapper>.block-container>.block-container .background-image:nth-child(2){
         width: 22.40vw;
@@ -530,7 +532,7 @@
         margin: 0 0 0 3.39vw;
     }
     .section-steal .wrapper > .chibi-block .chibi-content{
-        padding: 9.36vw 4.92vw 10.39vw 4.92vw;
+        padding: 10.42vw 3.75vw 3.39vw 3.96vw;
     }
     .section-steal .wrapper > .chibi-block .chibi-content .chibi-text{
         font-size: 1.67vw;
@@ -725,7 +727,7 @@
         background-image: url("../assets/decorations/academy/arrow.svg");
         height: 13.02vw;
         width: 13.02vw;
-        left: -.9vw;
+        left: -3vw;
         top: -40%;
     }
     .section-academy .wrapper .decorations .background-image:nth-child(2){
@@ -932,7 +934,7 @@
         width: 9.90vw;
         height: 9.99vw;
         top: 74%;
-        left: -6%;
+        left: 0;
     }
 
     .section-minerals .wrapper .decorations .background-image:nth-child(1){
