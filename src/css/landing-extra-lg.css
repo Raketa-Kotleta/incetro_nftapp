@@ -573,6 +573,7 @@
     }
     .section-token .wrapper .block-container .block-container .background-image:nth-child(2) .chibi-content{
         margin: 24vw 0 0 0;
+        display: block;
     }
     .section-token .wrapper .block-container .block-container .background-image:nth-child(2) .chibi-content .chibi-title{
         text-align: center;
