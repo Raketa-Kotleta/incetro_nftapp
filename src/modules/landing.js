@@ -36,7 +36,7 @@ import '../assets/blocks/minerals/shield and sword.svg'
 import '../assets/phones/transport/p-map.svg'
 import '../assets/chibies/chibi moto.svg'
 import '../assets/chibies/ninja.svg'
-import '../assets/blocks/steal/primary block.png'
+
 
 import '../assets/blocks/tokens/sword.svg'
 import '../assets/blocks/tokens/marketplace.svg'
@@ -125,6 +125,7 @@ import '../assets/decorations/steal/arrow red.svg'
 import '../assets/decorations/steal/spray black.svg'
 import '../assets/blocks/steal/primary warning.svg'
 import '../assets/blocks/steal/md/primary warning.svg'
+import '../assets/blocks/steal/md/primary block.svg'
 
 //--------tokens-------------------------
 import '../assets/decorations/tokens/arrow curve.svg'
