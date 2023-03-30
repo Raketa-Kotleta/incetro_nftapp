@@ -1092,14 +1092,14 @@ h1, h2, h3, h4, h5, h6, span, a{
     background-image: url("../assets/decorations/tokens/rect.svg");
     width: 51.17vw;
     height: 28.50vw;
-    top: 25%;
+    top: 23%;
     left: 10%;
 }
 .section-token .wrapper .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/tokens/arrow down.svg");
     width: 20.09vw;
     height: 32.48vw;
-    top: 24%;
+    top: 22%;
     left: 63%;
 }
 .section-token .wrapper .decorations .background-image:nth-child(3){
