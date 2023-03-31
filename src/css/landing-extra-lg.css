@@ -9,13 +9,17 @@
         flex-direction: row;
     }
     .decorations{
-
+        display: none;
     }
     .btn{
         padding: 0.21vw;
     }
     .navbar{
         padding: 0.78vw 11.51vw 0.78vw  14.63vw;
+    }
+    .nav-content{
+        width: 100%;
+        justify-content: space-between;
     }
     .list{
         padding: 0.42vw;
@@ -176,7 +180,7 @@
         padding: 0 28.45vw;
     }
     .section-academy .wrapper{
-        justify-content: space-between;
+        justify-content: center;
         padding: 0 20.667vw 0 19.583vw;
     }
     .section-academy .wrapper .chibi-block:nth-child(1){
@@ -184,14 +188,14 @@
         height: 22.395vw;
         width: 27.395vw;
         align-self: self-end;
-        margin: 0;
+        margin: 0 3.96vw 0 0;
     }
 
     .section-academy .wrapper .chibi-block:nth-child(2){
         background-position: 50% 0%;
         height: 26.822vw;
         width: 24.427vw;
-        margin: 0;
+        margin: 0 0 0 3.96vw;
     }
     .section-chibi-category{
         padding: 3.59vw 0 05.52vw 0;
@@ -202,6 +206,7 @@
     }
     .section-chibi-category .wrapper{
         padding: 0 12.75vw;
+        justify-content: center;
     }
     .section-chibi-category .wrapper .chibi-block{
         margin: 0 0.52vw;
@@ -431,10 +436,16 @@
     .section-minerals .wrapper{
         padding: 0 12.24vw  0 14.06vw;
         margin: 7.55vw 0 0 0;
+        justify-content: center;
+    }
+    .section-minerals .wrapper .block-container{
+        width: auto;
+    }
+    .section-minerals .wrapper .block-container:nth-child(1){
     }
     .section-minerals .wrapper .block-container .background-image{
         position: relative;
-        align-self: start;
+        align-self: auto;
     }
     .section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(1){
         width: 37.29vw;
@@ -446,7 +457,7 @@
         width: 29.38vw;
         height: 44.22vw;
         margin: 8.13vw 0 0 0;
-        align-self: start;
+        align-self: auto;
     }
     .section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(2) .chibi-content{
         padding: 2.24vw 3.33vw 2.24vw 4.01vw;
@@ -603,6 +614,9 @@
     .footer-container .logo-wrapper{
         align-self: flex-end;
     }
+    .footer-list>li{
+        text-align: left;
+    }
     .footer-list:nth-child(3) > li:nth-child(4){
         text-align: center;
         margin-top: 0;
@@ -628,6 +642,7 @@
     }
     .all-rights::before{
         font-size: 0.83vw;
+        line-height: 0;
         content: "© TheRun, 2023.DEVR LIMITED 7/F MW TWRSheung WanHong Kong";
     }
     .section-head .wrapper .presentation .decorations .background-image:nth-child(1){
