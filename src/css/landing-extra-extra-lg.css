@@ -690,13 +690,17 @@
             0 
             24vw;
     }
-
+    footer{
+        justify-content: center;
+    }
     .footer-container{
         padding: 
             calc(100px * var(--width-ratio)) 
             9.74vw 
             calc(100px * var(--width-ratio))
             14.69vw;
+        width: calc(1451px * var(--width-ratio));
+        align-self: center;
     }
     .footer-list .list-link{
         font-size: calc(18px * var(--width-ratio));
