@@ -3,7 +3,7 @@
     --base-width: 1920;
     --width-ratio: calc(var(--target-width) / var(--base-width));
 }
-@media (min-width: 1370px) {
+@media screen and (min-width: 1370px) {
     .section .wrapper .decorations{
         box-sizing: content-box !important;
         flex: 1;
