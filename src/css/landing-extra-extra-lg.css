@@ -9,6 +9,9 @@
         flex: 1;
         align-self: center;
     }
+    .section .section-title{
+        align-self: center;
+    }
     .btn{
         padding: calc(4px * var(--width-ratio));
     }
@@ -184,6 +187,7 @@
             0;
     }
     .section-chibi-category .section-title{
+        width: calc(873px * var(--width-ratio));
         padding: 
             0 
             27.24vw 
@@ -194,6 +198,7 @@
             0 
             calc(75px * var(--width-ratio))
             0;
+
     }
     .section-chibi-category .wrapper{
         padding: 
@@ -367,6 +372,7 @@
         padding: 
             0 
             21vw;
+        width: calc(1063px * var(--width-ratio));
     }
     .section-artefacts .wrapper{
         padding: 
@@ -473,6 +479,7 @@
             28.80vw 
             0 
             28.02vw;
+        width: calc(828px * var(--width-ratio));
     }
     .section-minerals .wrapper{
         padding: 
@@ -684,11 +691,13 @@
             159px 
             10vw;
     }
+    .section-coming-soon .wrapper{
+        justify-content: center;
+    }
     .section-coming-soon .section-title{
-       font-size: calc(64px * var(--width-ratio));
-       padding: 
-            0 
-            24vw;
+        font-size: calc(64px * var(--width-ratio));
+        padding: 0;
+        width: calc(624px * var(--width-ratio));
     }
     footer{
         justify-content: center;
