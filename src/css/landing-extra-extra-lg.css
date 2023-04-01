@@ -5,10 +5,9 @@
 }
 @media (min-width: 1370px) {
     .section .wrapper .decorations{
-        width: calc(458px * var(--width-ratio));
-        height: 100%;
-        left: 50%;
-        display: none;
+        box-sizing: content-box !important;
+        flex: 1;
+        align-self: center;
     }
     .btn{
         padding: calc(4px * var(--width-ratio));
@@ -804,7 +803,7 @@
         width: 4.43vw;
         height: 2.92vw;
         top: 55%;
-        left: 28.5vw;
+        left: 38.5vw;
     }
     .section-academy .wrapper .decorations .background-image:nth-child(3){
         background-image: url("../assets/decorations/academy/vector 1.svg");
