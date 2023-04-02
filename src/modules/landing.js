@@ -1,46 +1,7 @@
 //-----------css-------------------
 import '../css/landing.css'
-// import '../css/landing-md.css'
-// import '../css/landing-lg.css'
 import '../css/landing-extra-lg.css'
 import '../css/landing-extra-extra-lg.css'
-//-----------css-------------------
-
-
-import '../assets/download_links/app store.png'
-import '../assets/download_links/app gallery.png'
-import '../assets/download_links/google play.png'
-import '../assets/phones/main phones/ph1.png'
-import '../assets/phones/main phones/ph2.png'
-
-import '../assets/buildings/Academy.png'
-import '../assets/chibies/chibi clever.png'
-
-
-
-
-
-import '../assets/chibies/chibi iron.svg'
-import '../assets/blocks/battle/sm/elon.png'
-import '../assets/blocks/battle/sm/lucy.png'
-import '../assets/blocks/battle/sm/block primary.png'
-
-import '../assets/blocks/use radar/primary block tube.svg'
-import '../assets/artefacts/use radar/box.png'
-import '../assets/artefacts/use radar/sword.svg'
-import '../assets/phones/use radar/phone.svg'
-import '../assets/blocks/minerals/factory.svg'
-import '../assets/blocks/minerals/metall and crystalls.svg'
-import '../assets/blocks/minerals/minerals.svg'
-import '../assets/blocks/minerals/shield and sword.svg'
-import '../assets/phones/transport/p-map.svg'
-import '../assets/chibies/chibi moto.svg'
-import '../assets/chibies/ninja.svg'
-import '../assets/blocks/steal/primary block.png'
-
-import '../assets/blocks/tokens/sword.svg'
-import '../assets/blocks/tokens/marketplace.svg'
-import '../assets/phones/token/p-token.svg'
 
 // -----------Head Images--------------
 import '../assets/chibies/three chibis.svg'
@@ -116,7 +77,8 @@ import '../assets/decorations/minerals/rect red.svg'
 import '../assets/decorations/minerals/red arrow.svg'
 import '../assets/decorations/minerals/info.svg'
 import '../assets/decorations/minerals/info-1.svg'
-
+import '../assets/decorations/minerals/md/red rect.svg'
+import '../assets/decorations/minerals/curve.svg'
 //-----------use radar------------------------
 import '../assets/decorations/transport/arr.svg'
 
@@ -125,6 +87,7 @@ import '../assets/decorations/steal/arrow red.svg'
 import '../assets/decorations/steal/spray black.svg'
 import '../assets/blocks/steal/primary warning.svg'
 import '../assets/blocks/steal/md/primary warning.svg'
+import '../assets/blocks/steal/md/primary block.svg'
 
 //--------tokens-------------------------
 import '../assets/decorations/tokens/arrow curve.svg'
@@ -132,6 +95,7 @@ import '../assets/decorations/tokens/arrow down.svg'
 import '../assets/decorations/tokens/rect 1.svg'
 import '../assets/decorations/tokens/rect.svg'
 import '../assets/decorations/tokens/spiral.svg'
+import  '../assets/decorations/tokens/57.svg'
 
 //---------coming soon---------------------------
 import "../assets/decorations/coming soon/arrow zig zag.svg"
