@@ -1,5 +1,52 @@
-@media screen and (min-width: 600px){
+@font-face {
+    font-family: Roboto Condensed;
+    src: url('../assets/fonts/Roboto Condensed/RobotoCondensed-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: Roboto Condensed;
+    src: url('../assets/fonts/Roboto Condensed/RobotoCondensed-Bold.ttf');
+    font-weight: 700;
 
+}
+@font-face {
+    font-family: Roboto Condensed;
+    src: url('../assets/fonts/Roboto Condensed/RobotoCondensed-Light.ttf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/fonts/Roboto/Roboto-Thin.ttf');
+    font-weight: 100;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/fonts/Roboto/Roboto-Light.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/fonts/Roboto/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/fonts/Roboto/Roboto-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/fonts/Roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/fonts/Roboto/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+@media screen and (min-width: 600px){
     .section-subtitle{
         font-style: italic;
         text-align: center;
@@ -8,18 +55,23 @@
     .wrapper{
         flex-direction: row;
     }
-    .decorations{
-        display: none;
-    }
     .btn{
         padding: 0.21vw;
     }
+    header{
+        border-bottom: 0.2604166667vw solid #ea0f0f;
+    }
     .navbar{
-        padding: 0.78vw 11.51vw 0.78vw  14.63vw;
+        padding: 0.51vw 0 0.51vw  0;
+        justify-content: center;
+    }
+    .navbar .nav-content .navbar-brand{
+        flex: 0 0 5.04vw;
     }
     .nav-content{
-        width: 100%;
-        justify-content: space-between;
+        flex-direction: row;
+        width: 70.78vw;
+        justify-content: start;
     }
     .list{
         padding: 0.42vw;
@@ -30,6 +82,7 @@
         position: static;
         padding: 0;
         transform: none;
+
     }
     .logo-wrapper{
         margin-left: 0.42vw;
@@ -40,44 +93,31 @@
         height: 1.67vw;
         line-height: 1.67vw;
     }
+    .nav-list-wrapper .nav-list{
+        display: flex;
+        justify-content: space-between;
+        width: 45.93vw;
+    }
     .nav-list-wrapper .nav-list .nav-item{
         display: inline-block;
-        padding: 0 1.82vw;
         line-height: 0;
     }
     .nav-list-wrapper .nav-list .nav-item .list-link{
-        font-size: 0.7rem;
-    }
-    .nav-list-wrapper .nav-list .nav-item .list-link{
-        font-size: 1.0416vw;
+        font-size: 1.04vw;
+        font-weight: 700;
+        letter-spacing: 0.022vw;
+        white-space: nowrap;
     }
     .sign-in-btn{
         padding: 0.32vw 0.98vw;
-        margin: 0 0.42vw;
+        margin-left: 3.67vw;
+        border-radius: 0.67vw;
+        height: 2.604vw;
+        width: 8.7vw;
     }
     .sign-in-btn>span{
-        font-size: 1.04vw;
+        font-size: .93vw;
         margin: 0 0.10vw;
-        border-radius: 0.68vw;
-
-    }
-    .lang-btn{
-        background-color: transparent;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0 0.42vw;
-    }
-    .lang-btn span{
-        margin: 0 0.21vw;
-    }
-    .lang-btn span:nth-child(1)>img{
-        width: 1.4vw;
-
-    }
-    .lang-btn span:nth-child(2)>img{
-        width: 1.3vw;
-      ;
     }
     .list-item{
         padding: 0.2083vw 0.4166vw;
@@ -86,7 +126,7 @@
         max-width: none;
     }
     .section .wrapper .decorations{
-        width: 80%;
+        width: 100%;
     }
     .chibi-block{
         max-width: none;
@@ -110,6 +150,9 @@
     }
     .section .wrapper{
         flex-direction: row;
+        padding: 0 !important;
+        width: min-content;
+        align-self: center;
     }
     .section-title{
         line-height: 1.25;
@@ -118,11 +161,8 @@
     .section-head{
         /*padding-top: 3.38vw ;*/
         padding: 4.68vw 8.43vw 2.187vw 16.35vw;
+        background-size: contain;
         background-image: url('../assets/backgrounds/head-md/bg-head.svg');
-    }
-    .section .wrapper .decorations{
-        max-width: none;
-        width: 80%;
     }
     .section-head .wrapper .presentation, .section-head .wrapper .description {
         max-width: none !important;
@@ -151,6 +191,13 @@
         height: 2.395vw;
         width: 8.38vw;
         background-size: 100% 100%;
+    }
+    .section-head .wrapper .presentation .download-links .section-subtitle{
+        white-space: nowrap;
+        font-family: Roboto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.25vw;
     }
     .section-head .wrapper .presentation>.background-image{
         height: 32.656vw;
@@ -214,6 +261,9 @@
         height: 13.54vw;
         width: 21.67vw;
         background-image: url("../assets/blocks/chibi-category/md/free chibi.svg");
+    }
+    .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-content .chibi-title{
+        width: 21.2vw;
     }
     .section-chibi-category .wrapper .chibi-block:nth-child(1) .chibi-content .chibi-text{
         margin: 0;
@@ -348,12 +398,14 @@
     .section-battle .wrapper>.block-container:nth-child(2) .chibi-block:nth-child(1) .chibi-text{
         font-size: 1.46vw;
         padding: 0;
+        font-weight: 400;
     }
     .section-artefacts{
         padding: 0 0 9.48vw 0;
     }
     .section-artefacts .section-title{
         padding: 0 21vw;
+        width: 55.36vw;
     }
     .section-artefacts .wrapper{
         justify-content: center;
@@ -602,34 +654,51 @@
     .section-coming-soon .section-title{
         font-size: 3.33vw;
        text-align: center;
-       padding: 0 24vw;
+        width: 32.50vw;
+       /*padding: 0 24vw;*/
     }
     footer{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
     }
     .footer-container{
         flex-direction: row;
-        justify-content: space-between;
-        padding: 5.21vw 9.74vw 5.19vw 14.69vw;
+        /*padding: 5.21vw 9.74vw 5.19vw 14.69vw;*/
+        padding: 0;
+        margin: 6.15625vw 0 5.15625vw 2.47vw;
+        width: 75.625vw;
     }
     .footer-container .logo-wrapper{
-        align-self: flex-end;
+        display: flex;
+        flex: 0 0 15.15vw;
+        justify-content: start;
+    }
+    .footer-container .footer-list{
+        display: flex;
+        flex: 0 0 19.57vw;
+        padding: 0;
+        flex-direction: column;
     }
     .footer-list>li{
         text-align: left;
+        padding: 0;
     }
     .footer-list:nth-child(3) > li:nth-child(4){
-        text-align: center;
+        text-align: left;
         margin-top: 0;
     }
-    .footer-list .list-link{
+    .footer-list > .list-item{
+        margin: 0;
+    }
+    .footer-list > .list-item > .list-link{
         font-size: 0.94vw;
+        line-height: 1.79vw;
+        font-weight: 400;
     }
     .footer-container .logo-wrapper{
         align-self: start;
-        margin: 1.62vw 0 0 0;
-
+        margin: 0;
     }
     .footer-container .logo-wrapper img{
         width: 1.67vw;
@@ -640,40 +709,42 @@
         width: 5.68vw;
         margin-top: 0;
         text-align: right;
-
+        display: flex;
+        flex: 0 0 21.32vw;
+        height: min-content;
     }
-    .all-rights::before{
-        font-size: 0.83vw;
-        line-height: 0;
-        content: "© TheRun, 2023.DEVR LIMITED 7/F MW TWRSheung WanHong Kong";
+    .all-rights .right{
+        text-align: end;
+        font-weight: 400;
+        font-size: .833vw;
     }
     .section-head .wrapper .presentation .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/head/head 0/arrow.svg");
-        width: 7.81vw;
-        height: 2.92vw;
-        top: 11.77vw;
-        left: 10%;
+        width: 8.81vw;
+        height: 3.92vw;
+        top: 25%;
+        left: 5%;
     }
     .section-head .wrapper .presentation .decorations .background-image:nth-child(2){
         background-image: url("../assets/decorations/head/head 0/Vector 1.svg");
         width: 3.80vw;
         height: 3.44vw;
-        top: 38.91vw;
-        right: -6vw;
+        top: 77%;
+        right: -5%;
     }
     .section-head .wrapper .presentation .decorations .background-image:nth-child(3){
         background-image: url("../assets/decorations/head/head 0/Vector 2.svg");
         height: 1.25vw;
         width: 1.98vw;
-        top: 38.91vw;
-        left: 4%;
+        top: 78%;
+        left: 12%;
     }
     .section-head .wrapper .presentation .decorations .background-image:nth-child(4) {
         background-image: url("../assets/decorations/head/head 0/Vector 3.svg");
         height: 3.02vw;
         width: 3.49vw;
         top: 35%;
-        right: 0%;
+        right: 6%;
     }
     /* new */
     .section-head .wrapper .presentation .decorations .background-image:nth-child(5){
@@ -681,46 +752,45 @@
         height: 9.48vw;
         width: 10.73vw;
         top: 89%;
-        left: -48%;
+        left: -35%;
     }
 
     .section-head .wrapper .description .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/head/head 1/arrow head phones 1.svg");
-        height: 6.15vw;
-        width: 6.15vw;
-        transform: rotate(-10deg);
+        height: 8.15vw;
+        width: 8.15vw;
         background-size: contain;
-        top: 0%;
-        left: 45%;
+        top: -4%;
+        left: 42%;
     }
     .section-head .wrapper .description .decorations .background-image:nth-child(2){
         background-image: url("../assets/decorations/head/head 1/arrow head phones 2.svg");
-        height: 4.38vw;
-        width: 7.24vw;
+        height: 5.38vw;
+        width: 8.24vw;
         transform: scale(1,1);
         background-size: contain;
         top: 77%;
-        left: 85%;
+        left: 87%;
     }
     .section-head .wrapper .description .decorations .background-image:nth-child(3){
         background-image: url("../assets/decorations/head/head 1/vector head phones 1.svg");
         height: 1.98vw;
         width: 2.50vw;
-        top: 35%;
+        top: 34%;
         left: 99%;
     }
     .section-head .wrapper .description .decorations .background-image:nth-child(4){
         background-image: url("../assets/decorations/head/head 1/vector\ head\ phones\ 2.svg");
         height: 5.21vw;
         width: 5.21vw;
-        top: 69%;
-        left: 18%;
-       transform: rotate(10deg) scale(1,1);
+        top: 70%;
+        left: 22%;
+       transform: rotate(0deg) scale(1,1);
     }
     .section-head .wrapper .description .decorations .flying-text{
         font-size: 1.88vw;
         font-family: VAG World;
-        font-weight: 1000;
+        font-weight: 700;
     }
     .section-head .wrapper .description .decorations .flying-text:nth-last-child(1){
         top:9.5%;
@@ -729,7 +799,7 @@
     }
     .section-head .wrapper .description .decorations .flying-text:nth-last-child(2){
         top:14%;
-        left: 75.8%;
+        left: 72.8%;
         transform: rotate(4.69deg);
     }
     .section-head .wrapper .description .decorations .flying-text:nth-last-child(3){
@@ -739,14 +809,14 @@
     }
     .section-head .wrapper .description .decorations .flying-text:nth-last-child(4){
         top:26%;
-        left: 79.7%;
+        left: 76.7%;
         transform: rotate(6.41deg);
     }
     .section-academy .wrapper .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/academy/arrow.svg");
-        height: 13.02vw;
-        width: 13.02vw;
-        left: -3vw;
+        height: 15.02vw;
+        width: 15.02vw;
+        left: -0%;
         top: -40%;
     }
     .section-academy .wrapper .decorations .background-image:nth-child(2){
@@ -754,30 +824,33 @@
         width: 4.43vw;
         height: 2.92vw;
         top: 55%;
-        left: 38.5vw;
+        left: 47.5%;
+
     }
     .section-academy .wrapper .decorations .background-image:nth-child(3){
         background-image: url("../assets/decorations/academy/vector 1.svg");
         width: 5.63vw;
         height: 4.58vw;
-        top: 85%;
-        left: 75%;
+        top: 83%;
+        left: 100%;
+
     }
     .section-academy .wrapper .decorations .background-image:nth-child(4){
         background-image: url("../assets/decorations/academy/arrow 2.svg");
         width: 5.73vw;
         height: 4.90vw;
-        top: 87%;
+        top: 82%;
         left: -6vw;
+        transform: rotate(15deg);
     }
     /* new */
     .section-academy .wrapper .decorations .background-image:nth-child(5){
         background-image: url("../assets/decorations/academy/md/arrow spiral.svg");
-        width: 11.35vw;
-        height: 9.90vw;
+        width: 12.35vw;
+        height: 10.90vw;
         background-size: contain;
-        left: 50vw ;
-        top: -30%;
+        left: 81% ;
+        top: -23%;
     }
     .section-chibi-category .wrapper .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/chibi category/line\ 1.svg");
@@ -793,14 +866,14 @@
         height: 3.65vw;
         background-size: contain;
         top: -52%;
-        right: 15.5%;
+        right: 8%;
     }
     .section-chibi-characteristics .wrapper .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/chibi\ characteristics/red arrow.svg");
         height: 6.09vw;
         width: 4.64vw;
         top: 61%;
-        left: 38%;
+        left: 37%;
         transform: rotate(-60deg);
     }
     .section-chibi-characteristics .wrapper .decorations .background-image:nth-child(2){
@@ -816,8 +889,8 @@
         background-image: url("../assets/decorations/chibi\ characteristics/md/red arrow 2.svg");
         height: 9.69vw;
         width: 11.41vw;
-        top: 24%;
-        left: 38%;
+        top: 19%;
+        left: 35%;
     }
     .section-battle .wrapper .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/battle/versus.svg");
@@ -830,30 +903,31 @@
         background-image: url("../assets/decorations/battle/arr 1.svg");
         width: 11.98vw;
         height: 7.92vw;
-        top: 54%;
+        top: 52%;
         left: 25%;
+        transform: rotate(-5deg);
     }
     .section-battle .wrapper .decorations .background-image:nth-child(3){
         background-image: url("../assets/decorations/battle/arr 2.svg");
         width: 12.50vw;
         height: 8.44vw;
-        top: 53%;
-        left: 60%;
+        top: 51%;
+        left: 58%;
         transform: rotate(90deg);
     }
     .section-battle .wrapper .decorations .background-image:nth-child(4){
         background-image: url("../assets/decorations/battle/coin 50.svg");
         width: 9.17vw;
         height: 3.44vw;
-        top: 60%;
-        left: 21%;
+        top: 58%;
+        left: 18%;
     }
     .section-battle .wrapper .decorations .background-image:nth-child(5){
         background-image: url("../assets/decorations/battle/coin 50.svg");
         width: 9.17vw;
         height: 3.44vw;
-        top: 58%;
-        right: 17%;
+        top: 57%;
+        right: 16%;
     }
     .section-battle .wrapper .decorations .background-image:nth-child(6){
         background-image: url("../assets/decorations/battle/bag.svg");
@@ -861,7 +935,7 @@
         width: 16.09vw;
         top: 60%;
         left: 40%;
-        transform: rotate(-2.35deg);
+        transform: rotate(6.35deg);
     }
     .section-battle .wrapper .decorations .background-image:nth-child(7){
         background-image: url("../assets/decorations/battle/coin 100.svg");
@@ -869,6 +943,7 @@
         height: 4.06vw;
         top: 90%;
         right: 44%;
+        transform: rotate(5deg);
     }
     /* new */
     .section-battle .wrapper .decorations .background-image:nth-child(8){
@@ -876,7 +951,7 @@
         width: 23.07vw;
         height: 4.06vw;
         top: 44%;
-        right: 13%;
+        right: 11%;
     }
     /* new */
     .section-battle .wrapper .decorations .background-image:nth-child(9){
@@ -884,20 +959,20 @@
         width: 11.77vw;
         height: 11.77vw;
         top: 7%;
-        left: -4%;
+        left: -5%;
     }
     .section-artefacts .wrapper .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/artefacts/arrow-left.svg");
         height: 6vw;
         width: 10.69vw;
-        left: 33%;
+        left: 20%;
         top: -25%;
     }
     .section-artefacts .wrapper .decorations .background-image:nth-child(2){
         background-image: url("../assets/decorations/artefacts/arrow-right.svg");
         height: 6vw;
         width: 10.69vw;
-        right: 33%;
+        right: 27%;
         top: -25%;
     }
     .section-artefacts .wrapper .decorations .background-image:nth-child(3){
@@ -905,7 +980,7 @@
         height: 5.31vw;
         width: 5.31vw;
         top: 88%;
-        left: 6%;
+        left: -8%;
         transform: rotate(23deg);
     }
     /* new */
@@ -913,8 +988,8 @@
         background-image: url("../assets/decorations/artefacts/md/curve line red.svg");
         height: 19.06vw;
         width: 13.23vw;
-        top: 0%;
-        right: -5%;
+        top: -20%;
+        right: -24%;
     }
     .section-use-radar .wrapper .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/radar/redarr\ left.svg");
@@ -930,45 +1005,45 @@
         height: 158px;
         width: 6.93vw;
         height: 8.23vw;
-        top: 52%;
-        left: 32%;
+        top: 56%;
+        left: 25%;
     }
     .section-use-radar .wrapper .decorations .background-image:nth-child(3){
         background-image: url("../assets/decorations/radar/crown.svg");
         width: 5.73vw;
         height: 5.73vw;
-        top: 9%;
+        top: 0%;
         left: 56%;
     }
     .section-use-radar .wrapper .decorations .background-image:nth-child(4){
         background-image: url("../assets/decorations/radar/spray.svg");
         width: 4.53vw;
         height: 4.53vw;
-        top: 81%;
-        right: 5%;
+        top: 89%;
+        right: -5%;
     }
     /* new */
     .section-use-radar .wrapper .decorations .background-image:nth-child(5){
         background-image: url("../assets/decorations/radar/md/arrow red.svg");
         width: 9.90vw;
         height: 9.99vw;
-        top: 74%;
-        left: 0;
+        top: 79%;
+        left: -10%;
     }
 
     .section-minerals .wrapper .decorations .background-image:nth-child(1){
-        background-image: url("../assets/decorations/minerals/rect red.svg");
+        background-image: url("../assets/decorations/minerals/md/red rect.svg");
         width: 19.69vw;
         height: 8.45vw;
         top: -4%;
         left: 41%;
-        transform: rotate(4deg);
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(1) .chibi-content{
-        padding: 0px 0;
+        padding: 0.1vw 1.75vw;
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(1) .chibi-text{
         font-size: 1.46vw;
+        transform: rotate(4deg);
     }
     .section-minerals .wrapper .decorations .chibi-block:nth-child(1) .chibi-text{
         padding: 1.34vw 1.67vw;
@@ -977,7 +1052,7 @@
         background-image: url("../assets/decorations/minerals/red arrow.svg");
         height: 6.41vw;
         width: 6.41vw;
-        left: 18%;
+        left: 24%;
         top: 28%;
         transform: rotate(34deg);
     }
@@ -986,7 +1061,7 @@
         width: 7.45vw;
         height: 2.50vw;
         top:51%;
-        left: 44%;
+        left: 50%;
         transform: rotate(5deg);
         z-index: 2;
     }
@@ -995,29 +1070,29 @@
         width: 4.69vw;
         height: 5.99vw;
         top:12%;
-        left: 90%;
+        left: 102%;
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(5){
         background-image: url("../assets/decorations/minerals/arrow zig zag.svg");
         width: 13.01vw;
         height: 13.90vw;
         top: 40.5%;
-        left: 68%;
+        left: 77%;
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(6){
         background-image: url("../assets/decorations/minerals/info.svg");
         width: 7.45vw;
         height: 2.50vw;
         top: 43%;
-        left: 72%;
+        left: 83%;
         transform: rotate(-12deg);
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(7){
         background-image: url("../assets/decorations/minerals/cool artefacts.svg");
         width: 12.71vw;
         height: 2.45vw;
-        top: 92.3%;
-        left: 37%;
+        top: 86.3%;
+        left: 79%;
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(8){
         background-image: url("../assets/decorations/minerals/arrow red spiral.svg");
@@ -1025,21 +1100,28 @@
         height: 15.68vw;
         top:37%;
         transform: rotate(190deg) scaleX(-100%);
-        left: 40%;
+        left: 46%;
+    }
+    .section-minerals .wrapper .decorations .background-image:nth-child(9){
+        background-image: url("../assets/decorations/minerals/curve.svg");
+        width: 10.30vw;
+        height: 14.68vw;
+        top:80%;
+        left: 43%;
     }
     .section-transport .wrapper .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/transport/arr.svg");
         height: 7.34vw;
         width: 8.28vw;
         top:53%;
-        left: -2%;
+        left: -15%;
     }
     .section-steal .wrapper .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/steal/spray\ black.svg");
         width: 4.69vw;
         height: 4.69vw;
         top: 40%;
-        left: -3%;
+        left: -9%;
         transform: rotate(15deg) scaleX(-100%);
     }
     .section-steal .wrapper .decorations .background-image:nth-child(2) {
@@ -1047,8 +1129,8 @@
         width: 9.64vw;
         height: 8.07vw;
         transform: rotate(-35deg);
-        top: 30%;
-        left: 45%;
+        top: 29%;
+        left: 39%;
     }
     .section-token .wrapper .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/tokens/rect.svg");
@@ -1056,7 +1138,7 @@
         height: 8.96vw;
         top: 74%;
         left: 10%;
-        transform: rotate(-10deg);
+        transform: rotate(-5deg);
     }
     .section-token .wrapper .decorations .background-image:nth-child(1) .chibi-content{
         padding: 0.63vw 2.08vw;
@@ -1069,7 +1151,7 @@
         background-image: url("../assets/decorations/tokens/arrow down.svg");
         width: 5.89vw;
         height: 9.48vw;
-        transform: rotate(-20deg);
+        transform: rotate(-30deg);
         top: 50%;
         left: 17%;
     }
@@ -1089,7 +1171,7 @@
         top: 21%;
         left: 34%;
         z-index: 2;
-
+        transform: rotate(-5deg);
     }
     .section-token .wrapper .decorations .background-image:nth-child(4) .chibi-content .chibi-text{
         font-size: 1.30vw;
@@ -1105,18 +1187,24 @@
         top: 92%;
         left: 65%;
     }
+    .section-token .wrapper .decorations .background-image:nth-child(6){
+        width: 3.39vw;
+        height: 2.76vw;
+        top: 76.5%;
+        left: 89%;
+    }
     .section-coming-soon .wrapper .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/coming soon/spray black.svg");
         width: 4.06vw;
         height: 3.39vw;
-        left: 85%;
+        left: 75%;
         top: -12%;
     }
     .section-coming-soon .wrapper .decorations .background-image:nth-child(2){
         background-image: url("../assets/decorations/coming soon/arrow zig zag.svg");
         width: 9.27vw;
         height: 4.95vw;
-        top:87%;
-        left: 30%;
+        top:80%;
+        left: 10%;
     }
 }

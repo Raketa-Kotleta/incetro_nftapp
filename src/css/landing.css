@@ -58,13 +58,15 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .navbar{
     background-color: #15151D;
-    padding: 15px 8px;
+    padding: 2.5vw 1.87vw;
     display: flex;
-    justify-content: center;
-  
+
 }
 .nav-content{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 .background-image{
   display: block;
@@ -84,7 +86,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     position: absolute;
 }
 .logo-wrapper{
-    margin-left: 8px;
+    margin-left: 1.87vw;
 }
 .navbar-brand{
     display: flex;
@@ -164,7 +166,10 @@ h1, h2, h3, h4, h5, h6, span, a{
     transition: .3s;
     padding: calc((100% - 68px) / 2) 0;
 }
-
+.logo-wrapper > img{
+    width: 7.48vw;
+    height: 7.48vw;
+}
 .nav-list-wrapper.active{
     transform: translateX(0);
 }
@@ -182,26 +187,18 @@ h1, h2, h3, h4, h5, h6, span, a{
     color: white;
 }
 .sign-in-btn{
-    padding: 8.5px 13px;
-    background-color: #FF9700;
-    border-radius: 13px;
-    margin: 0 8px;
+    background: #ff9700;
+    border-radius: 3.0373831776vw;
+    font-family: Roboto Condensed,sans-serif;
+    height: 11.6822429907vw;
+    width: 40.4205607477vw;
 }
 .sign-in-btn>span{
-    font-size: 1.25rem;
+    font-size: 4.9065420561vw;
     font-style: italic;
     margin: 0 2px;
-   
-}
-.lang-btn{
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 8px;
-}
-.lang-btn span{
-    margin: 0 4px;
+    font-weight: 700;
+    font-family: Roboto Condensed;
 }
 .section-title{
     font-weight: 700;
@@ -232,7 +229,6 @@ h1, h2, h3, h4, h5, h6, span, a{
     font-weight: 700;
     font-size: 14.95vw;
     text-align: center;
-  
 }
 .text-important{
     color: #EA0F0F;
@@ -377,6 +373,8 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-head .wrapper .description>.background-image:nth-child(1){
     background-image: url('../assets/phones/main phones/phones.svg');
+    background-position: 0 50%;
+    background-size: 90%;
    
 }
 .section-head .wrapper .description .decorations .background-image:nth-child(1){
@@ -384,7 +382,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     height: 20.56vw;
     width: 20.56vw;
     top: 0;
-    left: 50%;
+    left: 40%;
 }
 .section-head .wrapper .description .decorations .background-image:nth-child(2){
     background-image: url("../assets/decorations/head/head 1/arrow head phones 2.svg");
@@ -395,18 +393,18 @@ h1, h2, h3, h4, h5, h6, span, a{
     transform: scaleX(-1);
 }
 .section-head .wrapper .description .decorations .background-image:nth-child(3){
-    background-image: url("../assets/decorations/head/head 1/vector\ head\ phones\ 1.svg");
+    background-image: url("../assets/decorations/head/head 1/vector head phones 1.svg");
     height: 4.44vw;
     width: 4.44vw;
-    top: 263px;
-    left: calc(86% + 5.84vw);
+    top: 52.45vw;
+    left: calc(84% + 5.84vw);
 }
 .section-head .wrapper .description .decorations .background-image:nth-child(4){
-    background-image: url("../assets/decorations/head/head 1/vector\ head\ phones\ 2.svg");
+    background-image: url("../assets/decorations/head/head 1/vector head phones 2.svg");
     height: 15.89vw;
     width: 15.89vw;
-    top: 90%;
-    left: 77%;
+    top: 84%;
+    left: 72%;
     transform: scaleX(-1) rotate(20deg);
 }
 .section-head .wrapper .description .decorations .flying-text{
@@ -415,23 +413,23 @@ h1, h2, h3, h4, h5, h6, span, a{
     font-weight: 1000;
 }
 .section-head .wrapper .description .decorations .flying-text:nth-last-child(1){
-    top:20.50vw;
-    left: 60%;
+    top:17.50vw;
+    left: 53%;
     transform: rotate(-6.43deg);
 }
 .section-head .wrapper .description .decorations .flying-text:nth-last-child(2){
-    top:25.64vw;
-    left: 72.8%;
+    top:22.64vw;
+    left: 65.8%;
     transform: rotate(4.69deg);
 }
 .section-head .wrapper .description .decorations .flying-text:nth-last-child(3){
-    top:34.05vw;
-    left: 65%;
+    top:31.05vw;
+    left: 58%;
     transform: rotate(-2.72deg);
 }
 .section-head .wrapper .description .decorations .flying-text:nth-last-child(4){
-    top:40.36vw;
-    left: 78.7%;
+    top:37.36vw;
+    left: 71.7%;
     transform: rotate(6.41deg);
 }
 .section-academy{
@@ -1127,6 +1125,13 @@ h1, h2, h3, h4, h5, h6, span, a{
     top: 49.5%;
     left: 83%;
 }
+.section-token .wrapper .decorations .background-image:nth-child(6){
+    background-image: url("../assets/decorations/tokens/57.svg");
+    width: 11.45vw;
+    height: 16.36vw;
+    top: 87.7%;
+    left: 64%;
+}
 .section-token .wrapper .decorations .background-image.chibi-block:nth-child(1) .chibi-text{
     padding: 3.74vw 6.07vw;
     transform: rotate(-2.99deg);
@@ -1135,6 +1140,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     padding: 2.80vw 5.61vw;
     transform: rotate(2.1deg);
 }
+
 .section-coming-soon{
     padding: 13.55vw 0 21.96vw 0;
 }
@@ -1163,32 +1169,45 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 footer{
     background-color: #15151D;
+    display: flex;
+    justify-content: center;
 }
 .footer-container{
-    padding: 23.36vw;
+    margin: 23.3644859813vw 0;
+    width: 52.3364485981vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .footer-container .logo-wrapper{
-    margin-bottom: 18.93vw;
+    display: flex;
+    margin: 0 0 14.691588785vw 0;
+    justify-content: center;
+}
+.footer-container .logo-wrapper > img{
+    height: 7.476635514vw;
+    width: 7.476635514vw;
 }
 .footer-list{
     text-align: center;
+    padding: 0;
 }
-.footer-list:nth-child(3) > li:nth-child(4){
-    text-align: center;
-    margin-top: 11.68vw;
+.footer-list .list-item{
+    margin: 3.738317757vw 0 0 0;
+    padding: 0;
+}
+.footer-list > .list-item > .list-link{
+    font-size: 3.738317757vw;
 }
 .all-rights{
-    margin-top: 21.03vw;
+    margin: 14.691588785vw 0 0 0;
+    display: flex;
+    flex-direction: column;
 }
-.all-rights::before{
-    content: "© TheRun, 2023.";
+.all-rights .right{
+    text-align: center;
+    font-size: 3.738317757vw;
     color: #888888;
+    padding: 0;
+    margin: 0;
     font-family: Roboto Condensed;
-    font-size: 1rem;
-    letter-spacing: 0.41px;
-    line-height: 19px;
-    font-weight: 400;
 }

@@ -245,7 +245,7 @@
         background-image: url("../assets/decorations/head/head 0/arrow.svg");
         height: 56px;
         width: 150px;
-        top: 20%;
+        top: 22%;
         left: 0%;
     }
     .section-head .wrapper .presentation .decorations .background-image:nth-child(2){
@@ -496,8 +496,8 @@
         background-image: url("../assets/decorations/artefacts/md/curve line red.svg");
         height: calc(366px * 0.7);
         width: calc(254px * 0.7);
-        top: 0%;
-        right: 0;
+        top: 100%;
+        right: 20px;
     }
     .section-use-radar .wrapper .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/radar/redarr\ left.svg");

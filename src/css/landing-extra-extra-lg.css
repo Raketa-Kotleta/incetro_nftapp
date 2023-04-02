@@ -16,14 +16,21 @@
         padding: calc(4px * var(--width-ratio));
     }
     .navbar{
-        padding: 
-            calc(15px * var(--width-ratio)) 
-            11.51vw 
-            calc(15px * var(--width-ratio))  
-            14.63vw;
+        padding:
+            calc(10px * var(--width-ratio))
+            0
+            calc(10px * var(--width-ratio))
+            0;
+
+    }
+    .navbar .nav-content .navbar-brand{
+        flex:
+                0
+                0
+                calc(116px * var(--width-ratio));
     }
     .nav-content{
-        width: calc(1418px * var(--width-ratio));
+        width: calc(1409px * var(--width-ratio));
     }
     .list{
         padding: calc(8px * var(--width-ratio));
@@ -37,48 +44,24 @@
         height: calc(32px * var(--width-ratio));
         line-height: calc(32px * var(--width-ratio));
     }
-    .nav-list-wrapper .nav-list .nav-item{
-        padding: 
-            0 
-            calc(35px * var(--width-ratio));
+    .nav-list-wrapper .nav-list{
+        width: calc(959px * var(--width-ratio));
     }
     .nav-list-wrapper .nav-list .nav-item .list-link{
-        font-size: calc(11,2px * var(--width-ratio));
-    }
-    .nav-list-wrapper .nav-list .nav-item .list-link{
-        font-size: calc(20px * var(--width-ratio));
+        font-size: calc(22px * var(--width-ratio));
     }
     .sign-in-btn{
-        padding: 
-            calc(6px * var(--width-ratio)) 
-            calc(19px * var(--width-ratio));
-        margin: 
-            0 
-            calc(8px * var(--width-ratio));
-    }
-    .sign-in-btn>span{
-        font-size: calc(20px * var(--width-ratio));
-        margin: 
-            0 
-            calc(2px * var(--width-ratio));
+        padding:
+                calc(6px * var(--width-ratio))
+                calc(19px * var(--width-ratio));
+        margin-left: calc(71px * var(--width-ratio));
         border-radius: calc(13px * var(--width-ratio));
     }
-    .lang-btn{
-        margin: 
-            0 
-            calc(8px * var(--width-ratio));
-    }
-    .lang-btn span{
-        margin: 
-            0 
-            calc(4px * var(--width-ratio));
-    }
-    .lang-btn span:nth-child(1)>img{
-        width: calc(27px * var(--width-ratio));
-
-    }
-    .lang-btn span:nth-child(2)>img{
-        width: calc(25px * var(--width-ratio));
+    .sign-in-btn>span{
+        font-size: calc(18px * var(--width-ratio));
+        margin:
+                0
+                calc(2px * var(--width-ratio));
     }
     .list-item{
         padding: 
@@ -121,6 +104,9 @@
         height:  calc(627px * var(--width-ratio));
         width: calc(627px * var(--width-ratio));
     }
+    .section-head .wrapper .presentation .download-links .section-subtitle{
+        font-size: calc(24px * var(--width-ratio));
+    }
     .section-head .wrapper .description>.background-image:nth-child(1){
         /*padding: 30px 0 22px 0;*/
         padding: 
@@ -153,11 +139,11 @@
         padding: 
             0 
             20.667vw 
-            0 
+            0
             19.583vw;
     }
     .section-academy .section-title{
-        width: calc(771px * var(--width-ratio));
+        width: calc(761px * var(--width-ratio));
         align-self: center;
     }
     .section-academy .wrapper .chibi-block:nth-child(1){
@@ -207,8 +193,8 @@
     }
     .section-chibi-category .wrapper .chibi-block{
         margin: 
-            0 
-            0.52vw;
+            0
+            calc(10px * var(--width-ratio));
     }
     .section-chibi-category .wrapper .chibi-block:nth-child(1){
         height: calc(260px * var(--width-ratio));
@@ -461,6 +447,7 @@
     }
     .section-use-radar .wrapper>.block-container>.block-container .background-image:nth-child(2){
         width: calc(430px * var(--width-ratio));
+        height: calc(430px * var(--width-ratio));
     }
     .section-use-radar .wrapper>.background-image{
         width: calc(468px * var(--width-ratio));
@@ -549,8 +536,8 @@
     .section-transport{
         padding: 
             calc(140px * var(--width-ratio)) 
-            0 
-            5.21vw 
+            0
+            calc(100px * var(--width-ratio))
             0;
     }
     .section-transport .wrapper{
@@ -588,8 +575,8 @@
     .section-steal .wrapper .block-container .chibi-block:nth-child(1){
         height: calc(305px * var(--width-ratio));
         width: calc(700px * var(--width-ratio));
-        margin: 
-            6.67vw 
+        margin:
+            calc(128px * var(--width-ratio))
             0 
             0 
             0;
@@ -597,7 +584,7 @@
     .section-steal .wrapper .block-container .background-image:nth-child(2){
         width: calc(631px * var(--width-ratio));
         height: calc(580px * var(--width-ratio));
-        top: calc(81px * var(--width-ratio))
+        top: calc(-81px * var(--width-ratio))
     }
     .section-steal .wrapper .block-container .chibi-block .chibi-content{
         padding: 
@@ -651,10 +638,10 @@
     }
     .section-token .wrapper .block-container .section-title{
         padding: 
-            0 
-            12.60vw 
-            0 
-            5.21vw;
+            0
+            calc(242px * var(--width-ratio))
+            0
+            calc(100px * var(--width-ratio));
         margin: 
             0 
             0 
@@ -699,27 +686,29 @@
         padding: 0;
         width: calc(624px * var(--width-ratio));
     }
-    footer{
-        justify-content: center;
-    }
     .footer-container{
-        padding: 
-            calc(100px * var(--width-ratio)) 
-            9.74vw 
-            calc(100px * var(--width-ratio))
-            14.69vw;
-        width: calc(1451px * var(--width-ratio));
-        align-self: center;
-    }
-    .footer-list .list-link{
-        font-size: calc(18px * var(--width-ratio));
+        margin:
+                calc(99px * var(--width-ratio))
+                0
+                calc(99px * var(--width-ratio))
+                calc(47px * var(--width-ratio));
+        width: calc(1452px * var(--width-ratio));
     }
     .footer-container .logo-wrapper{
-        margin: 
-            calc(31px * var(--width-ratio)) 
-            0 
-            0 
-            0;
+        flex:
+                0
+                0
+                calc(291px * var(--width-ratio));
+    }
+    .footer-container .footer-list{
+        flex:
+                0
+                0
+                calc(376px * var(--width-ratio));
+    }
+
+    .footer-list .list-link{
+        font-size: calc(19px * var(--width-ratio));
     }
     .footer-container .logo-wrapper img{
         width: calc(32px * var(--width-ratio));
@@ -727,458 +716,292 @@
     }
     .all-rights{
         width: calc(109px * var(--width-ratio));
+        flex:
+                0
+                0
+                calc(409px * var(--width-ratio));
     }
-    .all-rights::before{
-        font-size:  calc(16px * var(--width-ratio));
+    .all-rights .right{
+        font-size: calc(16px * var(--width-ratio));
     }
     .section-head .wrapper .presentation .decorations .background-image:nth-child(1){
-        width: 7.81vw;
-        height: 2.92vw;
-        top: 188px;
-        top: 188px;
-        left: 0;
+        width: calc(169px * var(--width-ratio));
+        height: calc(75px * var(--width-ratio));
     }
     .section-head .wrapper .presentation .decorations .background-image:nth-child(2){
-        width: 3.80vw;
-        height: 3.44vw;
-        top: 38.91vw;
-        right: -6vw;
+        width: calc(73px * var(--width-ratio));
+        height: calc(66px * var(--width-ratio));
     }
     .section-head .wrapper .presentation .decorations .background-image:nth-child(3){
-        height: 1.25vw;
-        width: 1.98vw;
-        top: 38.91vw;
+        height: calc(24px * var(--width-ratio));
+        width: calc(38px * var(--width-ratio));
     }
     .section-head .wrapper .presentation .decorations .background-image:nth-child(4) {
-        height: 3.02vw;
-        width: 3.49vw;
+        height: calc(58px * var(--width-ratio));
+        width: calc(67px * var(--width-ratio));
     }
     /* new */
     .section-head .wrapper .presentation .decorations .background-image:nth-child(5){
-        height: 9.48vw;
-        width: 10.73vw;
+        height: calc(182px * var(--width-ratio));
+        width: calc(206px * var(--width-ratio));
     }
 
     .section-head .wrapper .description .decorations .background-image:nth-child(1){
-        height: 6.15vw;
-        width: 6.15vw;
+        height: calc(156px * var(--width-ratio));
+        width: calc(156px * var(--width-ratio));
     }
     .section-head .wrapper .description .decorations .background-image:nth-child(2){
-        height: 4.38vw;
-        width: 7.24vw;
+        height: calc(103px * var(--width-ratio));
+        width: calc(158px * var(--width-ratio));
     }
     .section-head .wrapper .description .decorations .background-image:nth-child(3){
-        height: 1.98vw;
-        width: 2.50vw;
+        height: calc(38px * var(--width-ratio));
+        width: calc(48px * var(--width-ratio));
     }
     .section-head .wrapper .description .decorations .background-image:nth-child(4){
-        background-image: url("../assets/decorations/head/head 1/vector\ head\ phones\ 2.svg");
-        height: 5.21vw;
-        width: 5.21vw;
-        top: 69%;
-        left: 18%;
-       transform: rotate(10deg) scale(1,1);
+        height: calc(100px * var(--width-ratio));
+        width: calc(100px * var(--width-ratio));
     }
     .section-head .wrapper .description .decorations .flying-text{
-        font-size: 1.88vw;
-        font-family: VAG World;
-        font-weight: 1000;
-    }
-    .section-head .wrapper .description .decorations .flying-text:nth-last-child(1){
-        top:9.5%;
-        left: 60%;
-        transform: rotate(-6.43deg);
-    }
-    .section-head .wrapper .description .decorations .flying-text:nth-last-child(2){
-        top:14%;
-        left: 75.8%;
-        transform: rotate(4.69deg);
-    }
-    .section-head .wrapper .description .decorations .flying-text:nth-last-child(3){
-        top:20.5%;
-        left: 63%;
-        transform: rotate(-2.72deg);
-    }
-    .section-head .wrapper .description .decorations .flying-text:nth-last-child(4){
-        top:26%;
-        left: 79.7%;
-        transform: rotate(6.41deg);
+        font-size: calc(36px * var(--width-ratio));
     }
     .section-academy .wrapper .decorations .background-image:nth-child(1){
-        background-image: url("../assets/decorations/academy/arrow.svg");
-        height: 13.02vw;
-        width: 13.02vw;
-        left: -3vw;
-        top: -40%;
+        height: calc(288px * var(--width-ratio));
+        width: calc(288px * var(--width-ratio));
     }
     .section-academy .wrapper .decorations .background-image:nth-child(2){
-        background-image: url("../assets/decorations/academy/cross.svg");
-        width: 4.43vw;
-        height: 2.92vw;
-        top: 55%;
-        left: 38.5vw;
+        width: calc(85px * var(--width-ratio));
+        height: calc(56px * var(--width-ratio));
     }
     .section-academy .wrapper .decorations .background-image:nth-child(3){
-        background-image: url("../assets/decorations/academy/vector 1.svg");
-        width: 5.63vw;
-        height: 4.58vw;
-        top: 85%;
-        left: 75%;
+        width: calc(108px * var(--width-ratio));
+        height: calc(88px * var(--width-ratio));
     }
     .section-academy .wrapper .decorations .background-image:nth-child(4){
-        background-image: url("../assets/decorations/academy/arrow 2.svg");
-        width: 5.73vw;
-        height: 4.90vw;
-        top: 87%;
-        left: -6vw;
+        width: calc(110px * var(--width-ratio));
+        height: calc(94px * var(--width-ratio));
     }
     /* new */
     .section-academy .wrapper .decorations .background-image:nth-child(5){
-        background-image: url("../assets/decorations/academy/md/arrow spiral.svg");
-        width: 11.35vw;
-        height: 9.90vw;
-        background-size: contain;
-        left: 50vw ;
-        top: -30%;
+        width: calc(237px * var(--width-ratio));
+        height: calc(209px * var(--width-ratio));
     }
     .section-chibi-category .wrapper .decorations .background-image:nth-child(1){
-        background-image: url("../assets/decorations/chibi category/line\ 1.svg");
-        width: 8.18vw;
-        height: 3.65vw;
-        background-size: contain;
-        top: -52%;
-        left: 8.5%;
+        width: calc(157px * var(--width-ratio));
+        height: calc(70px * var(--width-ratio));
     }
     .section-chibi-category .wrapper .decorations .background-image:nth-child(2){
-        background-image: url("../assets/decorations/chibi category/line\ 2.svg");
-        width: 8.18vw;
-        height: 3.65vw;
-        background-size: contain;
-        top: -52%;
-        right: 15.5%;
+        width: calc(157px * var(--width-ratio));
+        height: calc(70px * var(--width-ratio));
     }
     .section-chibi-characteristics .wrapper .decorations .background-image:nth-child(1){
-        background-image: url("../assets/decorations/chibi\ characteristics/red arrow.svg");
-        height: 6.09vw;
-        width: 4.64vw;
-        top: 61%;
-        left: 38%;
-        transform: rotate(-60deg);
+        height: calc(117px * var(--width-ratio));
+        width: calc(89px * var(--width-ratio));
     }
     .section-chibi-characteristics .wrapper .decorations .background-image:nth-child(2){
-        background-image: url("../assets/decorations/chibi\ characteristics/arrow.svg");
-        width: 4.38vw;
-        height: 6.25vw;
-        top: 532px;
-        left: 45%;
-        display: none;
+        width: calc(84px * var(--width-ratio));
+        height: calc(120px * var(--width-ratio));
     }
     /* new */
     .section-chibi-characteristics .wrapper .decorations .background-image:nth-child(3){
-        background-image: url("../assets/decorations/chibi\ characteristics/md/red arrow 2.svg");
-        height: 9.69vw;
-        width: 11.41vw;
-        top: 24%;
-        left: 38%;
+        height: calc(186px * var(--width-ratio));
+        width: calc(219px * var(--width-ratio));
     }
     .section-battle .wrapper .decorations .background-image:nth-child(1){
-        background-image: url("../assets/decorations/battle/versus.svg");
-        width: 11.56vw;
-        height: 8.28vw;
-        left: 43%;
-        top: 17%;
+        width: calc(222px * var(--width-ratio));
+        height: calc(159px * var(--width-ratio));
     }
     .section-battle .wrapper .decorations .background-image:nth-child(2){
-        background-image: url("../assets/decorations/battle/arr 1.svg");
-        width: 11.98vw;
-        height: 7.92vw;
-        top: 54%;
-        left: 25%;
+        width: calc(230px * var(--width-ratio));
+        height: calc(152px * var(--width-ratio));
     }
     .section-battle .wrapper .decorations .background-image:nth-child(3){
-        background-image: url("../assets/decorations/battle/arr 2.svg");
-        width: 12.50vw;
-        height: 8.44vw;
-        top: 53%;
-        left: 60%;
-        transform: rotate(90deg);
+        width: calc(240px * var(--width-ratio));
+        height: calc(162px * var(--width-ratio));
     }
     .section-battle .wrapper .decorations .background-image:nth-child(4){
-        background-image: url("../assets/decorations/battle/coin 50.svg");
-        width: 9.17vw;
-        height: 3.44vw;
-        top: 60%;
-        left: 21%;
+        width: calc(176px * var(--width-ratio));
+        height: calc(66px * var(--width-ratio));
     }
     .section-battle .wrapper .decorations .background-image:nth-child(5){
-        background-image: url("../assets/decorations/battle/coin 50.svg");
-        width: 9.17vw;
-        height: 3.44vw;
-        top: 58%;
-        right: 17%;
+        width: calc(176px * var(--width-ratio));
+        height: calc(66px * var(--width-ratio));
     }
     .section-battle .wrapper .decorations .background-image:nth-child(6){
-        background-image: url("../assets/decorations/battle/bag.svg");
-        height: 21.46vw;
-        width: 16.09vw;
-        top: 60%;
-        left: 40%;
-        transform: rotate(-2.35deg);
+        height: calc(421px * var(--width-ratio));
+        width: calc(309px * var(--width-ratio));
     }
     .section-battle .wrapper .decorations .background-image:nth-child(7){
-        background-image: url("../assets/decorations/battle/coin 100.svg");
-        width: 9.17vw;
-        height: 4.06vw;
-        top: 90%;
-        right: 44%;
+        width: calc(176px * var(--width-ratio));
+        height: calc(78px * var(--width-ratio));
     }
     /* new */
     .section-battle .wrapper .decorations .background-image:nth-child(8){
-        background-image: url("../assets/decorations/battle/md/curve\ line.svg");
-        width: 23.07vw;
-        height: 4.06vw;
-        top: 44%;
-        right: 13%;
+        width: calc(443px * var(--width-ratio));
+        height: calc(78px * var(--width-ratio));
     }
     /* new */
     .section-battle .wrapper .decorations .background-image:nth-child(9){
-        background-image: url("../assets/decorations/battle/md/curve black.svg");
-        width: 11.77vw;
-        height: 11.77vw;
-        top: 7%;
-        left: -4%;
+        width: calc(226px * var(--width-ratio));
+        height: calc(226px * var(--width-ratio));
     }
     .section-artefacts .wrapper .decorations .background-image:nth-child(1){
-        background-image: url("../assets/decorations/artefacts/arrow-left.svg");
-        height: 6vw;
-        width: 10.69vw;
-        left: 33%;
-        top: -25%;
+        height: calc(115px * var(--width-ratio));
+        width: calc(205px * var(--width-ratio));
     }
     .section-artefacts .wrapper .decorations .background-image:nth-child(2){
-        background-image: url("../assets/decorations/artefacts/arrow-right.svg");
-        height: 6vw;
-        width: 10.69vw;
-        right: 33%;
-        top: -25%;
+        height: calc(115px * var(--width-ratio));
+        width: calc(205px * var(--width-ratio));
     }
     .section-artefacts .wrapper .decorations .background-image:nth-child(3){
-        background-image: url("../assets/decorations/artefacts/spray.svg");
-        height: 5.31vw;
-        width: 5.31vw;
-        top: 88%;
-        left: 6%;
-        transform: rotate(23deg);
+        height: calc(102px * var(--width-ratio));
+        width: calc(102px * var(--width-ratio));
     }
     /* new */
     .section-artefacts .wrapper .decorations .background-image:nth-child(4){
-        background-image: url("../assets/decorations/artefacts/md/curve line red.svg");
-        height: 19.06vw;
-        width: 13.23vw;
-        top: 0%;
-        right: -5%;
+        height: calc(366px * var(--width-ratio));
+        width: calc(254px * var(--width-ratio));
     }
     .section-use-radar .wrapper .decorations .background-image:nth-child(1){
-        background-image: url("../assets/decorations/radar/redarr\ left.svg");
-        width: 2.45vw;
-        height: 3.80vw;
-        top: 27%;
-        left: 28%;
-        display: none;
+        width: calc(47px * var(--width-ratio));
+        height: calc(73px * var(--width-ratio));
     }
     .section-use-radar .wrapper .decorations .background-image:nth-child(2){
-        background-image: url("../assets/decorations/radar/arrow\ spiral.svg");
-        width: 133px;
-        height: 158px;
-        width: 6.93vw;
-        height: 8.23vw;
-        top: 52%;
-        left: 32%;
+        width: calc(133px * var(--width-ratio));
+        height: calc(158px * var(--width-ratio));
     }
     .section-use-radar .wrapper .decorations .background-image:nth-child(3){
-        background-image: url("../assets/decorations/radar/crown.svg");
-        width: 5.73vw;
-        height: 5.73vw;
-        top: 9%;
-        left: 56%;
+        width: calc(110px * var(--width-ratio));
+        height: calc(110px * var(--width-ratio));
     }
     .section-use-radar .wrapper .decorations .background-image:nth-child(4){
-        background-image: url("../assets/decorations/radar/spray.svg");
-        width: 4.53vw;
-        height: 4.53vw;
-        top: 81%;
-        right: 5%;
+        width: calc(87px * var(--width-ratio));
+        height: calc(87px * var(--width-ratio));
     }
     /* new */
     .section-use-radar .wrapper .decorations .background-image:nth-child(5){
-        background-image: url("../assets/decorations/radar/md/arrow red.svg");
-        width: 9.90vw;
-        height: 9.99vw;
-        top: 74%;
-        left: 0;
+        width: calc(190px * var(--width-ratio));
+        height: calc(192px * var(--width-ratio));
     }
 
     .section-minerals .wrapper .decorations .background-image:nth-child(1){
-        background-image: url("../assets/decorations/minerals/rect red.svg");
-        width: 19.69vw;
-        height: 8.45vw;
-        top: -4%;
-        left: 41%;
-        transform: rotate(4deg);
+        width: calc(378px * var(--width-ratio));
+        height: calc(162px * var(--width-ratio));
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(1) .chibi-content{
-        padding: 0px 0;
+        padding:
+                calc(2px * var(--width-ratio))
+                calc(34px * var(--width-ratio));
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(1) .chibi-text{
-        font-size: 1.46vw;
+        font-size: calc(28px * var(--width-ratio));
     }
     .section-minerals .wrapper .decorations .chibi-block:nth-child(1) .chibi-text{
-        padding: 1.34vw 1.67vw;
+        padding:
+                calc(26px * var(--width-ratio))
+                calc(32px * var(--width-ratio));
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(2){
-        background-image: url("../assets/decorations/minerals/red arrow.svg");
-        height: 6.41vw;
-        width: 6.41vw;
-        left: 18%;
-        top: 28%;
-        transform: rotate(34deg);
+        height: calc(123px * var(--width-ratio));
+        width: calc(123px * var(--width-ratio));
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(3){
-        background-image: url("../assets/decorations/minerals/info-1.svg");
-        width: 7.45vw;
-        height: 2.50vw;
-        top:51%;
-        left: 44%;
-        transform: rotate(5deg);
-        z-index: 2;
+        width: calc(143px * var(--width-ratio));
+        height: calc(48px * var(--width-ratio));
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(4){
-        background-image: url("../assets/decorations/minerals/crown right.svg");
-        width: 4.69vw;
-        height: 5.99vw;
-        top:12%;
-        left: 90%;
+        width: calc(90px * var(--width-ratio));
+        height: calc(109px * var(--width-ratio));
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(5){
-        background-image: url("../assets/decorations/minerals/arrow zig zag.svg");
-        width: 13.01vw;
-        height: 13.90vw;
-        top: 40.5%;
-        left: 68%;
+        width: calc(250px * var(--width-ratio));
+        height: calc(267px * var(--width-ratio));
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(6){
-        background-image: url("../assets/decorations/minerals/info.svg");
-        width: 7.45vw;
-        height: 2.50vw;
-        top: 43%;
-        left: 72%;
-        transform: rotate(-12deg);
+        width: calc(143px * var(--width-ratio));
+        height: calc(48px * var(--width-ratio));
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(7){
-        background-image: url("../assets/decorations/minerals/cool artefacts.svg");
-        width: 12.71vw;
-        height: 2.45vw;
-        top: 92.3%;
-        left: 37%;
+        width: calc(244px * var(--width-ratio));
+        height: calc(47px * var(--width-ratio));
     }
     .section-minerals .wrapper .decorations .background-image:nth-child(8){
-        background-image: url("../assets/decorations/minerals/arrow red spiral.svg");
-        width: 11.30vw;
-        height: 15.68vw;
-        top:37%;
-        transform: rotate(190deg) scaleX(-100%);
-        left: 40%;
+        width: calc(217px * var(--width-ratio));
+        height: calc(301px * var(--width-ratio));
+    }
+    .section-minerals .wrapper .decorations .background-image:nth-child(9){
+        width: calc(198px * var(--width-ratio));
+        height: calc(282px * var(--width-ratio));
     }
     .section-transport .wrapper .decorations .background-image:nth-child(1){
-        background-image: url("../assets/decorations/transport/arr.svg");
-        height: 7.34vw;
-        width: 8.28vw;
-        top:53%;
-        left: -2%;
+        height: calc(141px * var(--width-ratio));
+        width: calc(159px * var(--width-ratio));
     }
     .section-steal .wrapper .decorations .background-image:nth-child(1){
-        background-image: url("../assets/decorations/steal/spray\ black.svg");
-        width: 4.69vw;
-        height: 4.69vw;
-        top: 40%;
-        left: -3%;
-        transform: rotate(15deg) scaleX(-100%);
+        width: calc(90px * var(--width-ratio));
+        height: calc(90px * var(--width-ratio));
     }
     .section-steal .wrapper .decorations .background-image:nth-child(2) {
-        background-image: url("../assets/decorations/steal/arrow\ red.svg");
-        width: 9.64vw;
-        height: 8.07vw;
-        transform: rotate(-35deg);
-        top: 30%;
-        left: 45%;
+        width: calc(185px * var(--width-ratio));
+        height: calc(155px * var(--width-ratio));
     }
     .section-token .wrapper .decorations .background-image:nth-child(1){
-        background-image: url("../assets/decorations/tokens/rect.svg");
-        width: 19.58vw;
-        height: 8.96vw;
-        top: 74%;
-        left: 10%;
-        transform: rotate(-10deg);
+        width: calc(376px * var(--width-ratio));
+        height: calc(172px * var(--width-ratio));
     }
     .section-token .wrapper .decorations .background-image:nth-child(1) .chibi-content{
-        padding: 0.63vw 2.08vw;
+        padding:
+                calc(12px * var(--width-ratio))
+                calc(40px * var(--width-ratio));
     }
     .section-token .wrapper .decorations .background-image:nth-child(1) .chibi-content .chibi-text{
-        font-size: 1.30vw;
-        padding: 0.83vw 1.35vw;
+        font-size: calc(25px * var(--width-ratio));
+        padding:
+                calc(16px * var(--width-ratio))
+                calc(26px * var(--width-ratio));
     }
     .section-token .wrapper .decorations .background-image:nth-child(2){
-        background-image: url("../assets/decorations/tokens/arrow down.svg");
-        width: 5.89vw;
-        height: 9.48vw;
-        transform: rotate(-20deg);
-        top: 50%;
-        left: 17%;
+        width: calc(113px * var(--width-ratio));
+        height: calc(182px * var(--width-ratio));
     }
     .section-token .wrapper .decorations .background-image:nth-child(3){
-        background-image: url("../assets/decorations/tokens/arrow curve.svg");
-        width: 9.95vw;
-        height: 23.44vw;
-        transform: rotate(-60deg);
-        top: 15%;
-        left: 38%;
-
+        width: calc(191px * var(--width-ratio));
+        height: calc(450px * var(--width-ratio));
     }
     .section-token .wrapper .decorations .background-image:nth-child(4){
-        background-image: url("../assets/decorations/tokens/rect 1.svg");
-        width: 16.93vw;
-        height: 8.44vw;
-        top: 21%;
-        left: 34%;
-        z-index: 2;
+        width: calc(325px * var(--width-ratio));
+        height: calc(162px * var(--width-ratio));
 
     }
     .section-token .wrapper .decorations .background-image:nth-child(4) .chibi-content .chibi-text{
-        font-size: 1.30vw;
-        padding: 0.625vw 1.25vw;
+        font-size: calc(25px * var(--width-ratio));
+        padding:
+                calc(12px * var(--width-ratio))
+                calc(24px * var(--width-ratio));
     }
     .section-token .wrapper .decorations .background-image:nth-child(4) .chibi-content{
-        padding: 0.21vw 0;
+        padding:
+                calc(4px * var(--width-ratio))
+                0;
     }
     .section-token .wrapper .decorations .background-image:nth-child(5){
-        background-image: url("../assets/decorations/tokens/spiral.svg");
-        width: 4.11vw;
-        height: 5.68vw;
-        top: 92%;
-        left: 65%;
+        width: calc(79px * var(--width-ratio));
+        height: calc(109px * var(--width-ratio));
+    }
+    .section-token .wrapper .decorations .background-image:nth-child(6){
+        width: calc(65px * var(--width-ratio));
+        height: calc(53px * var(--width-ratio));
     }
     .section-coming-soon .wrapper .decorations .background-image:nth-child(1){
-        background-image: url("../assets/decorations/coming soon/spray black.svg");
-        width: 4.06vw;
-        height: 3.39vw;
-        left: 85%;
+        width: calc(78px * var(--width-ratio));
+        height: calc(65px * var(--width-ratio));
+        left: 93%;
         top: -12%;
     }
     .section-coming-soon .wrapper .decorations .background-image:nth-child(2){
-        background-image: url("../assets/decorations/coming soon/arrow zig zag.svg");
-        width: 9.27vw;
-        height: 4.95vw;
-        top:87%;
-        left: 30%;
+        width: calc(178px * var(--width-ratio));
+        height: calc(95px * var(--width-ratio));
+        top:80%;
+        left: -18%;
     }
 }
