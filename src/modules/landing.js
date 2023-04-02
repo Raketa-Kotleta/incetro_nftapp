@@ -1,10 +1,8 @@
 //-----------css-------------------
 import '../css/landing.css'
-// import '../css/landing-md.css'
-// import '../css/landing-lg.css'
 import '../css/landing-extra-lg.css'
 import '../css/landing-extra-extra-lg.css'
-//-----------css-------------------
+
 // -----------Head Images--------------
 import '../assets/chibies/three chibis.svg'
 import '../assets/backgrounds/head-md/bg-head.svg'
