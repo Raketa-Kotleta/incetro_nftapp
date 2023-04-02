@@ -92,9 +92,9 @@
     .section-head{
         padding: 
             calc(89px * var(--width-ratio))
-            8.43vw 
+            calc(162px * var(--width-ratio))
             calc(42px * var(--width-ratio))
-            16.35vw;
+            calc(314px * var(--width-ratio))
     }
     .section-head .wrapper .download-list{
         padding: calc(16px * var(--width-ratio));

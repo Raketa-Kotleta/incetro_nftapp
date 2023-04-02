@@ -72,7 +72,6 @@
         flex-direction: row;
         width: 70.78vw;
         justify-content: start;
-        width: auto;
         height: auto;
     }
     .list{
@@ -842,7 +841,7 @@
         width: 5.73vw;
         height: 4.90vw;
         top: 82%;
-        left: -6vw;
+        left: -11%;
         transform: rotate(15deg);
     }
     /* new */
