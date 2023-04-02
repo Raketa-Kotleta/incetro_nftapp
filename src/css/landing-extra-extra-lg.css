@@ -56,6 +56,8 @@
                 calc(19px * var(--width-ratio));
         margin-left: calc(71px * var(--width-ratio));
         border-radius: calc(13px * var(--width-ratio));
+        width: calc(167px * var(--width-ratio));
+        height: calc(50px * var(--width-ratio));
     }
     .sign-in-btn>span{
         font-size: calc(18px * var(--width-ratio));
@@ -274,6 +276,7 @@
             calc(28px * var(--width-ratio))
             0 
             0;
+        width: calc(407px * var(--width-ratio));
     }
     .section-chibi-characteristics .wrapper .chibi-block:nth-child(1) .chibi-content .chibi-text{
         margin: 
@@ -707,9 +710,11 @@
                 calc(376px * var(--width-ratio));
     }
 
-    .footer-list .list-link{
+    .footer-list>.list-item>.list-link{
         font-size: calc(19px * var(--width-ratio));
+        line-height: calc(34px * var(--width-ratio));
     }
+
     .footer-container .logo-wrapper img{
         width: calc(32px * var(--width-ratio));
         height: calc(32px * var(--width-ratio));
