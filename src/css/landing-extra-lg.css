@@ -72,6 +72,8 @@
         flex-direction: row;
         width: 70.78vw;
         justify-content: start;
+        width: auto;
+        height: auto;
     }
     .list{
         padding: 0.42vw;
@@ -666,7 +668,7 @@
         flex-direction: row;
         /*padding: 5.21vw 9.74vw 5.19vw 14.69vw;*/
         padding: 0;
-        margin: 6.15625vw 0 5.15625vw 2.47vw;
+        margin: 5.15625vw 0 5.15625vw 2.47vw;
         width: 75.625vw;
     }
     .footer-container .logo-wrapper{
