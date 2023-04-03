@@ -674,8 +674,8 @@
             0;
     }
     .section-token .wrapper>.background-image{
-        height: calc(1065px * var(--width-ratio)) !important;
-        width: calc(509px * var(--width-ratio)) !important;
+        height: calc(1256px * var(--width-ratio)) !important;
+        width: calc(560px * var(--width-ratio)) !important;
     }
     .section-coming-soon{
         padding: 

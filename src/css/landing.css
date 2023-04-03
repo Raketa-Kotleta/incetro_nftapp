@@ -994,7 +994,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     width: 77.80vw;
     align-self: center;
     background-size: contain;
-    background-image: url("../assets/phones/transport/p-map.svg");
+    background-image: url("../assets/phones/transport/p-map.png");
 }
 .section-transport .wrapper>.block-container{
     padding: 17.29vw 0 12.62vw 0;
@@ -1088,7 +1088,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     width: 85.51vw;
     align-self: center;
     background-size: contain;
-    background-image: url("../assets/phones/token/p-token.svg");
+    background-image: url("../assets/phones/token/p-token.png");
     margin: 17.99vw 0;
 }
 .section-token .wrapper .decorations .background-image{

@@ -643,8 +643,8 @@
         width: 100%;
     }
     .section-token .wrapper>.background-image{
-        height: 54.43vw !important;
-        width: 26.51vw !important;
+        height: 65.43vw !important;
+        width: 29.16vw !important;
         margin: 0 0 0 0;
         background-position: 0% 0%;
     }
@@ -1190,8 +1190,8 @@
     .section-token .wrapper .decorations .background-image:nth-child(6){
         width: 3.39vw;
         height: 2.76vw;
-        top: 76.5%;
-        left: 89%;
+        top: 73.5%;
+        left: 88.5%;
     }
     .section-coming-soon .wrapper .decorations .background-image:nth-child(1){
         background-image: url("../assets/decorations/coming soon/spray black.svg");

@@ -79,8 +79,9 @@ import '../assets/decorations/minerals/info.svg'
 import '../assets/decorations/minerals/info-1.svg'
 import '../assets/decorations/minerals/md/red rect.svg'
 import '../assets/decorations/minerals/curve.svg'
-//-----------use radar------------------------
+//-----------transport------------------------
 import '../assets/decorations/transport/arr.svg'
+import '../assets/phones/transport/p-map.png'
 
 //------------steal--------------------------
 import '../assets/decorations/steal/arrow red.svg'
@@ -96,6 +97,7 @@ import '../assets/decorations/tokens/rect 1.svg'
 import '../assets/decorations/tokens/rect.svg'
 import '../assets/decorations/tokens/spiral.svg'
 import  '../assets/decorations/tokens/57.svg'
+import '../assets/phones/token/p-token.png'
 
 //---------coming soon---------------------------
 import "../assets/decorations/coming soon/arrow zig zag.svg"
