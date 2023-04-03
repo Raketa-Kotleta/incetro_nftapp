@@ -76,7 +76,7 @@
     }
     .list{
         padding: 0.42vw;
-        line-height: 1.5vw;
+        /*line-height: 1.5vw;*/
     }
     .nav-list-wrapper{
         display: block;
@@ -212,7 +212,7 @@
         position: static;
     }
     .section-head .wrapper .description>.background-image:nth-child(1){
-        background-size: 100% 100%;
+        background-size: 100%;
         /*padding: 30px 0 22px 0;*/
         padding: 6.875vw 0 0.187vw 0;
         height: 47.656vw;
@@ -476,7 +476,6 @@
         height: 49.64vw;
         margin: 0;
         align-self: center;
-        background-size: 100%;
     }
     .section-minerals{
         padding: 5.31vw 0 7.45vw 0;

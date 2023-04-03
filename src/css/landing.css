@@ -193,6 +193,9 @@ h1, h2, h3, h4, h5, h6, span, a{
     font-family: Roboto Condensed,sans-serif;
     height: 11.6822429907vw;
     width: 40.4205607477vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .sign-in-btn>span{
     font-size: 4.9065420561vw;
@@ -373,8 +376,8 @@ h1, h2, h3, h4, h5, h6, span, a{
     position: static;
 }
 .section-head .wrapper .description>.background-image:nth-child(1){
-    background-image: url('../assets/phones/main phones/phones.svg');
-    background-position: 0 50%;
+    background-image: url('../assets/phones/main phones/phones.png');
+    background-position: 0% 50%;
     background-size: 90%;
    
 }
@@ -835,6 +838,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     width: 70.09vw;
     margin: 7.48vw 0;
     background-position: 50%;
+    background-size: 100% 100%;
     align-self: center;
 }
 .section-use-radar .wrapper .decorations .background-image{
