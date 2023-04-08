@@ -58,9 +58,9 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .navbar{
     background-color: #15151D;
-    /* padding: 3.5vw 1.87vw; */
+    padding: 3.5vw 1.87vw;
     display: flex;
-    height: 2.3458333333vw
+   
 }
 .nav-content{
     display: flex;

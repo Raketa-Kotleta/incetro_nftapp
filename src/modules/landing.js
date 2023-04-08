@@ -67,6 +67,7 @@ import '../assets/decorations/radar/arrow spiral.svg'
 import '../assets/decorations/radar/crown.svg'
 import '../assets/decorations/radar/spray.svg'
 import '../assets/decorations/radar/md/arrow red.svg'
+import '../assets/blocks/use radar/primary block tube.svg'
 
 //--------minerals------------------------
 import '../assets/decorations/minerals/arrow red spiral.svg'

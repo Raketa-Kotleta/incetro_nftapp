@@ -64,6 +64,7 @@
     .navbar{
         padding: 0.51vw 0 0.51vw  0;
         justify-content: center;
+        height: 2.3458333333vw
     }
     .navbar .nav-content .navbar-brand{
         flex: 0 0 5.04vw;
@@ -73,6 +74,7 @@
         width: 70.78vw;
         justify-content: start;
         height: auto;
+      
     }
     .list{
         padding: 0.42vw;
