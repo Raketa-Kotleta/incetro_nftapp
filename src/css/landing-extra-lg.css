@@ -60,46 +60,55 @@
     }
     header{
         border-bottom: 0.2604166667vw solid #ea0f0f;
+        box-sizing: border-box;
+        height: 3.6458333333vw;
     }
     .navbar{
-        padding: 0.51vw 0 0.51vw  0;
+        /* padding: 0.51vw 0 0.51vw  0; */
+        padding: 0;
         justify-content: center;
-        height: 2.3458333333vw
+        height: 100%;
+        align-items: center;
     }
     .navbar .nav-content .navbar-brand{
-        flex: 0 0 5.04vw;
+        flex: 0 0 6.04vw;
     }
     .nav-content{
         flex-direction: row;
         width: 70.78vw;
         justify-content: start;
-        height: auto;
+        height: 2.0833333333vw;
       
+    }
+    .logo-wrapper{
+        margin: 0;
     }
     .list{
         padding: 0.42vw;
         /*line-height: 1.5vw;*/
     }
     .nav-list-wrapper{
-        display: block;
+        display: flex;
         position: static;
         padding: 0;
         transform: none;
-
+        flex: 0 0 53.54vw;
     }
     .logo-wrapper{
-        margin-left: 0.42vw;
-
+        height: 1.6666666667vw;
     }
     .logo-wrapper img{
-        width: 1.67vw;
-        height: 1.67vw;
+        height: 1.6666666667vw;
+        width: 1.6666666667vw;
         line-height: 1.67vw;
+       
     }
     .nav-list-wrapper .nav-list{
         display: flex;
         justify-content: space-between;
-        width: 45.93vw;
+  
+        padding: 0;
+        flex: 0 0 45.93vw;
     }
     .nav-list-wrapper .nav-list .nav-item{
         display: inline-block;
@@ -110,6 +119,7 @@
         font-weight: 700;
         letter-spacing: 0.022vw;
         white-space: nowrap;
+        line-height: 1.197vw;
     }
     .sign-in-btn{
         padding: 0.32vw 0.98vw;

@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     justify-content: space-between;
     height: 9.3457943925vw;
     width: 94.523364486vw;
+    
 }
 .background-image{
   display: block;
@@ -91,7 +92,7 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .navbar-brand{
     display: flex;
-    align-items: center;
+    align-items: end;
 }
 .navbar-functions{
     display: flex;
