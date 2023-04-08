@@ -8,7 +8,6 @@ module.exports = {
     ],
     output: {
         path: path.join(__dirname, "dist"),
-        publicPath: "/",
         filename: "landing-page.js",
         clean: true,
     },
@@ -21,6 +20,20 @@ module.exports = {
            {
             test: /\.(png|svg|jpg|jpeg|gif)$/i,
             type: 'asset/resource',
+            },
+            {
+              test: /\.(png|jpe?g|gif)$/i,
+              use: [
+                {
+                  loader: 'image-webpack-loader',
+                  options: {
+                    pngquant: {
+                      quality: [0.55, 0.90],
+                      speed: 1
+                    },
+                  }
+                },
+              ],
             },
            {
             test: /\.(html)$/,

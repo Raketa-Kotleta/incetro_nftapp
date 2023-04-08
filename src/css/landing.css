@@ -58,9 +58,9 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .navbar{
     background-color: #15151D;
-    padding: 3.5vw 1.87vw;
+    /* padding: 3.5vw 1.87vw; */
     display: flex;
-
+    height: 2.3458333333vw
 }
 .nav-content{
     display: flex;
@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     align-self: center;
 }
 .section-head .wrapper .presentation>.background-image{
-    background-image: url('./../assets/chibies/three chibis.svg');
+    background-image: url('./../assets/chibies/three chibis.png');
     height: 77.57vw;
     width: 77.57vw;
     background-size: 100% 100%;
@@ -447,13 +447,13 @@ h1, h2, h3, h4, h5, h6, span, a{
     background-size: contain;
 }
 .section-academy .wrapper .chibi-block:nth-child(1){
-    background-image: url("../assets/blocks/academy/academy.svg");
+    background-image: url("../assets/blocks/academy/academy.png");
     background-repeat: no-repeat;
     background-position: 50%;
     height: 51.87vw;
 }
 .section-academy .wrapper .chibi-block:nth-child(2){
-    background-image: url("../assets/blocks/academy/chibi.svg");
+    background-image: url("../assets/blocks/academy/chibi.png");
     background-repeat: no-repeat;
     background-position: 50% 80%;
     height: 65.89vw;
@@ -596,7 +596,7 @@ h1, h2, h3, h4, h5, h6, span, a{
 .section-chibi-characteristics .wrapper .chibi-block:nth-child(2){
     height: 101.40vw;
     width: 86.92vw;
-    background-image: url("../assets/chibies/chibi iron.svg");
+    background-image: url("../assets/blocks/chibi-characteristics/chibi.png");
     background-size: contain;
     margin-top: 15.19vw;
 }
@@ -723,7 +723,7 @@ h1, h2, h3, h4, h5, h6, span, a{
     right: 3%;
 }
 .section-battle .wrapper .decorations .background-image:nth-child(6){
-    background-image: url("../assets/decorations/battle/bag.svg");
+    background-image: url("../assets/decorations/battle/bag.png");
     height: 51.17vw;
     width: 42.29vw;
     top: 61%;
@@ -769,10 +769,10 @@ h1, h2, h3, h4, h5, h6, span, a{
     font-size: 4.67vw;
 }
 .section-artefacts .wrapper .block-container .chibi-block:nth-child(1){
-    background-image: url("../assets/blocks/artifacts/radar.svg");
+    background-image: url("../assets/blocks/artifacts/radar.png");
 }
 .section-artefacts .wrapper .block-container .chibi-block:nth-child(2){
-    background-image: url("../assets/blocks/artifacts/marketplace.svg ");
+    background-image: url("../assets/blocks/artifacts/marketplace.png");
 }
 .section-artefacts .wrapper .decorations .background-image{
     background-size: contain;
@@ -830,7 +830,7 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-use-radar .wrapper>.block-container>.block-container .background-image:nth-child(2){
     height: 57.48vw;
-    background-image: url("../assets/artefacts/use radar/sword.svg");
+    background-image: url("../assets/artefacts/use radar/sword.png");
 }
 .section-use-radar .wrapper>.background-image{
     background-image: url('../assets/phones/use radar/phone.svg');
@@ -889,13 +889,13 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(1){
     height: 42.76vw;
-    background-image: url("../assets/blocks/minerals/minerals.svg");
+    background-image: url("../assets/blocks/minerals/minerals.png");
     margin: 28.50vw 0 7.48vw 0 ;
 }
 .section-minerals .wrapper .block-container:nth-child(1) .chibi-block:nth-child(2){
     height: 127.34vw;
     width: 84.58vw;
-    background-image: url("../assets/blocks/minerals/factory.svg");
+    background-image: url("../assets/blocks/minerals/factory.png");
     margin:14.02vw 0 12.15vw 0;
 }
 
@@ -910,11 +910,11 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(1){
     height: 63.08vw;
-    background-image: url("../assets/blocks/minerals/metall and crystalls.svg");
+    background-image: url("../assets/blocks/minerals/metall and crystalls.png");
 }
 .section-minerals .wrapper .block-container:nth-child(2) .chibi-block:nth-child(2){
     height: 76.87vw;
-    background-image: url("../assets/blocks/minerals/shield and sword.svg");
+    background-image: url("../assets/blocks/minerals/shield and sword.png");
     margin: 7.48vw 0 0 0;
 }
 .section-minerals .wrapper .decorations .background-image{
@@ -1001,7 +1001,7 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-transport .wrapper .block-container .chibi-block{
     height: 92.06vw;
-    background-image: url("../assets/chibies/chibi moto.svg");  
+    background-image: url("../assets/chibies/chibi moto.png");  
 }
 .section-transport .wrapper .decorations .background-image{
     background-size: contain;
@@ -1024,7 +1024,7 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-steal .wrapper .block-container .background-image:nth-child(2){
     height: 78.04vw;
-    background-image: url("../assets/chibies/ninja.svg");
+    background-image: url("../assets/chibies/chibi ninja.png");
     background-size: contain;
     background-position: 50% 0;
 }
@@ -1071,12 +1071,12 @@ h1, h2, h3, h4, h5, h6, span, a{
 }
 .section-token .wrapper .block-container .background-image:nth-child(1){
     height: 81.54vw;
-    background-image: url("../assets/blocks/tokens/sword.svg");
+    background-image: url("../assets/blocks/tokens/sword.png");
     background-position: 0% 50%;
 }
 .section-token .wrapper .block-container .background-image:nth-child(2){
     height: 67.52vw;
-    background-image: url("../assets/blocks/tokens/marketplace.svg");
+    background-image: url("../assets/blocks/tokens/marketplace.png");
     margin: 35.51vw 0;
     background-position: 85% 50%;
 }

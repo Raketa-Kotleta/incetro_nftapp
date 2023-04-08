@@ -353,7 +353,7 @@
         background-position: 50% 50%;
     }
     .section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(1){
-        background-image: url("../assets/blocks/battle/md/elon.svg");
+        background-image: url("../assets/blocks/battle/md/elon.png");
         background-position: 100% 50%;
         height: 32.92vw;
         width: 37.19vw;
@@ -361,7 +361,7 @@
         align-self: center;
     }
     .section-battle .wrapper>.block-container:nth-child(1) .chibi-block:nth-child(2){
-        background-image: url("../assets/blocks/battle/md/lucy.svg");
+        background-image: url("../assets/blocks/battle/md/lucy.png");
         height: 37.03vw;
         width: 38.18vw;
         right: 4.45vw;
@@ -930,18 +930,18 @@
         right: 16%;
     }
     .section-battle .wrapper .decorations .background-image:nth-child(6){
-        background-image: url("../assets/decorations/battle/bag.svg");
+        background-image: url("../assets/decorations/battle/bag.png");
         height: 21.46vw;
         width: 16.09vw;
         top: 60%;
         left: 40%;
-        transform: rotate(6.35deg);
+      
     }
     .section-battle .wrapper .decorations .background-image:nth-child(7){
         background-image: url("../assets/decorations/battle/coin 100.svg");
         width: 9.17vw;
         height: 4.06vw;
-        top: 90%;
+        top: 92%;
         right: 44%;
         transform: rotate(5deg);
     }
